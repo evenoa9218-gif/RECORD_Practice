@@ -1,0 +1,715 @@
+{
+ "subject": "형사법",
+ "prefix": "CRI",
+ "count": 69,
+ "issues": [
+  {
+   "id": "CRI-0472",
+   "label": "진술거부권",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 13
+  },
+  {
+   "id": "CRI-0186",
+   "label": "국민참여재판",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 11
+  },
+  {
+   "id": "CRI-0063",
+   "label": "사기죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 9
+  },
+  {
+   "id": "CRI-0004",
+   "label": "공소장변경",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 9
+  },
+  {
+   "id": "CRI-0088",
+   "label": "친고죄",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 7
+  },
+  {
+   "id": "CRI-0065",
+   "label": "상상적경합",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 7
+  },
+  {
+   "id": "CRI-0094",
+   "label": "횡령죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 6
+  },
+  {
+   "id": "CRI-0146",
+   "label": "공소기각",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 6
+  },
+  {
+   "id": "CRI-0149",
+   "label": "공소시효",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 6
+  },
+  {
+   "id": "CRI-0082",
+   "label": "절도죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 6
+  },
+  {
+   "id": "CRI-0017",
+   "label": "긴급체포",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 5
+  },
+  {
+   "id": "CRI-0064",
+   "label": "사문서위조",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "CRI-0014",
+   "label": "증언거부권",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "CRI-0343",
+   "label": "압수수색",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "CRI-0544",
+   "label": "확정판결의기판력",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [
+    "확정판결의 기판력"
+   ],
+   "examCount": 4
+  },
+  {
+   "id": "CRI-0124",
+   "label": "경합범",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "CRI-0010",
+   "label": "친족상도례",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0438",
+   "label": "제314조",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0224",
+   "label": "면소판결",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0060",
+   "label": "배임죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0033",
+   "label": "무고죄",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0204",
+   "label": "뇌물공여",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0512",
+   "label": "포괄일죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0003",
+   "label": "공갈죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0019",
+   "label": "명예훼손죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0068",
+   "label": "상습범",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0409",
+   "label": "장물취득",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0009",
+   "label": "장물취득죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0363",
+   "label": "여신전문금융업법위반",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CRI-0032",
+   "label": "명의신탁",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0176",
+   "label": "교통사고처리특례법위반",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0233",
+   "label": "무면허운전",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0021",
+   "label": "업무상배임죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0390",
+   "label": "인과관계",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0160",
+   "label": "공소장변경허가",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0093",
+   "label": "협박죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0504",
+   "label": "특정범죄가중처벌등에관한법률위반(도주치상)",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0306",
+   "label": "사문서변조",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0020",
+   "label": "범인도피죄",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0046",
+   "label": "고소취소",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0172",
+   "label": "교사범",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CRI-0027",
+   "label": "고소불가분의원칙",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [
+    "고소불가분의 원칙"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0011",
+   "label": "간접정범",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0402",
+   "label": "임의제출물의압수",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [
+    "임의제출물의 압수"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0308",
+   "label": "사문서위조죄",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0318",
+   "label": "살인교사",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0338",
+   "label": "실행의착수",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [
+    "실행의 착수"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0515",
+   "label": "피의자신문조서의증거능력",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [
+    "피의자신문조서의 증거능력"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0073",
+   "label": "업무상횡령죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0012",
+   "label": "공동정범",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0213",
+   "label": "대향범",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0059",
+   "label": "뇌물공여죄",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0209",
+   "label": "뇌물수수죄",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0079",
+   "label": "위증교사",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0305",
+   "label": "사기죄의처분행위",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [
+    "사기죄의 처분행위"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0080",
+   "label": "일사부재리",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0038",
+   "label": "위증죄",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0181",
+   "label": "구속적부심사",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0041",
+   "label": "통신비밀보호법",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0487",
+   "label": "친족간의특례",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [
+    "친족간의 특례"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0412",
+   "label": "재전문",
+   "path": [
+    "형사법",
+    "형사소송법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0423",
+   "label": "전문진술",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0192",
+   "label": "권리행사방해죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0135",
+   "label": "공무집행방해",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0532",
+   "label": "허위사실적시명예훼손",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [
+    "허위사실 적시 명예훼손"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0406",
+   "label": "장물보관죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0325",
+   "label": "상습범과포괄일죄",
+   "path": [
+    "형사법",
+    "형법"
+   ],
+   "aliases": [
+    "상습범과 포괄일죄"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0445",
+   "label": "주거침입죄",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CRI-0454",
+   "label": "증거동의",
+   "path": [
+    "형사법",
+    "형사법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  }
+ ]
+}

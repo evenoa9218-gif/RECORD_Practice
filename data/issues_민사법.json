@@ -1,0 +1,914 @@
+{
+ "subject": "민사법",
+ "prefix": "CIV",
+ "count": 87,
+ "issues": [
+  {
+   "id": "CIV-0016",
+   "label": "부당이득",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 14
+  },
+  {
+   "id": "CIV-0162",
+   "label": "근저당권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 12
+  },
+  {
+   "id": "CIV-0053",
+   "label": "소멸시효",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 11
+  },
+  {
+   "id": "CIV-0310",
+   "label": "원상회복",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 11
+  },
+  {
+   "id": "CIV-0052",
+   "label": "선택적병합",
+   "path": [
+    "민사법",
+    "민사소송법"
+   ],
+   "aliases": [
+    "선택적 병합"
+   ],
+   "examCount": 11
+  },
+  {
+   "id": "CIV-0001",
+   "label": "채권자취소권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "사해행위취소",
+    "사해행위취소권"
+   ],
+   "examCount": 9
+  },
+  {
+   "id": "CIV-0064",
+   "label": "채권양도",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 8
+  },
+  {
+   "id": "CIV-0039",
+   "label": "가액배상",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 8
+  },
+  {
+   "id": "CIV-0071",
+   "label": "확인의이익",
+   "path": [
+    "민사법",
+    "민사소송법"
+   ],
+   "aliases": [
+    "확인의 이익"
+   ],
+   "examCount": 8
+  },
+  {
+   "id": "CIV-0009",
+   "label": "기판력",
+   "path": [
+    "민사법",
+    "민사소송법"
+   ],
+   "aliases": [],
+   "examCount": 7
+  },
+  {
+   "id": "CIV-0062",
+   "label": "채권압류및전부명령",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "채권압류 및 전부명령"
+   ],
+   "examCount": 7
+  },
+  {
+   "id": "CIV-0015",
+   "label": "동시이행항변권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 7
+  },
+  {
+   "id": "CIV-0297",
+   "label": "연대보증",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 6
+  },
+  {
+   "id": "CIV-0111",
+   "label": "제척기간",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 6
+  },
+  {
+   "id": "CIV-0440",
+   "label": "추심명령",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 6
+  },
+  {
+   "id": "CIV-0063",
+   "label": "채권압류및추심명령",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 6
+  },
+  {
+   "id": "CIV-0069",
+   "label": "취득시효",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 5
+  },
+  {
+   "id": "CIV-0004",
+   "label": "명의신탁",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 5
+  },
+  {
+   "id": "CIV-0121",
+   "label": "채권자대위",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 5
+  },
+  {
+   "id": "CIV-0006",
+   "label": "유치권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 5
+  },
+  {
+   "id": "CIV-0208",
+   "label": "변제충당",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 5
+  },
+  {
+   "id": "CIV-0252",
+   "label": "소멸시효항변",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "CIV-0185",
+   "label": "무권대리",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "CIV-0364",
+   "label": "임차보증금반환채권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "CIV-0122",
+   "label": "취득시효완성",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "CIV-0032",
+   "label": "부진정연대채무",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "CIV-0410",
+   "label": "증명책임",
+   "path": [
+    "민사법",
+    "민사소송법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CIV-0018",
+   "label": "진정명의회복",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CIV-0229",
+   "label": "상계항변",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CIV-0055",
+   "label": "소멸시효중단",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CIV-0144",
+   "label": "공동담보가액",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CIV-0434",
+   "label": "채무인수",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 3
+  },
+  {
+   "id": "CIV-0046",
+   "label": "등기부취득시효",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0236",
+   "label": "상속회복청구권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0024",
+   "label": "상속포기",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0028",
+   "label": "중복소송",
+   "path": [
+    "민사법",
+    "민사소송법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0075",
+   "label": "공동저당",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0073",
+   "label": "공동근저당권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0002",
+   "label": "채권자대위권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "채권자대위소송"
+   ],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0308",
+   "label": "원고적격",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0005",
+   "label": "법정지상권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0469",
+   "label": "화해권고결정",
+   "path": [
+    "민사법",
+    "민사소송법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0025",
+   "label": "영업양도",
+   "path": [
+    "민사법",
+    "상법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0029",
+   "label": "계약명의신탁",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0459",
+   "label": "하자담보책임",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0013",
+   "label": "표현대리",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 2
+  },
+  {
+   "id": "CIV-0093",
+   "label": "선의취득",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0109",
+   "label": "전부명령의효력",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "전부명령의 효력"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0031",
+   "label": "명의개서",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0038",
+   "label": "한정승인",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0404",
+   "label": "주택임대차보호법상대항력",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "주택임대차보호법상 대항력"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0094",
+   "label": "소멸시효이익의포기",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "소멸시효이익의 포기"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0371",
+   "label": "재판상화해의효력",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "재판상 화해의 효력"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0418",
+   "label": "채권양도금지특약",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0030",
+   "label": "관습법상법정지상권",
+   "path": [
+    "민사법",
+    "상법"
+   ],
+   "aliases": [
+    "관습법상 법정지상권"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0022",
+   "label": "변제자대위",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0036",
+   "label": "점유취득시효",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0043",
+   "label": "구상권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0319",
+   "label": "유치권소멸청구",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0359",
+   "label": "임대인지위승계",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0139",
+   "label": "계약의해제",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "계약의 해제"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0164",
+   "label": "기준일",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0259",
+   "label": "소송상화해",
+   "path": [
+    "민사법",
+    "민사소송법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0350",
+   "label": "이행인수",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0349",
+   "label": "이행의착수",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0209",
+   "label": "보증채무의부종성",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0040",
+   "label": "건물매수청구권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0212",
+   "label": "부당이득반환청구권",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0105",
+   "label": "이해상반행위",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0091",
+   "label": "상속재산분할협의",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0125",
+   "label": "필수적공동소송",
+   "path": [
+    "민사법",
+    "민사소송법"
+   ],
+   "aliases": [
+    "필수적 공동소송"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0316",
+   "label": "유동적무효",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "유동적 무효"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0020",
+   "label": "표현대표이사",
+   "path": [
+    "민사법",
+    "상법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0172",
+   "label": "대표소송",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0401",
+   "label": "주주총회결의취소의소",
+   "path": [
+    "민사법",
+    "상법"
+   ],
+   "aliases": [
+    "주주총회결의취소의 소"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0136",
+   "label": "경영판단의원칙",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "경영판단의 원칙"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0187",
+   "label": "무권대리의추인",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0423",
+   "label": "채권의준점유자에대한변제",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0059",
+   "label": "주주총회결의취소",
+   "path": [
+    "민사법",
+    "상법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0407",
+   "label": "중간생략등기",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0159",
+   "label": "관할합의",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0110",
+   "label": "전속적관할합의",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "전속적 관할합의"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0051",
+   "label": "상사유치권",
+   "path": [
+    "민사법",
+    "상법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0118",
+   "label": "착오취소",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0365",
+   "label": "임차인의대항력",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "임차인의 대항력"
+   ],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0090",
+   "label": "상계충당",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "CIV-0441",
+   "label": "추심의소",
+   "path": [
+    "민사법",
+    "민법"
+   ],
+   "aliases": [
+    "추심의 소"
+   ],
+   "examCount": 1
+  }
+ ]
+}

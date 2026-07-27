@@ -109,16 +109,22 @@ async function getJSON(url){
 /* ── 목록 ───────────────────────────────────────────── */
 function List({subject, onOpen}){
   const [idx,setIdx] = useState(null);
+  const [reg,setReg] = useState(null);      // 쟁점 레지스트리
   const [err,setErr] = useState(null);
   const [kind,setKind] = useState("전체");
+  const [issue,setIssue] = useState("");    // 쟁점 필터(빈 값이면 전체)
   const [done,setDone] = useState({});
 
   useEffect(()=>{
     let live = true;
-    setIdx(null); setErr(null);
+    setIdx(null); setErr(null); setIssue("");
     getJSON(`data/${encodeURIComponent(subject)}/index.json`)
       .then(d=>{ if(live) setIdx(d); })
       .catch(e=>{ if(live) setErr(`목록을 불러오지 못했습니다: ${e.message}`); });
+    // 쟁점은 없어도 앱은 돌아간다 — 실패해도 목록은 띄운다.
+    getJSON(`data/issues_${encodeURIComponent(subject)}.json`)
+      .then(d=>{ if(live) setReg(d); })
+      .catch(()=>{ if(live) setReg({issues:[]}); });
     Store.getProgress(subject,1).then(p=>{ if(live) setDone(p||{}); });
     return ()=>{ live = false; };
   },[subject]);
@@ -126,8 +132,12 @@ function List({subject, onOpen}){
   if(err) return <div className="card" style={{borderColor:'var(--no)'}}>{err}</div>;
   if(!idx) return <div className="card">불러오는 중…</div>;
 
-  const exams = idx.exams.filter(e=> kind==="전체" || e.kind===kind);
+  const label = Object.fromEntries((reg?.issues||[]).map(i=>[i.id, i.label]));
+  const exams = idx.exams.filter(e=>
+    (kind==="전체" || e.kind===kind) &&
+    (!issue || (e.issueIds||[]).includes(issue)));
   const doneCount = idx.exams.filter(e=>done[e.id]?.done).length;
+  const tagged = idx.exams.filter(e=>(e.issueIds||[]).length).length;
 
   return (
     <div>
@@ -139,6 +149,17 @@ function List({subject, onOpen}){
           </div>
           <span className="muted">{idx.exams.length}회차 · 푼 것 {doneCount}</span>
         </div>
+        {(reg?.issues||[]).length>0 &&
+          <div className="row" style={{marginTop:10}}>
+            <select className="btn" value={issue} onChange={e=>setIssue(e.target.value)}>
+              <option value="">쟁점 전체</option>
+              {reg.issues.map(i=>
+                <option key={i.id} value={i.id}>{i.label} ({i.examCount})</option>)}
+            </select>
+            {issue && <button className="btn" onClick={()=>setIssue("")}>필터 해제</button>}
+            <span className="muted">
+              쟁점은 해설이 있는 {tagged}회차에만 붙어 있습니다</span>
+          </div>}
       </div>
 
       {exams.map(e=>
@@ -163,6 +184,13 @@ function List({subject, onOpen}){
               : <span className="muted">작성할 서면을 자동으로 찾지 못했습니다 — 기록에서 확인하세요</span>}
             <span className="muted">· 기록 {Math.round(e.chars/1000)}천자</span>
           </div>
+          {(e.issueIds||[]).length>0 &&
+            <div className="row" style={{marginTop:6}}>
+              {e.issueIds.slice(0,6).map(i=>
+                <span key={i} className={"tag"+(i===issue?" on":"")}>{label[i]||i}</span>)}
+              {e.issueIds.length>6 &&
+                <span className="muted">외 {e.issueIds.length-6}개</span>}
+            </div>}
         </div>)}
       {!exams.length && <div className="empty">해당하는 회차가 없습니다.</div>}
     </div>
@@ -221,7 +249,7 @@ function Solve({subject, exam, onBack}){
     if(!parts.length) return;
     await Store.record({
       subject, mode:"record", examId:exam.id, label:exam.label,
-      round:1, text:parts.join("\n\n"), seconds:elapsed,
+      round:1, issueIds:exam.issueIds||[], text:parts.join("\n\n"), seconds:elapsed,
     });
     const p = await Store.getProgress(subject,1);
     await Store.setProgress(subject,1,{...p,[exam.id]:{done:true,at:Date.now()}});

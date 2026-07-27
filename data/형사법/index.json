@@ -21,6 +21,11 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0017",
+    "CRI-0063",
+    "CRI-0094"
    ]
   },
   {
@@ -48,6 +53,28 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0027",
+    "CRI-0064",
+    "CRI-0088",
+    "CRI-0472",
+    "CRI-0063",
+    "CRI-0032",
+    "CRI-0094",
+    "CRI-0011",
+    "CRI-0146",
+    "CRI-0186",
+    "CRI-0065",
+    "CRI-0402",
+    "CRI-0308",
+    "CRI-0004",
+    "CRI-0010",
+    "CRI-0014",
+    "CRI-0438",
+    "CRI-0149",
+    "CRI-0224",
+    "CRI-0343"
    ]
   },
   {
@@ -75,6 +102,29 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0318",
+    "CRI-0017",
+    "CRI-0063",
+    "CRI-0176",
+    "CRI-0233",
+    "CRI-0472",
+    "CRI-0338",
+    "CRI-0065",
+    "CRI-0060",
+    "CRI-0082",
+    "CRI-0515",
+    "CRI-0544",
+    "CRI-0021",
+    "CRI-0186",
+    "CRI-0094",
+    "CRI-0073",
+    "CRI-0004",
+    "CRI-0012",
+    "CRI-0343",
+    "CRI-0390",
+    "CRI-0033"
    ]
   },
   {
@@ -102,6 +152,26 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0233",
+    "CRI-0204",
+    "CRI-0004",
+    "CRI-0088",
+    "CRI-0472",
+    "CRI-0149",
+    "CRI-0512",
+    "CRI-0003",
+    "CRI-0160",
+    "CRI-0019",
+    "CRI-0146",
+    "CRI-0068",
+    "CRI-0186",
+    "CRI-0010",
+    "CRI-0224",
+    "CRI-0343",
+    "CRI-0093",
+    "CRI-0094"
    ]
   },
   {
@@ -129,6 +199,27 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0504",
+    "CRI-0204",
+    "CRI-0063",
+    "CRI-0213",
+    "CRI-0014",
+    "CRI-0059",
+    "CRI-0209",
+    "CRI-0079",
+    "CRI-0033",
+    "CRI-0004",
+    "CRI-0472",
+    "CRI-0149",
+    "CRI-0305",
+    "CRI-0544",
+    "CRI-0080",
+    "CRI-0224",
+    "CRI-0343",
+    "CRI-0038",
+    "CRI-0082"
    ]
   },
   {
@@ -156,6 +247,28 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0409",
+    "CRI-0306",
+    "CRI-0020",
+    "CRI-0009",
+    "CRI-0046",
+    "CRI-0181",
+    "CRI-0472",
+    "CRI-0041",
+    "CRI-0088",
+    "CRI-0544",
+    "CRI-0186",
+    "CRI-0487",
+    "CRI-0004",
+    "CRI-0014",
+    "CRI-0065",
+    "CRI-0438",
+    "CRI-0146",
+    "CRI-0124",
+    "CRI-0172",
+    "CRI-0412"
    ]
   },
   {
@@ -181,7 +294,8 @@
    "hasRubric": false,
    "chars": 25861,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_변시_2회_기록",
@@ -203,6 +317,13 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0017",
+    "CRI-0472",
+    "CRI-0065",
+    "CRI-0003",
+    "CRI-0146"
    ]
   },
   {
@@ -235,6 +356,21 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0032",
+    "CRI-0060",
+    "CRI-0094",
+    "CRI-0472",
+    "CRI-0003",
+    "CRI-0021",
+    "CRI-0363",
+    "CRI-0186",
+    "CRI-0065",
+    "CRI-0149",
+    "CRI-0423",
+    "CRI-0082",
+    "CRI-0088"
    ]
   },
   {
@@ -262,6 +398,25 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0472",
+    "CRI-0204",
+    "CRI-0063",
+    "CRI-0017",
+    "CRI-0060",
+    "CRI-0004",
+    "CRI-0019",
+    "CRI-0064",
+    "CRI-0065",
+    "CRI-0186",
+    "CRI-0306",
+    "CRI-0438",
+    "CRI-0149",
+    "CRI-0390",
+    "CRI-0088",
+    "CRI-0093",
+    "CRI-0124"
    ]
   },
   {
@@ -289,6 +444,18 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0020",
+    "CRI-0472",
+    "CRI-0082",
+    "CRI-0064",
+    "CRI-0192",
+    "CRI-0063",
+    "CRI-0186",
+    "CRI-0010",
+    "CRI-0065",
+    "CRI-0004"
    ]
   },
   {
@@ -311,6 +478,17 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0135",
+    "CRI-0472",
+    "CRI-0504",
+    "CRI-0064",
+    "CRI-0063",
+    "CRI-0186",
+    "CRI-0149",
+    "CRI-0176",
+    "CRI-0033"
    ]
   },
   {
@@ -338,6 +516,20 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0472",
+    "CRI-0409",
+    "CRI-0363",
+    "CRI-0063",
+    "CRI-0186",
+    "CRI-0009",
+    "CRI-0014",
+    "CRI-0146",
+    "CRI-0082",
+    "CRI-0088",
+    "CRI-0124",
+    "CRI-0172"
    ]
   },
   {
@@ -360,6 +552,16 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0004",
+    "CRI-0472",
+    "CRI-0512",
+    "CRI-0160",
+    "CRI-0068",
+    "CRI-0186",
+    "CRI-0019",
+    "CRI-0532"
    ]
   },
   {
@@ -387,6 +589,29 @@
    "hasCommentary": true,
    "commentaryAuthors": [
     "노수환"
+   ],
+   "issueIds": [
+    "CRI-0082",
+    "CRI-0409",
+    "CRI-0472",
+    "CRI-0017",
+    "CRI-0004",
+    "CRI-0363",
+    "CRI-0512",
+    "CRI-0544",
+    "CRI-0186",
+    "CRI-0009",
+    "CRI-0406",
+    "CRI-0068",
+    "CRI-0094",
+    "CRI-0046",
+    "CRI-0146",
+    "CRI-0088",
+    "CRI-0325",
+    "CRI-0445",
+    "CRI-0454",
+    "CRI-0063",
+    "CRI-0124"
    ]
   },
   {
@@ -407,7 +632,8 @@
    "hasRubric": true,
    "chars": 23203,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2013_2차_기록",
@@ -427,7 +653,8 @@
    "hasRubric": true,
    "chars": 19864,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2013_3차_기록",
@@ -447,7 +674,8 @@
    "hasRubric": true,
    "chars": 28537,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2014_1차_기록",
@@ -467,7 +695,8 @@
    "hasRubric": true,
    "chars": 18314,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2014_2차_기록",
@@ -487,7 +716,8 @@
    "hasRubric": true,
    "chars": 19705,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2014_3차_기록",
@@ -501,7 +731,8 @@
    "hasRubric": true,
    "chars": 21591,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2015_1차_기록",
@@ -521,7 +752,8 @@
    "hasRubric": true,
    "chars": 20329,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2015_2차_기록",
@@ -541,7 +773,8 @@
    "hasRubric": true,
    "chars": 28014,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2015_3차_기록",
@@ -561,7 +794,8 @@
    "hasRubric": true,
    "chars": 22934,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2016_1차_기록",
@@ -581,7 +815,8 @@
    "hasRubric": true,
    "chars": 26519,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2016_2차_기록",
@@ -595,7 +830,8 @@
    "hasRubric": true,
    "chars": 22842,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2016_3차_기록",
@@ -615,7 +851,8 @@
    "hasRubric": true,
    "chars": 26577,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2017_1차_기록",
@@ -635,7 +872,8 @@
    "hasRubric": true,
    "chars": 30527,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2017_2차_기록",
@@ -655,7 +893,8 @@
    "hasRubric": true,
    "chars": 20199,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2017_3차_기록",
@@ -680,7 +919,8 @@
    "hasRubric": true,
    "chars": 28431,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2018_1차_기록",
@@ -700,7 +940,8 @@
    "hasRubric": true,
    "chars": 29616,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2018_2차_기록",
@@ -725,7 +966,8 @@
    "hasRubric": true,
    "chars": 27765,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2018_3차_기록",
@@ -750,7 +992,8 @@
    "hasRubric": true,
    "chars": 28968,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2019_1차_기록",
@@ -775,7 +1018,8 @@
    "hasRubric": true,
    "chars": 26158,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2019_2차_기록",
@@ -800,7 +1044,8 @@
    "hasRubric": true,
    "chars": 30540,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2019_3차_기록",
@@ -825,7 +1070,8 @@
    "hasRubric": true,
    "chars": 26497,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2020_1차_기록",
@@ -845,7 +1091,8 @@
    "hasRubric": true,
    "chars": 28236,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2020_2차_기록",
@@ -870,7 +1117,8 @@
    "hasRubric": true,
    "chars": 32536,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2020_3차_기록",
@@ -890,7 +1138,8 @@
    "hasRubric": true,
    "chars": 33189,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2021_1차_기록",
@@ -915,7 +1164,8 @@
    "hasRubric": true,
    "chars": 28240,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2021_2차_기록",
@@ -940,7 +1190,8 @@
    "hasRubric": true,
    "chars": 32488,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2021_3차_기록",
@@ -965,7 +1216,8 @@
    "hasRubric": true,
    "chars": 24878,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2022_1차_기록",
@@ -990,7 +1242,8 @@
    "hasRubric": true,
    "chars": 35600,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2022_2차_기록",
@@ -1015,7 +1268,8 @@
    "hasRubric": true,
    "chars": 27404,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2022_3차_기록",
@@ -1035,7 +1289,8 @@
    "hasRubric": true,
    "chars": 34245,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2023_1차_기록",
@@ -1055,7 +1310,8 @@
    "hasRubric": true,
    "chars": 30830,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2023_2차_기록",
@@ -1075,7 +1331,8 @@
    "hasRubric": true,
    "chars": 31752,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2023_3차_기록",
@@ -1100,7 +1357,8 @@
    "hasRubric": true,
    "chars": 32654,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2024_1차_기록",
@@ -1120,7 +1378,8 @@
    "hasRubric": true,
    "chars": 26391,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2024_2차_기록",
@@ -1145,7 +1404,8 @@
    "hasRubric": true,
    "chars": 30029,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2024_3차_기록",
@@ -1170,7 +1430,8 @@
    "hasRubric": true,
    "chars": 27641,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2025_1차_기록",
@@ -1195,7 +1456,8 @@
    "hasRubric": true,
    "chars": 28500,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2025_2차_기록",
@@ -1220,7 +1482,8 @@
    "hasRubric": true,
    "chars": 37997,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2025_3차_기록",
@@ -1245,7 +1508,8 @@
    "hasRubric": true,
    "chars": 31564,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   },
   {
    "id": "형사법_모의_2026_1차_기록",
@@ -1270,7 +1534,344 @@
    "hasRubric": true,
    "chars": 38604,
    "hasCommentary": false,
-   "commentaryAuthors": []
+   "commentaryAuthors": [],
+   "issueIds": []
   }
- ]
+ ],
+ "byIssue": {
+  "CRI-0003": [
+   "형사법_변시_12회_기록",
+   "형사법_변시_2회_기록",
+   "형사법_변시_3회_기록"
+  ],
+  "CRI-0004": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_11회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_13회_기록",
+   "형사법_변시_14회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_5회_기록",
+   "형사법_변시_8회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0009": [
+   "형사법_변시_14회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0010": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_5회_기록"
+  ],
+  "CRI-0011": [
+   "형사법_변시_10회_기록"
+  ],
+  "CRI-0012": [
+   "형사법_변시_11회_기록"
+  ],
+  "CRI-0014": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_13회_기록",
+   "형사법_변시_14회_기록",
+   "형사법_변시_7회_기록"
+  ],
+  "CRI-0017": [
+   "형사법_변시_1회_기록",
+   "형사법_변시_11회_기록",
+   "형사법_변시_2회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0019": [
+   "형사법_변시_12회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_8회_기록"
+  ],
+  "CRI-0020": [
+   "형사법_변시_14회_기록",
+   "형사법_변시_5회_기록"
+  ],
+  "CRI-0021": [
+   "형사법_변시_11회_기록",
+   "형사법_변시_3회_기록"
+  ],
+  "CRI-0027": [
+   "형사법_변시_10회_기록"
+  ],
+  "CRI-0032": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_3회_기록"
+  ],
+  "CRI-0033": [
+   "형사법_변시_11회_기록",
+   "형사법_변시_13회_기록",
+   "형사법_변시_6회_기록"
+  ],
+  "CRI-0038": [
+   "형사법_변시_13회_기록"
+  ],
+  "CRI-0041": [
+   "형사법_변시_14회_기록"
+  ],
+  "CRI-0046": [
+   "형사법_변시_14회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0059": [
+   "형사법_변시_13회_기록"
+  ],
+  "CRI-0060": [
+   "형사법_변시_11회_기록",
+   "형사법_변시_3회_기록",
+   "형사법_변시_4회_기록"
+  ],
+  "CRI-0063": [
+   "형사법_변시_1회_기록",
+   "형사법_변시_10회_기록",
+   "형사법_변시_11회_기록",
+   "형사법_변시_13회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_5회_기록",
+   "형사법_변시_6회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0064": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_5회_기록",
+   "형사법_변시_6회_기록"
+  ],
+  "CRI-0065": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_11회_기록",
+   "형사법_변시_14회_기록",
+   "형사법_변시_2회_기록",
+   "형사법_변시_3회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_5회_기록"
+  ],
+  "CRI-0068": [
+   "형사법_변시_12회_기록",
+   "형사법_변시_8회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0073": [
+   "형사법_변시_11회_기록"
+  ],
+  "CRI-0079": [
+   "형사법_변시_13회_기록"
+  ],
+  "CRI-0080": [
+   "형사법_변시_13회_기록"
+  ],
+  "CRI-0082": [
+   "형사법_변시_11회_기록",
+   "형사법_변시_13회_기록",
+   "형사법_변시_3회_기록",
+   "형사법_변시_5회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0088": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_14회_기록",
+   "형사법_변시_3회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0093": [
+   "형사법_변시_12회_기록",
+   "형사법_변시_4회_기록"
+  ],
+  "CRI-0094": [
+   "형사법_변시_1회_기록",
+   "형사법_변시_10회_기록",
+   "형사법_변시_11회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_3회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0124": [
+   "형사법_변시_14회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0135": [
+   "형사법_변시_6회_기록"
+  ],
+  "CRI-0146": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_14회_기록",
+   "형사법_변시_2회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0149": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_13회_기록",
+   "형사법_변시_3회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_6회_기록"
+  ],
+  "CRI-0160": [
+   "형사법_변시_12회_기록",
+   "형사법_변시_8회_기록"
+  ],
+  "CRI-0172": [
+   "형사법_변시_14회_기록",
+   "형사법_변시_7회_기록"
+  ],
+  "CRI-0176": [
+   "형사법_변시_11회_기록",
+   "형사법_변시_6회_기록"
+  ],
+  "CRI-0181": [
+   "형사법_변시_14회_기록"
+  ],
+  "CRI-0186": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_11회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_14회_기록",
+   "형사법_변시_3회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_5회_기록",
+   "형사법_변시_6회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_8회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0192": [
+   "형사법_변시_5회_기록"
+  ],
+  "CRI-0204": [
+   "형사법_변시_12회_기록",
+   "형사법_변시_13회_기록",
+   "형사법_변시_4회_기록"
+  ],
+  "CRI-0209": [
+   "형사법_변시_13회_기록"
+  ],
+  "CRI-0213": [
+   "형사법_변시_13회_기록"
+  ],
+  "CRI-0224": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_13회_기록"
+  ],
+  "CRI-0233": [
+   "형사법_변시_11회_기록",
+   "형사법_변시_12회_기록"
+  ],
+  "CRI-0305": [
+   "형사법_변시_13회_기록"
+  ],
+  "CRI-0306": [
+   "형사법_변시_14회_기록",
+   "형사법_변시_4회_기록"
+  ],
+  "CRI-0308": [
+   "형사법_변시_10회_기록"
+  ],
+  "CRI-0318": [
+   "형사법_변시_11회_기록"
+  ],
+  "CRI-0325": [
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0338": [
+   "형사법_변시_11회_기록"
+  ],
+  "CRI-0343": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_11회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_13회_기록"
+  ],
+  "CRI-0363": [
+   "형사법_변시_3회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0390": [
+   "형사법_변시_11회_기록",
+   "형사법_변시_4회_기록"
+  ],
+  "CRI-0402": [
+   "형사법_변시_10회_기록"
+  ],
+  "CRI-0406": [
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0409": [
+   "형사법_변시_14회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0412": [
+   "형사법_변시_14회_기록"
+  ],
+  "CRI-0423": [
+   "형사법_변시_3회_기록"
+  ],
+  "CRI-0438": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_14회_기록",
+   "형사법_변시_4회_기록"
+  ],
+  "CRI-0445": [
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0454": [
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0472": [
+   "형사법_변시_10회_기록",
+   "형사법_변시_11회_기록",
+   "형사법_변시_12회_기록",
+   "형사법_변시_13회_기록",
+   "형사법_변시_14회_기록",
+   "형사법_변시_2회_기록",
+   "형사법_변시_3회_기록",
+   "형사법_변시_4회_기록",
+   "형사법_변시_5회_기록",
+   "형사법_변시_6회_기록",
+   "형사법_변시_7회_기록",
+   "형사법_변시_8회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0487": [
+   "형사법_변시_14회_기록"
+  ],
+  "CRI-0504": [
+   "형사법_변시_13회_기록",
+   "형사법_변시_6회_기록"
+  ],
+  "CRI-0512": [
+   "형사법_변시_12회_기록",
+   "형사법_변시_8회_기록",
+   "형사법_변시_9회_기록"
+  ],
+  "CRI-0515": [
+   "형사법_변시_11회_기록"
+  ],
+  "CRI-0532": [
+   "형사법_변시_8회_기록"
+  ],
+  "CRI-0544": [
+   "형사법_변시_11회_기록",
+   "형사법_변시_13회_기록",
+   "형사법_변시_14회_기록",
+   "형사법_변시_9회_기록"
+  ]
+ }
 }
