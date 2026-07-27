@@ -1,0 +1,1198 @@
+{
+ "subject": "공법",
+ "exams": [
+  {
+   "id": "공법_변시_1회_기록",
+   "label": "제1회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "1",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": false,
+   "chars": 14654
+  },
+  {
+   "id": "공법_변시_10회_기록",
+   "label": "제10회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "10",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 22730
+  },
+  {
+   "id": "공법_변시_11회_기록",
+   "label": "제11회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "11",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 19567
+  },
+  {
+   "id": "공법_변시_12회_기록",
+   "label": "제12회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "12",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "행정소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 16471
+  },
+  {
+   "id": "공법_변시_13회_기록",
+   "label": "제13회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "13",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "행정소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 35
+    }
+   ],
+   "totalPoints": 85,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 14747
+  },
+  {
+   "id": "공법_변시_14회_기록",
+   "label": "제14회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "14",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "행정소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 50,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 17852
+  },
+  {
+   "id": "공법_변시_15회_기록",
+   "label": "제15회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "15",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "행정소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 18398
+  },
+  {
+   "id": "공법_변시_2회_기록",
+   "label": "제2회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "2",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": false,
+   "chars": 18197
+  },
+  {
+   "id": "공법_변시_3회_기록",
+   "label": "제3회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "3",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": 80
+    },
+    {
+     "no": 2,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": 80,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 10533
+  },
+  {
+   "id": "공법_변시_4회_기록",
+   "label": "제4회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "4",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 11962
+  },
+  {
+   "id": "공법_변시_5회_기록",
+   "label": "제5회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "5",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": false,
+   "chars": 11122
+  },
+  {
+   "id": "공법_변시_6회_기록",
+   "label": "제6회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "6",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "행정소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 50,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 15544
+  },
+  {
+   "id": "공법_변시_7회_기록",
+   "label": "제7회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "7",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 50,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 14727
+  },
+  {
+   "id": "공법_변시_8회_기록",
+   "label": "제8회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "8",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "행정소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 12506
+  },
+  {
+   "id": "공법_변시_9회_기록",
+   "label": "제9회 변시 공법 기록형",
+   "kind": "변시",
+   "year": "9",
+   "round": "",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": false,
+   "chars": 12641
+  },
+  {
+   "id": "공법_모의_2013_1차_기록",
+   "label": "2013년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2013",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 22452
+  },
+  {
+   "id": "공법_모의_2013_2차_기록",
+   "label": "2013년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2013",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "답변서",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 16846
+  },
+  {
+   "id": "공법_모의_2013_3차_기록",
+   "label": "2013년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2013",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "답변서",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 15703
+  },
+  {
+   "id": "공법_모의_2014_1차_기록",
+   "label": "2014년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2014",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "준비서면",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 22926
+  },
+  {
+   "id": "공법_모의_2014_2차_기록",
+   "label": "2014년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2014",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": 30
+    },
+    {
+     "no": 2,
+     "title": "준비서면",
+     "points": null
+    }
+   ],
+   "totalPoints": 30,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 31821
+  },
+  {
+   "id": "공법_모의_2014_3차_기록",
+   "label": "2014년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2014",
+   "round": "3",
+   "tasks": [],
+   "totalPoints": null,
+   "taskSource": "none",
+   "hasRubric": true,
+   "chars": 12525
+  },
+  {
+   "id": "공법_모의_2015_1차_기록",
+   "label": "2015년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2015",
+   "round": "1",
+   "tasks": [],
+   "totalPoints": null,
+   "taskSource": "none",
+   "hasRubric": true,
+   "chars": 11767
+  },
+  {
+   "id": "공법_모의_2015_2차_기록",
+   "label": "2015년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2015",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 16905
+  },
+  {
+   "id": "공법_모의_2015_3차_기록",
+   "label": "2015년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2015",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "준비서면",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 11536
+  },
+  {
+   "id": "공법_모의_2016_1차_기록",
+   "label": "2016년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2016",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 6922
+  },
+  {
+   "id": "공법_모의_2016_2차_기록",
+   "label": "2016년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2016",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 12432
+  },
+  {
+   "id": "공법_모의_2016_3차_기록",
+   "label": "2016년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2016",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 15085
+  },
+  {
+   "id": "공법_모의_2017_1차_기록",
+   "label": "2017년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2017",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "검토보고서",
+     "points": null
+    },
+    {
+     "no": 3,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 16654
+  },
+  {
+   "id": "공법_모의_2017_2차_기록",
+   "label": "2017년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2017",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 50,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 13601
+  },
+  {
+   "id": "공법_모의_2017_3차_기록",
+   "label": "2017년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2017",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 32
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    },
+    {
+     "no": 3,
+     "title": "준비서면",
+     "points": null
+    }
+   ],
+   "totalPoints": 82,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 19986
+  },
+  {
+   "id": "공법_모의_2018_1차_기록",
+   "label": "2018년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2018",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 22223
+  },
+  {
+   "id": "공법_모의_2018_2차_기록",
+   "label": "2018년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2018",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "준비서면",
+     "points": null
+    },
+    {
+     "no": 3,
+     "title": "헌법소원심판청구서",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 23295
+  },
+  {
+   "id": "공법_모의_2018_3차_기록",
+   "label": "2018년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2018",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "검토보고서",
+     "points": 10
+    },
+    {
+     "no": 3,
+     "title": "소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 60,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 20726
+  },
+  {
+   "id": "공법_모의_2019_1차_기록",
+   "label": "2019년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2019",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "헌법소원심판청구서",
+     "points": 35
+    },
+    {
+     "no": 2,
+     "title": "소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 85,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 16150
+  },
+  {
+   "id": "공법_모의_2019_2차_기록",
+   "label": "2019년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2019",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "검토보고서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 13559
+  },
+  {
+   "id": "공법_모의_2019_3차_기록",
+   "label": "2019년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2019",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 20830
+  },
+  {
+   "id": "공법_모의_2020_1차_기록",
+   "label": "2020년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2020",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 17274
+  },
+  {
+   "id": "공법_모의_2020_2차_기록",
+   "label": "2020년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2020",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 50,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 12609
+  },
+  {
+   "id": "공법_모의_2020_3차_기록",
+   "label": "2020년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2020",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 18291
+  },
+  {
+   "id": "공법_모의_2021_1차_기록",
+   "label": "2021년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2021",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 35
+    }
+   ],
+   "totalPoints": 35,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 10184
+  },
+  {
+   "id": "공법_모의_2021_2차_기록",
+   "label": "2021년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2021",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 11864
+  },
+  {
+   "id": "공법_모의_2021_3차_기록",
+   "label": "2021년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2021",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 35
+    },
+    {
+     "no": 2,
+     "title": "검토보고서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 85,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 13023
+  },
+  {
+   "id": "공법_모의_2022_1차_기록",
+   "label": "2022년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2022",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 50,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 18045
+  },
+  {
+   "id": "공법_모의_2022_2차_기록",
+   "label": "2022년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2022",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 35
+    }
+   ],
+   "totalPoints": 85,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 18008
+  },
+  {
+   "id": "공법_모의_2022_3차_기록",
+   "label": "2022년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2022",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 16597
+  },
+  {
+   "id": "공법_모의_2023_1차_기록",
+   "label": "2023년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2023",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 33
+    }
+   ],
+   "totalPoints": 83,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 24587
+  },
+  {
+   "id": "공법_모의_2023_2차_기록",
+   "label": "2023년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2023",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": null
+    }
+   ],
+   "totalPoints": null,
+   "taskSource": "document",
+   "hasRubric": true,
+   "chars": 14408
+  },
+  {
+   "id": "공법_모의_2023_3차_기록",
+   "label": "2023년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2023",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 19416
+  },
+  {
+   "id": "공법_모의_2024_1차_기록",
+   "label": "2024년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2024",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 19721
+  },
+  {
+   "id": "공법_모의_2024_2차_기록",
+   "label": "2024년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2024",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 16140
+  },
+  {
+   "id": "공법_모의_2024_3차_기록",
+   "label": "2024년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2024",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    }
+   ],
+   "totalPoints": 50,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 19494
+  },
+  {
+   "id": "공법_모의_2025_1차_기록",
+   "label": "2025년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2025",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "행정소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 16133
+  },
+  {
+   "id": "공법_모의_2025_2차_기록",
+   "label": "2025년 2차 공법 기록형",
+   "kind": "모의",
+   "year": "2025",
+   "round": "2",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "행정소장",
+     "points": 35
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 85,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 19443
+  },
+  {
+   "id": "공법_모의_2025_3차_기록",
+   "label": "2025년 3차 공법 기록형",
+   "kind": "모의",
+   "year": "2025",
+   "round": "3",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "행정소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 21041
+  },
+  {
+   "id": "공법_모의_2026_1차_기록",
+   "label": "2026년 1차 공법 기록형",
+   "kind": "모의",
+   "year": "2026",
+   "round": "1",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "행정소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "헌법소원심판청구서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "points",
+   "hasRubric": true,
+   "chars": 20166
+  }
+ ]
+}
