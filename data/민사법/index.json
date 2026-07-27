@@ -17,7 +17,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 11245
+   "chars": 11245,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_10회_기록",
@@ -35,7 +39,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 15632
+   "chars": 15632,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_11회_기록",
@@ -53,7 +61,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 18340
+   "chars": 18340,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_12회_기록",
@@ -76,7 +88,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 17621
+   "chars": 17621,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_13회_기록",
@@ -94,7 +110,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 16612
+   "chars": 16612,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_14회_기록",
@@ -112,7 +132,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 13666
+   "chars": 13666,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_15회_기록",
@@ -130,7 +154,12 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 13299
+   "chars": 13299,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석",
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_2회_기록",
@@ -148,7 +177,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 9346
+   "chars": 9346,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_3회_기록",
@@ -160,7 +193,11 @@
    "totalPoints": null,
    "taskSource": "none",
    "hasRubric": false,
-   "chars": 10144
+   "chars": 10144,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_4회_기록",
@@ -178,7 +215,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 9787
+   "chars": 9787,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_5회_기록",
@@ -196,7 +237,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 15979
+   "chars": 15979,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_6회_기록",
@@ -214,7 +259,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 15312
+   "chars": 15312,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_7회_기록",
@@ -232,7 +281,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 14105
+   "chars": 14105,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_8회_기록",
@@ -250,7 +303,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 15133
+   "chars": 15133,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_변시_9회_기록",
@@ -268,7 +325,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 15325
+   "chars": 15325,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ]
   },
   {
    "id": "민사법_모의_2013_1차_기록",
@@ -286,7 +347,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 12269
+   "chars": 12269,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2013_2차_기록",
@@ -309,7 +372,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 12603
+   "chars": 12603,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2013_3차_기록",
@@ -327,7 +392,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 6140
+   "chars": 6140,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2014_1차_기록",
@@ -345,7 +412,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 11608
+   "chars": 11608,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2014_2차_기록",
@@ -363,7 +432,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 13217
+   "chars": 13217,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2014_3차_기록",
@@ -381,7 +452,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 10784
+   "chars": 10784,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2015_1차_기록",
@@ -399,7 +472,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 11588
+   "chars": 11588,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2015_2차_기록",
@@ -417,7 +492,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 12639
+   "chars": 12639,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2015_3차_기록",
@@ -435,7 +512,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 6139
+   "chars": 6139,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2016_1차_기록",
@@ -453,7 +532,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 11775
+   "chars": 11775,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2016_2차_기록",
@@ -471,7 +552,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 10927
+   "chars": 10927,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2016_3차_기록",
@@ -489,7 +572,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 9488
+   "chars": 9488,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2017_1차_기록",
@@ -507,7 +592,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 9617
+   "chars": 9617,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2017_2차_기록",
@@ -525,7 +612,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 10896
+   "chars": 10896,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2017_3차_기록",
@@ -543,7 +632,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 12355
+   "chars": 12355,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2018_1차_기록",
@@ -561,7 +652,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 12982
+   "chars": 12982,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2018_2차_기록",
@@ -579,7 +672,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 10891
+   "chars": 10891,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2018_3차_기록",
@@ -597,7 +692,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 9115
+   "chars": 9115,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2019_1차_기록",
@@ -615,7 +712,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 16869
+   "chars": 16869,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2019_2차_기록",
@@ -633,7 +732,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 17433
+   "chars": 17433,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2019_3차_기록",
@@ -651,7 +752,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 11008
+   "chars": 11008,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2020_1차_기록",
@@ -669,7 +772,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 10172
+   "chars": 10172,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2020_2차_기록",
@@ -687,7 +792,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 12930
+   "chars": 12930,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2020_3차_기록",
@@ -705,7 +812,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 9758
+   "chars": 9758,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2021_1차_기록",
@@ -723,7 +832,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 9241
+   "chars": 9241,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2021_2차_기록",
@@ -741,7 +852,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 12773
+   "chars": 12773,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2021_3차_기록",
@@ -759,7 +872,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 12696
+   "chars": 12696,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2022_1차_기록",
@@ -777,7 +892,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 14068
+   "chars": 14068,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2022_2차_기록",
@@ -795,7 +912,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 15176
+   "chars": 15176,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2022_3차_기록",
@@ -813,7 +932,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 16292
+   "chars": 16292,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2023_1차_기록",
@@ -831,7 +952,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 13777
+   "chars": 13777,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2023_2차_기록",
@@ -849,7 +972,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 15429
+   "chars": 15429,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2023_3차_기록",
@@ -867,7 +992,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 14443
+   "chars": 14443,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2024_1차_기록",
@@ -885,7 +1012,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 14766
+   "chars": 14766,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2024_2차_기록",
@@ -903,7 +1032,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 17741
+   "chars": 17741,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2024_3차_기록",
@@ -921,7 +1052,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 22743
+   "chars": 22743,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2025_1차_기록",
@@ -939,7 +1072,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 15138
+   "chars": 15138,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2025_2차_기록",
@@ -957,7 +1092,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 20749
+   "chars": 20749,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2025_3차_기록",
@@ -975,7 +1112,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 9762
+   "chars": 9762,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "민사법_모의_2026_1차_기록",
@@ -993,7 +1132,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 14290
+   "chars": 14290,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   }
  ]
 }

@@ -150,6 +150,8 @@ function List({subject, onOpen}){
               {e.hasRubric
                 ? <span className="tag gold">채점기준표</span>
                 : <span className="tag">채점기준표 없음</span>}
+              {e.hasCommentary &&
+                <span className="tag ok">해설 {e.commentaryAuthors.join("·")}</span>}
             </div>
           </div>
           <div className="row" style={{marginTop:7}}>
@@ -251,6 +253,9 @@ function Solve({subject, exam, onBack}){
               <div className={"tab"+(pane==="record"?" on":"")} onClick={()=>setPane("record")}>기록</div>
               {d.rubricText &&
                 <div className={"tab"+(pane==="rubric"?" on":"")} onClick={()=>setPane("rubric")}>채점기준표</div>}
+              {(d.commentaries||[]).length>0 &&
+                <div className={"tab"+(pane==="comm"?" on":"")} onClick={()=>setPane("comm")}>
+                  해설 ({d.commentaries.length})</div>}
             </div>
             {pane==="record" && <>
               {d.problemBlock &&
@@ -263,6 +268,17 @@ function Solve({subject, exam, onBack}){
             {pane==="rubric" && (d.rubricText
               ? <div className="pre">{d.rubricText}</div>
               : <div className="empty">이 회차는 채점기준표가 공개되지 않았습니다.</div>)}
+            {pane==="comm" && (d.commentaries||[]).map((c,i)=>
+              <div key={i} style={{marginBottom:16}}>
+                <div className="row" style={{marginBottom:7}}>
+                  <span className="tag gold">{c.author}</span>
+                  <span className="muted">{c.title} · {c.pageCount}쪽</span>
+                </div>
+                <div className="pre">{c.text}</div>
+                {c.truncated &&
+                  <div className="muted" style={{marginTop:7}}>
+                    분량이 많아 앞부분만 실었습니다.</div>}
+              </div>)}
           </div>
         </div>
 

@@ -17,7 +17,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 18968
+   "chars": 18968,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_10회_기록",
@@ -40,7 +44,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 32859
+   "chars": 32859,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_11회_기록",
@@ -63,7 +71,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 31193
+   "chars": 31193,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_12회_기록",
@@ -86,7 +98,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 25131
+   "chars": 25131,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_13회_기록",
@@ -109,7 +125,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 28954
+   "chars": 28954,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_14회_기록",
@@ -132,7 +152,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 28344
+   "chars": 28344,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_15회_기록",
@@ -155,7 +179,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 25861
+   "chars": 25861,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_변시_2회_기록",
@@ -173,7 +199,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 25195
+   "chars": 25195,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_3회_기록",
@@ -201,7 +231,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 25520
+   "chars": 25520,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_4회_기록",
@@ -224,7 +258,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 21315
+   "chars": 21315,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_5회_기록",
@@ -247,7 +285,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 26925
+   "chars": 26925,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_6회_기록",
@@ -265,7 +307,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 27160
+   "chars": 27160,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_7회_기록",
@@ -288,7 +334,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 25907
+   "chars": 25907,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_8회_기록",
@@ -306,7 +356,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 26313
+   "chars": 26313,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_변시_9회_기록",
@@ -329,7 +383,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 26600
+   "chars": 26600,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "노수환"
+   ]
   },
   {
    "id": "형사법_모의_2013_1차_기록",
@@ -347,7 +405,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 23203
+   "chars": 23203,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2013_2차_기록",
@@ -365,7 +425,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 19864
+   "chars": 19864,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2013_3차_기록",
@@ -383,7 +445,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 28537
+   "chars": 28537,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2014_1차_기록",
@@ -401,7 +465,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 18314
+   "chars": 18314,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2014_2차_기록",
@@ -419,7 +485,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 19705
+   "chars": 19705,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2014_3차_기록",
@@ -431,7 +499,9 @@
    "totalPoints": null,
    "taskSource": "none",
    "hasRubric": true,
-   "chars": 21591
+   "chars": 21591,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2015_1차_기록",
@@ -449,7 +519,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 20329
+   "chars": 20329,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2015_2차_기록",
@@ -467,7 +539,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 28014
+   "chars": 28014,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2015_3차_기록",
@@ -485,7 +559,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 22934
+   "chars": 22934,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2016_1차_기록",
@@ -503,7 +579,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 26519
+   "chars": 26519,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2016_2차_기록",
@@ -515,7 +593,9 @@
    "totalPoints": null,
    "taskSource": "none",
    "hasRubric": true,
-   "chars": 22842
+   "chars": 22842,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2016_3차_기록",
@@ -533,7 +613,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 26577
+   "chars": 26577,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2017_1차_기록",
@@ -551,7 +633,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 30527
+   "chars": 30527,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2017_2차_기록",
@@ -569,7 +653,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 20199
+   "chars": 20199,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2017_3차_기록",
@@ -592,7 +678,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 28431
+   "chars": 28431,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2018_1차_기록",
@@ -610,7 +698,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 29616
+   "chars": 29616,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2018_2차_기록",
@@ -633,7 +723,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 27765
+   "chars": 27765,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2018_3차_기록",
@@ -656,7 +748,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 28968
+   "chars": 28968,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2019_1차_기록",
@@ -679,7 +773,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 26158
+   "chars": 26158,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2019_2차_기록",
@@ -702,7 +798,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 30540
+   "chars": 30540,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2019_3차_기록",
@@ -725,7 +823,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 26497
+   "chars": 26497,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2020_1차_기록",
@@ -743,7 +843,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 28236
+   "chars": 28236,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2020_2차_기록",
@@ -766,7 +868,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 32536
+   "chars": 32536,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2020_3차_기록",
@@ -784,7 +888,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 33189
+   "chars": 33189,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2021_1차_기록",
@@ -807,7 +913,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 28240
+   "chars": 28240,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2021_2차_기록",
@@ -830,7 +938,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 32488
+   "chars": 32488,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2021_3차_기록",
@@ -853,7 +963,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 24878
+   "chars": 24878,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2022_1차_기록",
@@ -876,7 +988,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 35600
+   "chars": 35600,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2022_2차_기록",
@@ -899,7 +1013,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 27404
+   "chars": 27404,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2022_3차_기록",
@@ -917,7 +1033,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 34245
+   "chars": 34245,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2023_1차_기록",
@@ -935,7 +1053,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 30830
+   "chars": 30830,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2023_2차_기록",
@@ -953,7 +1073,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 31752
+   "chars": 31752,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2023_3차_기록",
@@ -976,7 +1098,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 32654
+   "chars": 32654,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2024_1차_기록",
@@ -994,7 +1118,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 26391
+   "chars": 26391,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2024_2차_기록",
@@ -1017,7 +1143,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 30029
+   "chars": 30029,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2024_3차_기록",
@@ -1040,7 +1168,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 27641
+   "chars": 27641,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2025_1차_기록",
@@ -1063,7 +1193,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 28500
+   "chars": 28500,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2025_2차_기록",
@@ -1086,7 +1218,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 37997
+   "chars": 37997,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2025_3차_기록",
@@ -1109,7 +1243,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 31564
+   "chars": 31564,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "형사법_모의_2026_1차_기록",
@@ -1132,7 +1268,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 38604
+   "chars": 38604,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   }
  ]
 }

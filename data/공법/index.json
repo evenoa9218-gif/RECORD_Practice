@@ -17,7 +17,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 14654
+   "chars": 14654,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_10회_기록",
@@ -40,7 +44,11 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 22730
+   "chars": 22730,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_11회_기록",
@@ -63,7 +71,11 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 19567
+   "chars": 19567,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_12회_기록",
@@ -86,7 +98,11 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 16471
+   "chars": 16471,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_13회_기록",
@@ -109,7 +125,11 @@
    "totalPoints": 85,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 14747
+   "chars": 14747,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_14회_기록",
@@ -127,7 +147,11 @@
    "totalPoints": 50,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 17852
+   "chars": 17852,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_15회_기록",
@@ -150,7 +174,11 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 18398
+   "chars": 18398,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_2회_기록",
@@ -173,7 +201,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 18197
+   "chars": 18197,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_3회_기록",
@@ -196,7 +228,11 @@
    "totalPoints": 80,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 10533
+   "chars": 10533,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_4회_기록",
@@ -219,7 +255,11 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 11962
+   "chars": 11962,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_5회_기록",
@@ -242,7 +282,11 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": false,
-   "chars": 11122
+   "chars": 11122,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_6회_기록",
@@ -260,7 +304,11 @@
    "totalPoints": 50,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 15544
+   "chars": 15544,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_7회_기록",
@@ -278,7 +326,11 @@
    "totalPoints": 50,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 14727
+   "chars": 14727,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_8회_기록",
@@ -301,7 +353,11 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 12506
+   "chars": 12506,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_변시_9회_기록",
@@ -324,7 +380,11 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": false,
-   "chars": 12641
+   "chars": 12641,
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "김유향"
+   ]
   },
   {
    "id": "공법_모의_2013_1차_기록",
@@ -342,7 +402,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 22452
+   "chars": 22452,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2013_2차_기록",
@@ -360,7 +422,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 16846
+   "chars": 16846,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2013_3차_기록",
@@ -383,7 +447,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 15703
+   "chars": 15703,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2014_1차_기록",
@@ -406,7 +472,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 22926
+   "chars": 22926,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2014_2차_기록",
@@ -429,7 +497,9 @@
    "totalPoints": 30,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 31821
+   "chars": 31821,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2014_3차_기록",
@@ -441,7 +511,9 @@
    "totalPoints": null,
    "taskSource": "none",
    "hasRubric": true,
-   "chars": 12525
+   "chars": 12525,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2015_1차_기록",
@@ -453,7 +525,9 @@
    "totalPoints": null,
    "taskSource": "none",
    "hasRubric": true,
-   "chars": 11767
+   "chars": 11767,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2015_2차_기록",
@@ -471,7 +545,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 16905
+   "chars": 16905,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2015_3차_기록",
@@ -494,7 +570,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 11536
+   "chars": 11536,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2016_1차_기록",
@@ -517,7 +595,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 6922
+   "chars": 6922,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2016_2차_기록",
@@ -540,7 +620,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 12432
+   "chars": 12432,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2016_3차_기록",
@@ -563,7 +645,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 15085
+   "chars": 15085,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2017_1차_기록",
@@ -591,7 +675,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 16654
+   "chars": 16654,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2017_2차_기록",
@@ -614,7 +700,9 @@
    "totalPoints": 50,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 13601
+   "chars": 13601,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2017_3차_기록",
@@ -642,7 +730,9 @@
    "totalPoints": 82,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 19986
+   "chars": 19986,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2018_1차_기록",
@@ -660,7 +750,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 22223
+   "chars": 22223,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2018_2차_기록",
@@ -688,7 +780,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 23295
+   "chars": 23295,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2018_3차_기록",
@@ -716,7 +810,9 @@
    "totalPoints": 60,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 20726
+   "chars": 20726,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2019_1차_기록",
@@ -739,7 +835,9 @@
    "totalPoints": 85,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 16150
+   "chars": 16150,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2019_2차_기록",
@@ -762,7 +860,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 13559
+   "chars": 13559,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2019_3차_기록",
@@ -780,7 +880,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 20830
+   "chars": 20830,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2020_1차_기록",
@@ -803,7 +905,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 17274
+   "chars": 17274,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2020_2차_기록",
@@ -821,7 +925,9 @@
    "totalPoints": 50,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 12609
+   "chars": 12609,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2020_3차_기록",
@@ -844,7 +950,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 18291
+   "chars": 18291,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2021_1차_기록",
@@ -862,7 +970,9 @@
    "totalPoints": 35,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 10184
+   "chars": 10184,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2021_2차_기록",
@@ -885,7 +995,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 11864
+   "chars": 11864,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2021_3차_기록",
@@ -908,7 +1020,9 @@
    "totalPoints": 85,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 13023
+   "chars": 13023,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2022_1차_기록",
@@ -926,7 +1040,9 @@
    "totalPoints": 50,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 18045
+   "chars": 18045,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2022_2차_기록",
@@ -949,7 +1065,9 @@
    "totalPoints": 85,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 18008
+   "chars": 18008,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2022_3차_기록",
@@ -972,7 +1090,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 16597
+   "chars": 16597,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2023_1차_기록",
@@ -995,7 +1115,9 @@
    "totalPoints": 83,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 24587
+   "chars": 24587,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2023_2차_기록",
@@ -1013,7 +1135,9 @@
    "totalPoints": null,
    "taskSource": "document",
    "hasRubric": true,
-   "chars": 14408
+   "chars": 14408,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2023_3차_기록",
@@ -1036,7 +1160,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 19416
+   "chars": 19416,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2024_1차_기록",
@@ -1059,7 +1185,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 19721
+   "chars": 19721,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2024_2차_기록",
@@ -1082,7 +1210,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 16140
+   "chars": 16140,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2024_3차_기록",
@@ -1100,7 +1230,9 @@
    "totalPoints": 50,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 19494
+   "chars": 19494,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2025_1차_기록",
@@ -1123,7 +1255,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 16133
+   "chars": 16133,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2025_2차_기록",
@@ -1146,7 +1280,9 @@
    "totalPoints": 85,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 19443
+   "chars": 19443,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2025_3차_기록",
@@ -1169,7 +1305,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 21041
+   "chars": 21041,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   },
   {
    "id": "공법_모의_2026_1차_기록",
@@ -1192,7 +1330,9 @@
    "totalPoints": 100,
    "taskSource": "points",
    "hasRubric": true,
-   "chars": 20166
+   "chars": 20166,
+   "hasCommentary": false,
+   "commentaryAuthors": []
   }
  ]
 }
