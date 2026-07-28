@@ -19,5 +19,60 @@
  ],
  "taskSource": "document",
  "commentaries": [],
- "issueIds": []
+ "issueIds": [
+  "PUB-0015",
+  "PUB-0018",
+  "PUB-0407",
+  "PUB-0012",
+  "PUB-0075",
+  "PUB-0002",
+  "PUB-0013",
+  "PUB-0409",
+  "PUB-0003",
+  "PUB-0048",
+  "PUB-0065",
+  "PUB-0341",
+  "PUB-0025"
+ ],
+ "issueSource": {
+  "PUB-0015": [
+   "rubric"
+  ],
+  "PUB-0018": [
+   "rubric"
+  ],
+  "PUB-0407": [
+   "rubric"
+  ],
+  "PUB-0012": [
+   "rubric"
+  ],
+  "PUB-0075": [
+   "rubric"
+  ],
+  "PUB-0002": [
+   "rubric"
+  ],
+  "PUB-0013": [
+   "rubric"
+  ],
+  "PUB-0409": [
+   "rubric"
+  ],
+  "PUB-0003": [
+   "rubric"
+  ],
+  "PUB-0048": [
+   "rubric"
+  ],
+  "PUB-0065": [
+   "rubric"
+  ],
+  "PUB-0341": [
+   "rubric"
+  ],
+  "PUB-0025": [
+   "rubric"
+  ]
+ }
 }

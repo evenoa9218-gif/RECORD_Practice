@@ -23,5 +23,12 @@
   }
  ],
  "taskSource": "document",
- "issueIds": []
+ "issueIds": [
+  "PUB-0113"
+ ],
+ "issueSource": {
+  "PUB-0113": [
+   "rubric"
+  ]
+ }
 }

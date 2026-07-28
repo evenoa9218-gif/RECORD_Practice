@@ -47,5 +47,61 @@
   "PUB-0225",
   "PUB-0345",
   "PUB-0251"
- ]
+ ],
+ "issueSource": {
+  "PUB-0030": [
+   "commentary"
+  ],
+  "PUB-0013": [
+   "commentary"
+  ],
+  "PUB-0067": [
+   "commentary"
+  ],
+  "PUB-0001": [
+   "commentary"
+  ],
+  "PUB-0002": [
+   "commentary"
+  ],
+  "PUB-0300": [
+   "commentary"
+  ],
+  "PUB-0009": [
+   "commentary"
+  ],
+  "PUB-0387": [
+   "commentary"
+  ],
+  "PUB-0407": [
+   "commentary"
+  ],
+  "PUB-0222": [
+   "commentary"
+  ],
+  "PUB-0370": [
+   "commentary"
+  ],
+  "PUB-0312": [
+   "commentary"
+  ],
+  "PUB-0023": [
+   "commentary"
+  ],
+  "PUB-0419": [
+   "commentary"
+  ],
+  "PUB-0103": [
+   "commentary"
+  ],
+  "PUB-0225": [
+   "commentary"
+  ],
+  "PUB-0345": [
+   "commentary"
+  ],
+  "PUB-0251": [
+   "commentary"
+  ]
+ }
 }

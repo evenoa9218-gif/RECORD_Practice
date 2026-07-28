@@ -35,5 +35,40 @@
   "CIV-0407",
   "CIV-0052",
   "CIV-0009"
- ]
+ ],
+ "issueSource": {
+  "CIV-0016": [
+   "commentary"
+  ],
+  "CIV-0062": [
+   "commentary"
+  ],
+  "CIV-0006": [
+   "commentary"
+  ],
+  "CIV-0208": [
+   "commentary"
+  ],
+  "CIV-0071": [
+   "commentary"
+  ],
+  "CIV-0015": [
+   "commentary"
+  ],
+  "CIV-0423": [
+   "commentary"
+  ],
+  "CIV-0059": [
+   "commentary"
+  ],
+  "CIV-0407": [
+   "commentary"
+  ],
+  "CIV-0052": [
+   "commentary"
+  ],
+  "CIV-0009": [
+   "commentary"
+  ]
+ }
 }

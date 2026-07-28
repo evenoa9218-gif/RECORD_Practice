@@ -71,30 +71,49 @@ def tag_subject(subject):
 
     by_issue = defaultdict(list)
     issue_hits = Counter()
+    src_stat = Counter()
     tagged = untagged = 0
     per_exam = []
 
     for e in index['exams']:
         ef = DATA / subject / 'exams' / f"{e['id']}.json"
         exam = json.load(io.open(ef, encoding='utf-8'))
+
+        # 소스는 둘이다. 해설은 쟁점을 이미 정리해 놓았고(변시 회차), 채점기준표는
+        # 배점 항목마다 법리를 적어 둔다(모의고사 회차). 둘 다 있으면 둘 다 본다.
+        sources = {}
         comms = exam.get('commentaries') or []
-        if not comms:
+        if comms:
+            sources['commentary'] = norm('\n'.join(c['text'] for c in comms))
+        if exam.get('rubricText'):
+            sources['rubric'] = norm(exam['rubricText'])
+
+        if not sources:
             exam['issueIds'] = []
+            exam['issueSource'] = {}
             io.open(ef, 'w', encoding='utf-8', newline='').write(
                 json.dumps(exam, ensure_ascii=False, indent=1))
             e['issueIds'] = []
             untagged += 1
             continue
 
-        blob = norm('\n'.join(c['text'] for c in comms))
-        found = Counter()
+        # 쟁점마다 어느 소스에서 몇 번 나왔는지 따로 센다 — 합계로만 판정하면
+        # 무엇을 근거로 붙었는지 나중에 확인할 수 없다.
+        per_src = {s: Counter() for s in sources}
         for nk, iid in keys:
-            n = blob.count(nk)
-            if n:
-                found[iid] += n
+            for s, blob in sources.items():
+                n = blob.count(nk)
+                if n:
+                    per_src[s][iid] += n
 
-        ids = [i for i, n in found.most_common() if n >= MIN_HITS]
+        total = Counter()
+        for s in per_src:
+            total.update(per_src[s])
+        ids = [i for i, n in total.most_common() if n >= MIN_HITS]
         exam['issueIds'] = ids
+        exam['issueSource'] = {
+            i: sorted(s for s in per_src if per_src[s][i]) for i in ids
+        }
         io.open(ef, 'w', encoding='utf-8', newline='').write(
             json.dumps(exam, ensure_ascii=False, indent=1))
         e['issueIds'] = ids
@@ -103,6 +122,7 @@ def tag_subject(subject):
             issue_hits[i] += 1
         tagged += 1
         per_exam.append(len(ids))
+        src_stat[' + '.join(sorted(sources))] += 1
 
     # 이 과목의 기록형에 실제로 나온 쟁점만 레지스트리로 낸다.
     issues = []
@@ -119,8 +139,9 @@ def tag_subject(subject):
         json.dumps(index, ensure_ascii=False, indent=1))
 
     avg = sum(per_exam) / len(per_exam) if per_exam else 0
-    print(f'{subject}: 해설 있는 {tagged}회차 태깅 (없어서 건너뜀 {untagged})'
+    print(f'{subject}: {tagged}회차 태깅 (근거 없어 건너뜀 {untagged})'
           f' · 쟁점 {len(issues)}종 · 회차당 평균 {avg:.1f}개')
+    print(f'   소스별: {dict(src_stat)}')
     return per_exam
 
 

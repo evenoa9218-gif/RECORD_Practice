@@ -13,5 +13,36 @@
   }
  ],
  "taskSource": "document",
- "issueIds": []
+ "issueIds": [
+  "CIV-0062",
+  "CIV-0001",
+  "CIV-0162",
+  "CIV-0310",
+  "CIV-0082",
+  "CIV-0016",
+  "CIV-0006"
+ ],
+ "issueSource": {
+  "CIV-0062": [
+   "rubric"
+  ],
+  "CIV-0001": [
+   "rubric"
+  ],
+  "CIV-0162": [
+   "rubric"
+  ],
+  "CIV-0310": [
+   "rubric"
+  ],
+  "CIV-0082": [
+   "rubric"
+  ],
+  "CIV-0016": [
+   "rubric"
+  ],
+  "CIV-0006": [
+   "rubric"
+  ]
+ }
 }

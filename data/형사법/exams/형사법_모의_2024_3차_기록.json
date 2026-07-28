@@ -18,5 +18,44 @@
   }
  ],
  "taskSource": "document",
- "issueIds": []
+ "issueIds": [
+  "CRI-0233",
+  "CRI-0164",
+  "CRI-0236",
+  "CRI-0445",
+  "CRI-0512",
+  "CRI-0063",
+  "CRI-0363",
+  "CRI-0019",
+  "CRI-0146"
+ ],
+ "issueSource": {
+  "CRI-0233": [
+   "rubric"
+  ],
+  "CRI-0164": [
+   "rubric"
+  ],
+  "CRI-0236": [
+   "rubric"
+  ],
+  "CRI-0445": [
+   "rubric"
+  ],
+  "CRI-0512": [
+   "rubric"
+  ],
+  "CRI-0063": [
+   "rubric"
+  ],
+  "CRI-0363": [
+   "rubric"
+  ],
+  "CRI-0019": [
+   "rubric"
+  ],
+  "CRI-0146": [
+   "rubric"
+  ]
+ }
 }

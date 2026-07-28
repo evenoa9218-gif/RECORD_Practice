@@ -13,5 +13,12 @@
   }
  ],
  "taskSource": "points",
- "issueIds": []
+ "issueIds": [
+  "PUB-0001"
+ ],
+ "issueSource": {
+  "PUB-0001": [
+   "rubric"
+  ]
+ }
 }

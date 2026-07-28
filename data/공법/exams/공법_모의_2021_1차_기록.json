@@ -13,5 +13,48 @@
   }
  ],
  "taskSource": "points",
- "issueIds": []
+ "issueIds": [
+  "PUB-0248",
+  "PUB-0035",
+  "PUB-0027",
+  "PUB-0021",
+  "PUB-0160",
+  "PUB-0300",
+  "PUB-0270",
+  "PUB-0020",
+  "PUB-0005",
+  "PUB-0002"
+ ],
+ "issueSource": {
+  "PUB-0248": [
+   "rubric"
+  ],
+  "PUB-0035": [
+   "rubric"
+  ],
+  "PUB-0027": [
+   "rubric"
+  ],
+  "PUB-0021": [
+   "rubric"
+  ],
+  "PUB-0160": [
+   "rubric"
+  ],
+  "PUB-0300": [
+   "rubric"
+  ],
+  "PUB-0270": [
+   "rubric"
+  ],
+  "PUB-0020": [
+   "rubric"
+  ],
+  "PUB-0005": [
+   "rubric"
+  ],
+  "PUB-0002": [
+   "rubric"
+  ]
+ }
 }

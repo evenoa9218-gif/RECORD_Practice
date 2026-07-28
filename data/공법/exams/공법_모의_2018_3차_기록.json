@@ -23,5 +23,84 @@
   }
  ],
  "taskSource": "points",
- "issueIds": []
+ "issueIds": [
+  "PUB-0113",
+  "PUB-0098",
+  "PUB-0248",
+  "PUB-0062",
+  "PUB-0356",
+  "PUB-0019",
+  "PUB-0407",
+  "PUB-0012",
+  "PUB-0005",
+  "PUB-0063",
+  "PUB-0392",
+  "PUB-0002",
+  "PUB-0298",
+  "PUB-0357",
+  "PUB-0003",
+  "PUB-0028",
+  "PUB-0207",
+  "PUB-0244",
+  "PUB-0387"
+ ],
+ "issueSource": {
+  "PUB-0113": [
+   "rubric"
+  ],
+  "PUB-0098": [
+   "rubric"
+  ],
+  "PUB-0248": [
+   "rubric"
+  ],
+  "PUB-0062": [
+   "rubric"
+  ],
+  "PUB-0356": [
+   "rubric"
+  ],
+  "PUB-0019": [
+   "rubric"
+  ],
+  "PUB-0407": [
+   "rubric"
+  ],
+  "PUB-0012": [
+   "rubric"
+  ],
+  "PUB-0005": [
+   "rubric"
+  ],
+  "PUB-0063": [
+   "rubric"
+  ],
+  "PUB-0392": [
+   "rubric"
+  ],
+  "PUB-0002": [
+   "rubric"
+  ],
+  "PUB-0298": [
+   "rubric"
+  ],
+  "PUB-0357": [
+   "rubric"
+  ],
+  "PUB-0003": [
+   "rubric"
+  ],
+  "PUB-0028": [
+   "rubric"
+  ],
+  "PUB-0207": [
+   "rubric"
+  ],
+  "PUB-0244": [
+   "rubric"
+  ],
+  "PUB-0387": [
+   "rubric"
+  ]
+ }
 }

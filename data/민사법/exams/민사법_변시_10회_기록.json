@@ -40,5 +40,55 @@
   "CIV-0052",
   "CIV-0071",
   "CIV-0410"
- ]
+ ],
+ "issueSource": {
+  "CIV-0162": [
+   "commentary"
+  ],
+  "CIV-0004": [
+   "commentary"
+  ],
+  "CIV-0062": [
+   "commentary"
+  ],
+  "CIV-0310": [
+   "commentary"
+  ],
+  "CIV-0001": [
+   "commentary"
+  ],
+  "CIV-0111": [
+   "commentary"
+  ],
+  "CIV-0364": [
+   "commentary"
+  ],
+  "CIV-0053": [
+   "commentary"
+  ],
+  "CIV-0064": [
+   "commentary"
+  ],
+  "CIV-0039": [
+   "commentary"
+  ],
+  "CIV-0236": [
+   "commentary"
+  ],
+  "CIV-0121": [
+   "commentary"
+  ],
+  "CIV-0109": [
+   "commentary"
+  ],
+  "CIV-0052": [
+   "commentary"
+  ],
+  "CIV-0071": [
+   "commentary"
+  ],
+  "CIV-0410": [
+   "commentary"
+  ]
+ }
 }

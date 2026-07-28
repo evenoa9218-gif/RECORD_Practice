@@ -13,5 +13,20 @@
   }
  ],
  "taskSource": "document",
- "issueIds": []
+ "issueIds": [
+  "PUB-0001",
+  "PUB-0036",
+  "PUB-0015"
+ ],
+ "issueSource": {
+  "PUB-0001": [
+   "rubric"
+  ],
+  "PUB-0036": [
+   "rubric"
+  ],
+  "PUB-0015": [
+   "rubric"
+  ]
+ }
 }

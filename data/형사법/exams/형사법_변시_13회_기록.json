@@ -48,5 +48,64 @@
   "CRI-0343",
   "CRI-0038",
   "CRI-0082"
- ]
+ ],
+ "issueSource": {
+  "CRI-0504": [
+   "commentary"
+  ],
+  "CRI-0204": [
+   "commentary"
+  ],
+  "CRI-0063": [
+   "commentary"
+  ],
+  "CRI-0213": [
+   "commentary"
+  ],
+  "CRI-0014": [
+   "commentary"
+  ],
+  "CRI-0059": [
+   "commentary"
+  ],
+  "CRI-0209": [
+   "commentary"
+  ],
+  "CRI-0079": [
+   "commentary"
+  ],
+  "CRI-0033": [
+   "commentary"
+  ],
+  "CRI-0004": [
+   "commentary"
+  ],
+  "CRI-0472": [
+   "commentary"
+  ],
+  "CRI-0149": [
+   "commentary"
+  ],
+  "CRI-0305": [
+   "commentary"
+  ],
+  "CRI-0544": [
+   "commentary"
+  ],
+  "CRI-0080": [
+   "commentary"
+  ],
+  "CRI-0224": [
+   "commentary"
+  ],
+  "CRI-0343": [
+   "commentary"
+  ],
+  "CRI-0038": [
+   "commentary"
+  ],
+  "CRI-0082": [
+   "commentary"
+  ]
+ }
 }

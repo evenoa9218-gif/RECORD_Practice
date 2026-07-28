@@ -13,5 +13,16 @@
   }
  ],
  "taskSource": "document",
- "issueIds": []
+ "issueIds": [
+  "CRI-0060",
+  "CRI-0146"
+ ],
+ "issueSource": {
+  "CRI-0060": [
+   "rubric"
+  ],
+  "CRI-0146": [
+   "rubric"
+  ]
+ }
 }

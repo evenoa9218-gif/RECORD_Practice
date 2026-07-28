@@ -27,5 +27,16 @@
   "CRI-0017",
   "CRI-0063",
   "CRI-0094"
- ]
+ ],
+ "issueSource": {
+  "CRI-0017": [
+   "commentary"
+  ],
+  "CRI-0063": [
+   "commentary"
+  ],
+  "CRI-0094": [
+   "commentary"
+  ]
+ }
 }

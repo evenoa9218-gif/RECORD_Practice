@@ -18,5 +18,28 @@
   }
  ],
  "taskSource": "points",
- "issueIds": []
+ "issueIds": [
+  "PUB-0004",
+  "PUB-0044",
+  "PUB-0015",
+  "PUB-0065",
+  "PUB-0407"
+ ],
+ "issueSource": {
+  "PUB-0004": [
+   "rubric"
+  ],
+  "PUB-0044": [
+   "rubric"
+  ],
+  "PUB-0015": [
+   "rubric"
+  ],
+  "PUB-0065": [
+   "rubric"
+  ],
+  "PUB-0407": [
+   "rubric"
+  ]
+ }
 }
