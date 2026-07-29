@@ -158,7 +158,7 @@ function List({subject, onOpen}){
             </select>
             {issue && <button className="btn" onClick={()=>setIssue("")}>필터 해제</button>}
             <span className="muted">
-              쟁점은 해설이 있는 {tagged}회차에만 붙어 있습니다</span>
+              쟁점 있는 회차 {tagged}개 (해설·채점기준표 기준)</span>
           </div>}
       </div>
 
@@ -390,7 +390,7 @@ function App(){
             {SUBJECTS.map(s=><option key={s} value={s}>{s}</option>)}
           </select>
           <button className="btn ghost" onClick={toggleTheme}>{theme==='dark'?'☀':'🌙'}</button>
-          <a className="btn ghost" href="/">나가기</a>
+          <a className="btn ghost" href="/" title="다른 앱 고르기">◀ 앱</a>
         </div>
       </div>
       <div className={"wrap"+(exam?" wide":"")}>
