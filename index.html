@@ -98,6 +98,10 @@ const { useState, useEffect } = React;
 
 const SUBJECTS = ["공법","민사법","형사법"];
 
+// AI 채점 Worker — 사례형과 같은 워커를 쓴다(시험 ID 꼬리 _기록 으로 갈린다).
+// 비워 두면 채점 버튼만 숨고 나머지는 그대로 돌아간다.
+const GRADER_URL = "https://case-grader.bar-exam.workers.dev";
+
 const mmss = s => `${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`;
 
 async function getJSON(url){
@@ -206,6 +210,7 @@ function Solve({subject, exam, onBack}){
   const [elapsed,setElapsed] = useState(0);
   const [pane,setPane] = useState("record"); // record | rubric
   const [saved,setSaved] = useState(false);
+  const [grades,setGrades] = useState({});   // 서면 키별 채점 상태
 
   // 과제를 못 뽑은 회차도 답안칸 하나로는 쓸 수 있어야 한다.
   const tasks = (d?.tasks?.length ? d.tasks : [{no:1,title:"답안",points:null}]);
@@ -256,11 +261,62 @@ function Solve({subject, exam, onBack}){
     setSaved(true);
   };
 
+  // AI 채점 — Worker가 SSE로 흘려보내는 피드백을 받아 쌓는다.
+  // 피드백 전문은 이 기기에만 남고(Store.record), 원격에는 점수·시간만 간다.
+  const runGrade = async()=>{
+    const text = (answers[key]||"").trim();
+    if(!text || !GRADER_URL || grades[key]?.running) return;
+    const put = v => setGrades(g=>({...g,[key]:{...(g[key]||{}),...v}}));
+    put({running:true, text:"", score:null, error:null});
+    try{
+      const res = await fetch(GRADER_URL, {
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body: JSON.stringify({subject, examId:exam.id, taskNo:cur.no, answer:text}),
+      });
+      if(!res.ok){
+        const msg = await res.json().catch(()=>({error:`서버 오류 ${res.status}`}));
+        put({running:false, error:msg.error||`서버 오류 ${res.status}`});
+        return;
+      }
+      const reader = res.body.getReader(), dec = new TextDecoder();
+      let buf = "", acc = "", errMsg = null;
+      for(;;){
+        const {value, done} = await reader.read();
+        if(done) break;
+        buf += dec.decode(value, {stream:true});
+        const lines = buf.split("\n\n"); buf = lines.pop();
+        for(const line of lines){
+          if(!line.startsWith("data: ")) continue;
+          let ev; try{ ev = JSON.parse(line.slice(6)); }catch{ continue; }
+          if(ev.t){ acc += ev.t; put({text:acc}); }
+          if(ev.error) errMsg = ev.error;
+        }
+      }
+      const m = acc.match(/\[\[SCORE:\s*(\d+)\s*\]\]/);
+      const score = m ? Number(m[1]) : null;
+      const bodyText = acc.replace(/\[\[SCORE:[^\]]*\]\]/g, "").trim();
+      put({running:false, text:bodyText, score, error:errMsg});
+      if(score !== null){
+        await Store.record({
+          subject, mode:"record", examId:exam.id,
+          label:`${exam.label} ${cur.title}`,
+          round:1, issueIds:exam.issueIds||[], score,
+          maxScore: cur.points || 100,
+          text, feedback:bodyText, seconds:elapsed,
+        });
+      }
+    }catch(e){
+      put({running:false, error:`채점 요청 실패: ${e.message}`});
+    }
+  };
+
   if(err) return <div className="card" style={{borderColor:'var(--no)'}}>{err}
     <div><button className="btn" style={{marginTop:10}} onClick={onBack}>목록으로</button></div></div>;
   if(!d) return <div className="card">불러오는 중…</div>;
 
   const written = tasks.filter(t=>(answers[`t${t.no}`]||"").trim()).length;
+  const grade = grades[key];
 
   return (
     <div>
@@ -330,11 +386,30 @@ function Solve({subject, exam, onBack}){
             <div className="row" style={{marginTop:9}}>
               <button className="btn pri" onClick={submit} disabled={!written}>
                 제출 · 기록 ({written}/{tasks.length})</button>
+              {GRADER_URL &&
+                <button className="btn" onClick={runGrade}
+                  disabled={!(answers[key]||"").trim() || grade?.running}>
+                  {grade?.running ? "채점 중…" : "AI 채점"}</button>}
               <button className="btn" onClick={async()=>{
                 setAnswer(key,""); await Store.clearDraft(`${exam.id}::${key}`);
               }}>이 서면 비우기</button>
             </div>
           </div>
+          {grade && (grade.text || grade.error || grade.running) &&
+            <div className="card">
+              <div className="row" style={{justifyContent:'space-between',marginBottom:8}}>
+                <strong>AI 채점 — {cur.title}</strong>
+                {grade.score !== null && grade.score !== undefined &&
+                  <span className="tag gold">{grade.score} / {cur.points || 100}점</span>}
+              </div>
+              {grade.error &&
+                <div className="pre" style={{color:'var(--no)',marginBottom:8}}>{grade.error}</div>}
+              <div className="pre" style={{fontSize:'13.8px'}}>{grade.text}
+                {grade.running && " ▌"}</div>
+              {!grade.running && grade.score !== null && grade.score !== undefined &&
+                <div className="muted" style={{marginTop:8}}>
+                  점수와 피드백이 이 기기의 기록에 저장되었습니다.</div>}
+            </div>}
         </div>
       </div>
     </div>
