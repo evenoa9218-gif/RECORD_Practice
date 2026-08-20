@@ -10,7 +10,6 @@
 <title>기록형 연습 — 변호사시험</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
 <script src="core/store.js"></script>
 <script>
 // 테마는 네 앱이 같은 키를 쓴다. 없으면 라이트.
@@ -93,391 +92,583 @@ textarea:focus{outline:none;border-color:var(--gold)}
 <body>
 <div id="root"><div class="empty">불러오는 중…</div></div>
 
-<script type="text/babel" data-presets="react">
-const { useState, useEffect } = React;
-
-const SUBJECTS = ["공법","민사법","형사법"];
+<script>
+const {
+  useState,
+  useEffect
+} = React;
+const SUBJECTS = ["공법", "민사법", "형사법"];
 
 // AI 채점 Worker — 사례형과 같은 워커를 쓴다(시험 ID 꼬리 _기록 으로 갈린다).
 // 비워 두면 채점 버튼만 숨고 나머지는 그대로 돌아간다.
 const GRADER_URL = "https://case-grader.bar-exam.workers.dev";
-
-const mmss = s => `${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`;
-
-async function getJSON(url){
+const mmss = s => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
+async function getJSON(url) {
   const r = await fetch(url);
-  if(!r.ok) throw new Error(`${url} — ${r.status}`);
+  if (!r.ok) throw new Error(`${url} — ${r.status}`);
   return r.json();
 }
 
 /* ── 목록 ───────────────────────────────────────────── */
-function List({subject, onOpen}){
-  const [idx,setIdx] = useState(null);
-  const [reg,setReg] = useState(null);      // 쟁점 레지스트리
-  const [err,setErr] = useState(null);
-  const [kind,setKind] = useState("전체");
-  const [issue,setIssue] = useState("");    // 쟁점 필터(빈 값이면 전체)
-  const [done,setDone] = useState({});
-
-  useEffect(()=>{
+function List({
+  subject,
+  onOpen
+}) {
+  const [idx, setIdx] = useState(null);
+  const [reg, setReg] = useState(null); // 쟁점 레지스트리
+  const [err, setErr] = useState(null);
+  const [kind, setKind] = useState("전체");
+  const [issue, setIssue] = useState(""); // 쟁점 필터(빈 값이면 전체)
+  const [done, setDone] = useState({});
+  useEffect(() => {
     let live = true;
-    setIdx(null); setErr(null); setIssue("");
-    getJSON(`data/${encodeURIComponent(subject)}/index.json`)
-      .then(d=>{ if(live) setIdx(d); })
-      .catch(e=>{ if(live) setErr(`목록을 불러오지 못했습니다: ${e.message}`); });
+    setIdx(null);
+    setErr(null);
+    setIssue("");
+    getJSON(`data/${encodeURIComponent(subject)}/index.json`).then(d => {
+      if (live) setIdx(d);
+    }).catch(e => {
+      if (live) setErr(`목록을 불러오지 못했습니다: ${e.message}`);
+    });
     // 쟁점은 없어도 앱은 돌아간다 — 실패해도 목록은 띄운다.
-    getJSON(`data/issues_${encodeURIComponent(subject)}.json`)
-      .then(d=>{ if(live) setReg(d); })
-      .catch(()=>{ if(live) setReg({issues:[]}); });
-    Store.getProgress(subject,1).then(p=>{ if(live) setDone(p||{}); });
-    return ()=>{ live = false; };
-  },[subject]);
-
-  if(err) return <div className="card" style={{borderColor:'var(--no)'}}>{err}</div>;
-  if(!idx) return <div className="card">불러오는 중…</div>;
-
-  const label = Object.fromEntries((reg?.issues||[]).map(i=>[i.id, i.label]));
-  const exams = idx.exams.filter(e=>
-    (kind==="전체" || e.kind===kind) &&
-    (!issue || (e.issueIds||[]).includes(issue)));
-  const doneCount = idx.exams.filter(e=>done[e.id]?.done).length;
-  const tagged = idx.exams.filter(e=>(e.issueIds||[]).length).length;
-
-  return (
-    <div>
-      <div className="card">
-        <div className="row" style={{justifyContent:'space-between'}}>
-          <div className="row">
-            {["전체","변시","모의"].map(k=>
-              <span key={k} className={"tag click"+(kind===k?" on":"")} onClick={()=>setKind(k)}>{k}</span>)}
-          </div>
-          <span className="muted">{idx.exams.length}회차 · 푼 것 {doneCount}</span>
-        </div>
-        {(reg?.issues||[]).length>0 &&
-          <div className="row" style={{marginTop:10}}>
-            <select className="btn" value={issue} onChange={e=>setIssue(e.target.value)}>
-              <option value="">쟁점 전체</option>
-              {reg.issues.map(i=>
-                <option key={i.id} value={i.id}>{i.label} ({i.examCount})</option>)}
-            </select>
-            {issue && <button className="btn" onClick={()=>setIssue("")}>필터 해제</button>}
-            <span className="muted">
-              쟁점 있는 회차 {tagged}개 (해설·채점기준표 기준)</span>
-          </div>}
-      </div>
-
-      {exams.map(e=>
-        <div key={e.id} className="card click" onClick={()=>onOpen(e)}>
-          <div className="row" style={{justifyContent:'space-between'}}>
-            <strong>{e.label}</strong>
-            <div className="row">
-              {done[e.id]?.done && <span className="tag ok">푼 것</span>}
-              {e.hasRubric
-                ? <span className="tag gold">채점기준표</span>
-                : <span className="tag">채점기준표 없음</span>}
-              {e.hasCommentary &&
-                <span className="tag ok">해설 {e.commentaryAuthors.join("·")}</span>}
-            </div>
-          </div>
-          <div className="row" style={{marginTop:7}}>
-            {e.tasks.length
-              ? e.tasks.map(t=>
-                  <span key={t.no} className="tag">
-                    {t.title}{t.points?` ${t.points}점`:""}
-                  </span>)
-              : <span className="muted">작성할 서면을 자동으로 찾지 못했습니다 — 기록에서 확인하세요</span>}
-            <span className="muted">· 기록 {Math.round(e.chars/1000)}천자</span>
-          </div>
-          {(e.issueIds||[]).length>0 &&
-            <div className="row" style={{marginTop:6}}>
-              {e.issueIds.slice(0,6).map(i=>
-                <span key={i} className={"tag"+(i===issue?" on":"")}>{label[i]||i}</span>)}
-              {e.issueIds.length>6 &&
-                <span className="muted">외 {e.issueIds.length-6}개</span>}
-            </div>}
-        </div>)}
-      {!exams.length && <div className="empty">해당하는 회차가 없습니다.</div>}
-    </div>
-  );
+    getJSON(`data/issues_${encodeURIComponent(subject)}.json`).then(d => {
+      if (live) setReg(d);
+    }).catch(() => {
+      if (live) setReg({
+        issues: []
+      });
+    });
+    Store.getProgress(subject, 1).then(p => {
+      if (live) setDone(p || {});
+    });
+    return () => {
+      live = false;
+    };
+  }, [subject]);
+  if (err) return /*#__PURE__*/React.createElement("div", {
+    className: "card",
+    style: {
+      borderColor: 'var(--no)'
+    }
+  }, err);
+  if (!idx) return /*#__PURE__*/React.createElement("div", {
+    className: "card"
+  }, "불러오는 중…");
+  const label = Object.fromEntries((reg?.issues || []).map(i => [i.id, i.label]));
+  const exams = idx.exams.filter(e => (kind === "전체" || e.kind === kind) && (!issue || (e.issueIds || []).includes(issue)));
+  const doneCount = idx.exams.filter(e => done[e.id]?.done).length;
+  const tagged = idx.exams.filter(e => (e.issueIds || []).length).length;
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      justifyContent: 'space-between'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "row"
+  }, ["전체", "변시", "모의"].map(k => /*#__PURE__*/React.createElement("span", {
+    key: k,
+    className: "tag click" + (kind === k ? " on" : ""),
+    onClick: () => setKind(k)
+  }, k))), /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, idx.exams.length, "회차 · 푼 것 ", doneCount)), (reg?.issues || []).length > 0 && /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      marginTop: 10
+    }
+  }, /*#__PURE__*/React.createElement("select", {
+    className: "btn",
+    value: issue,
+    onChange: e => setIssue(e.target.value)
+  }, /*#__PURE__*/React.createElement("option", {
+    value: ""
+  }, "쟁점 전체"), reg.issues.map(i => /*#__PURE__*/React.createElement("option", {
+    key: i.id,
+    value: i.id
+  }, i.label, " (", i.examCount, ")"))), issue && /*#__PURE__*/React.createElement("button", {
+    className: "btn",
+    onClick: () => setIssue("")
+  }, "필터 해제"), /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, "쟁점 있는 회차 ", tagged, "개 (해설·채점기준표 기준)"))), exams.map(e => /*#__PURE__*/React.createElement("div", {
+    key: e.id,
+    className: "card click",
+    onClick: () => onOpen(e)
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      justifyContent: 'space-between'
+    }
+  }, /*#__PURE__*/React.createElement("strong", null, e.label), /*#__PURE__*/React.createElement("div", {
+    className: "row"
+  }, done[e.id]?.done && /*#__PURE__*/React.createElement("span", {
+    className: "tag ok"
+  }, "푼 것"), e.hasRubric ? /*#__PURE__*/React.createElement("span", {
+    className: "tag gold"
+  }, "채점기준표") : /*#__PURE__*/React.createElement("span", {
+    className: "tag"
+  }, "채점기준표 없음"), e.hasCommentary && /*#__PURE__*/React.createElement("span", {
+    className: "tag ok"
+  }, "해설 ", e.commentaryAuthors.join("·")))), /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      marginTop: 7
+    }
+  }, e.tasks.length ? e.tasks.map(t => /*#__PURE__*/React.createElement("span", {
+    key: t.no,
+    className: "tag"
+  }, t.title, t.points ? ` ${t.points}점` : "")) : /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, "작성할 서면을 자동으로 찾지 못했습니다 — 기록에서 확인하세요"), /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, "· 기록 ", Math.round(e.chars / 1000), "천자")), (e.issueIds || []).length > 0 && /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      marginTop: 6
+    }
+  }, e.issueIds.slice(0, 6).map(i => /*#__PURE__*/React.createElement("span", {
+    key: i,
+    className: "tag" + (i === issue ? " on" : "")
+  }, label[i] || i)), e.issueIds.length > 6 && /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, "외 ", e.issueIds.length - 6, "개")))), !exams.length && /*#__PURE__*/React.createElement("div", {
+    className: "empty"
+  }, "해당하는 회차가 없습니다."));
 }
 
 /* ── 풀이 ───────────────────────────────────────────── */
-function Solve({subject, exam, onBack}){
-  const [d,setD] = useState(null);
-  const [err,setErr] = useState(null);
-  const [tab,setTab] = useState(0);          // 과제 index
-  const [answers,setAnswers] = useState({});
-  const [elapsed,setElapsed] = useState(0);
-  const [pane,setPane] = useState("record"); // record | rubric
-  const [saved,setSaved] = useState(false);
-  const [grades,setGrades] = useState({});   // 서면 키별 채점 상태
+function Solve({
+  subject,
+  exam,
+  onBack
+}) {
+  const [d, setD] = useState(null);
+  const [err, setErr] = useState(null);
+  const [tab, setTab] = useState(0); // 과제 index
+  const [answers, setAnswers] = useState({});
+  const [elapsed, setElapsed] = useState(0);
+  const [pane, setPane] = useState("record"); // record | rubric
+  const [saved, setSaved] = useState(false);
+  const [grades, setGrades] = useState({}); // 서면 키별 채점 상태
 
   // 과제를 못 뽑은 회차도 답안칸 하나로는 쓸 수 있어야 한다.
-  const tasks = (d?.tasks?.length ? d.tasks : [{no:1,title:"답안",points:null}]);
-  const cur = tasks[Math.min(tab,tasks.length-1)];
+  const tasks = d?.tasks?.length ? d.tasks : [{
+    no: 1,
+    title: "답안",
+    points: null
+  }];
+  const cur = tasks[Math.min(tab, tasks.length - 1)];
   const key = `t${cur.no}`;
-
-  useEffect(()=>{
+  useEffect(() => {
     let live = true;
-    getJSON(`data/${encodeURIComponent(subject)}/exams/${exam.id}.json`)
-      .then(async j=>{
-        if(!live) return;
-        setD(j);
-        const list = j.tasks?.length ? j.tasks : [{no:1}];
-        const drafts = {};
-        for(const t of list){
-          const v = await Store.getDraft(`${exam.id}::t${t.no}`);
-          if(v) drafts[`t${t.no}`] = v;
-        }
-        if(live) setAnswers(drafts);
-      })
-      .catch(e=>{ if(live) setErr(`문제를 불러오지 못했습니다: ${e.message}`); });
-    return ()=>{ live = false; };
-  },[subject,exam.id]);
-
-  useEffect(()=>{
-    const t = setInterval(()=>setElapsed(s=>s+1),1000);
-    return ()=>clearInterval(t);
-  },[]);
-
-  const setAnswer = (k,v)=>{
-    setAnswers(a=>({...a,[k]:v})); setSaved(false);
+    getJSON(`data/${encodeURIComponent(subject)}/exams/${exam.id}.json`).then(async j => {
+      if (!live) return;
+      setD(j);
+      const list = j.tasks?.length ? j.tasks : [{
+        no: 1
+      }];
+      const drafts = {};
+      for (const t of list) {
+        const v = await Store.getDraft(`${exam.id}::t${t.no}`);
+        if (v) drafts[`t${t.no}`] = v;
+      }
+      if (live) setAnswers(drafts);
+    }).catch(e => {
+      if (live) setErr(`문제를 불러오지 못했습니다: ${e.message}`);
+    });
+    return () => {
+      live = false;
+    };
+  }, [subject, exam.id]);
+  useEffect(() => {
+    const t = setInterval(() => setElapsed(s => s + 1), 1000);
+    return () => clearInterval(t);
+  }, []);
+  const setAnswer = (k, v) => {
+    setAnswers(a => ({
+      ...a,
+      [k]: v
+    }));
+    setSaved(false);
     clearTimeout(setAnswer._t);
-    setAnswer._t = setTimeout(()=>Store.setDraft(`${exam.id}::${k}`, v), 600);
+    setAnswer._t = setTimeout(() => Store.setDraft(`${exam.id}::${k}`, v), 600);
   };
-
-  const submit = async()=>{
-    const parts = tasks.map(t=>{
-      const v = (answers[`t${t.no}`]||"").trim();
+  const submit = async () => {
+    const parts = tasks.map(t => {
+      const v = (answers[`t${t.no}`] || "").trim();
       return v ? `【${t.title}】\n${v}` : null;
     }).filter(Boolean);
-    if(!parts.length) return;
+    if (!parts.length) return;
     await Store.record({
-      subject, mode:"record", examId:exam.id, label:exam.label,
-      round:1, issueIds:exam.issueIds||[], text:parts.join("\n\n"), seconds:elapsed,
+      subject,
+      mode: "record",
+      examId: exam.id,
+      label: exam.label,
+      round: 1,
+      issueIds: exam.issueIds || [],
+      text: parts.join("\n\n"),
+      seconds: elapsed
     });
-    const p = await Store.getProgress(subject,1);
-    await Store.setProgress(subject,1,{...p,[exam.id]:{done:true,at:Date.now()}});
+    const p = await Store.getProgress(subject, 1);
+    await Store.setProgress(subject, 1, {
+      ...p,
+      [exam.id]: {
+        done: true,
+        at: Date.now()
+      }
+    });
     setSaved(true);
   };
 
   // AI 채점 — Worker가 SSE로 흘려보내는 피드백을 받아 쌓는다.
   // 피드백 전문은 이 기기에만 남고(Store.record), 원격에는 점수·시간만 간다.
-  const runGrade = async()=>{
-    const text = (answers[key]||"").trim();
-    if(!text || !GRADER_URL || grades[key]?.running) return;
-    const put = v => setGrades(g=>({...g,[key]:{...(g[key]||{}),...v}}));
-    put({running:true, text:"", score:null, error:null});
-    try{
+  const runGrade = async () => {
+    const text = (answers[key] || "").trim();
+    if (!text || !GRADER_URL || grades[key]?.running) return;
+    const put = v => setGrades(g => ({
+      ...g,
+      [key]: {
+        ...(g[key] || {}),
+        ...v
+      }
+    }));
+    put({
+      running: true,
+      text: "",
+      score: null,
+      error: null
+    });
+    try {
       const res = await fetch(GRADER_URL, {
-        method:"POST",
-        headers:{"Content-Type":"application/json"},
-        body: JSON.stringify({subject, examId:exam.id, taskNo:cur.no, answer:text}),
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          subject,
+          examId: exam.id,
+          taskNo: cur.no,
+          answer: text
+        })
       });
-      if(!res.ok){
-        const msg = await res.json().catch(()=>({error:`서버 오류 ${res.status}`}));
-        put({running:false, error:msg.error||`서버 오류 ${res.status}`});
+      if (!res.ok) {
+        const msg = await res.json().catch(() => ({
+          error: `서버 오류 ${res.status}`
+        }));
+        put({
+          running: false,
+          error: msg.error || `서버 오류 ${res.status}`
+        });
         return;
       }
-      const reader = res.body.getReader(), dec = new TextDecoder();
-      let buf = "", acc = "", errMsg = null;
-      for(;;){
-        const {value, done} = await reader.read();
-        if(done) break;
-        buf += dec.decode(value, {stream:true});
-        const lines = buf.split("\n\n"); buf = lines.pop();
-        for(const line of lines){
-          if(!line.startsWith("data: ")) continue;
-          let ev; try{ ev = JSON.parse(line.slice(6)); }catch{ continue; }
-          if(ev.t){ acc += ev.t; put({text:acc}); }
-          if(ev.error) errMsg = ev.error;
+      const reader = res.body.getReader(),
+        dec = new TextDecoder();
+      let buf = "",
+        acc = "",
+        errMsg = null;
+      for (;;) {
+        const {
+          value,
+          done
+        } = await reader.read();
+        if (done) break;
+        buf += dec.decode(value, {
+          stream: true
+        });
+        const lines = buf.split("\n\n");
+        buf = lines.pop();
+        for (const line of lines) {
+          if (!line.startsWith("data: ")) continue;
+          let ev;
+          try {
+            ev = JSON.parse(line.slice(6));
+          } catch {
+            continue;
+          }
+          if (ev.t) {
+            acc += ev.t;
+            put({
+              text: acc
+            });
+          }
+          if (ev.error) errMsg = ev.error;
         }
       }
       const m = acc.match(/\[\[SCORE:\s*(\d+)\s*\]\]/);
       const score = m ? Number(m[1]) : null;
       const bodyText = acc.replace(/\[\[SCORE:[^\]]*\]\]/g, "").trim();
-      put({running:false, text:bodyText, score, error:errMsg});
-      if(score !== null){
+      put({
+        running: false,
+        text: bodyText,
+        score,
+        error: errMsg
+      });
+      if (score !== null) {
         await Store.record({
-          subject, mode:"record", examId:exam.id,
-          label:`${exam.label} ${cur.title}`,
-          round:1, issueIds:exam.issueIds||[], score,
+          subject,
+          mode: "record",
+          examId: exam.id,
+          label: `${exam.label} ${cur.title}`,
+          round: 1,
+          issueIds: exam.issueIds || [],
+          score,
           maxScore: cur.points || 100,
-          text, feedback:bodyText, seconds:elapsed,
+          text,
+          feedback: bodyText,
+          seconds: elapsed
         });
       }
-    }catch(e){
-      put({running:false, error:`채점 요청 실패: ${e.message}`});
+    } catch (e) {
+      put({
+        running: false,
+        error: `채점 요청 실패: ${e.message}`
+      });
     }
   };
-
-  if(err) return <div className="card" style={{borderColor:'var(--no)'}}>{err}
-    <div><button className="btn" style={{marginTop:10}} onClick={onBack}>목록으로</button></div></div>;
-  if(!d) return <div className="card">불러오는 중…</div>;
-
-  const written = tasks.filter(t=>(answers[`t${t.no}`]||"").trim()).length;
+  if (err) return /*#__PURE__*/React.createElement("div", {
+    className: "card",
+    style: {
+      borderColor: 'var(--no)'
+    }
+  }, err, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("button", {
+    className: "btn",
+    style: {
+      marginTop: 10
+    },
+    onClick: onBack
+  }, "목록으로")));
+  if (!d) return /*#__PURE__*/React.createElement("div", {
+    className: "card"
+  }, "불러오는 중…");
+  const written = tasks.filter(t => (answers[`t${t.no}`] || "").trim()).length;
   const grade = grades[key];
-
-  return (
-    <div>
-      <div className="row" style={{justifyContent:'space-between',marginBottom:11}}>
-        <button className="btn" onClick={onBack}>← 목록</button>
-        <div className="row">
-          <span className="muted">경과 {mmss(elapsed)}</span>
-          <span className="muted">· 작성 {written}/{tasks.length}</span>
-          {saved && <span className="tag ok">기록됨</span>}
-        </div>
-      </div>
-
-      <div className="solve">
-        {/* 왼쪽: 기록 */}
-        <div className="col">
-          <div className="card">
-            <div className="tabs" style={{marginBottom:10}}>
-              <div className={"tab"+(pane==="record"?" on":"")} onClick={()=>setPane("record")}>기록</div>
-              {d.rubricText &&
-                <div className={"tab"+(pane==="rubric"?" on":"")} onClick={()=>setPane("rubric")}>채점기준표</div>}
-              {(d.commentaries||[]).length>0 &&
-                <div className={"tab"+(pane==="comm"?" on":"")} onClick={()=>setPane("comm")}>
-                  해설 ({d.commentaries.length})</div>}
-            </div>
-            {pane==="record" && <>
-              {d.problemBlock &&
-                <div className="card" style={{background:'var(--sf2)',marginBottom:11}}>
-                  <div className="title">문제</div>
-                  <div className="pre">{d.problemBlock}</div>
-                </div>}
-              <div className="pre">{d.problemText}</div>
-            </>}
-            {pane==="rubric" && (d.rubricText
-              ? <div className="pre">{d.rubricText}</div>
-              : <div className="empty">이 회차는 채점기준표가 공개되지 않았습니다.</div>)}
-            {pane==="comm" && (d.commentaries||[]).map((c,i)=>
-              <div key={i} style={{marginBottom:16}}>
-                <div className="row" style={{marginBottom:7}}>
-                  <span className="tag gold">{c.author}</span>
-                  <span className="muted">{c.title} · {c.pageCount}쪽</span>
-                </div>
-                <div className="pre">{c.text}</div>
-                {c.truncated &&
-                  <div className="muted" style={{marginTop:7}}>
-                    분량이 많아 앞부분만 실었습니다.</div>}
-              </div>)}
-          </div>
-        </div>
-
-        {/* 오른쪽: 답안 */}
-        <div className="col">
-          <div className="card">
-            {tasks.length>1 &&
-              <div className="tabs">
-                {tasks.map((t,i)=>
-                  <div key={t.no} className={"tab"+(i===tab?" on":"")} onClick={()=>setTab(i)}>
-                    {t.title}{t.points?` (${t.points}점)`:""}
-                    {(answers[`t${t.no}`]||"").trim() && " ✓"}
-                  </div>)}
-              </div>}
-            <div className="row" style={{justifyContent:'space-between',marginBottom:8}}>
-              <strong>{cur.title}{cur.points?` · ${cur.points}점`:""}</strong>
-              <span className="muted">{(answers[key]||"").trim().length}자</span>
-            </div>
-            <textarea value={answers[key]||""} placeholder="여기에 서면을 작성하세요."
-              onChange={e=>setAnswer(key, e.target.value)} />
-            <div className="row" style={{marginTop:9}}>
-              <button className="btn pri" onClick={submit} disabled={!written}>
-                제출 · 기록 ({written}/{tasks.length})</button>
-              {GRADER_URL &&
-                <button className="btn" onClick={runGrade}
-                  disabled={!(answers[key]||"").trim() || grade?.running}>
-                  {grade?.running ? "채점 중…" : "AI 채점"}</button>}
-              <button className="btn" onClick={async()=>{
-                setAnswer(key,""); await Store.clearDraft(`${exam.id}::${key}`);
-              }}>이 서면 비우기</button>
-            </div>
-          </div>
-          {grade && (grade.text || grade.error || grade.running) &&
-            <div className="card">
-              <div className="row" style={{justifyContent:'space-between',marginBottom:8}}>
-                <strong>AI 채점 — {cur.title}</strong>
-                {grade.score !== null && grade.score !== undefined &&
-                  <span className="tag gold">{grade.score} / {cur.points || 100}점</span>}
-              </div>
-              {grade.error &&
-                <div className="pre" style={{color:'var(--no)',marginBottom:8}}>{grade.error}</div>}
-              <div className="pre" style={{fontSize:'13.8px'}}>{grade.text}
-                {grade.running && " ▌"}</div>
-              {!grade.running && grade.score !== null && grade.score !== undefined &&
-                <div className="muted" style={{marginTop:8}}>
-                  점수와 피드백이 이 기기의 기록에 저장되었습니다.</div>}
-            </div>}
-        </div>
-      </div>
-    </div>
-  );
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      justifyContent: 'space-between',
+      marginBottom: 11
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn",
+    onClick: onBack
+  }, "← 목록"), /*#__PURE__*/React.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, "경과 ", mmss(elapsed)), /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, "· 작성 ", written, "/", tasks.length), saved && /*#__PURE__*/React.createElement("span", {
+    className: "tag ok"
+  }, "기록됨"))), /*#__PURE__*/React.createElement("div", {
+    className: "solve"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "tabs",
+    style: {
+      marginBottom: 10
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "tab" + (pane === "record" ? " on" : ""),
+    onClick: () => setPane("record")
+  }, "기록"), d.rubricText && /*#__PURE__*/React.createElement("div", {
+    className: "tab" + (pane === "rubric" ? " on" : ""),
+    onClick: () => setPane("rubric")
+  }, "채점기준표"), (d.commentaries || []).length > 0 && /*#__PURE__*/React.createElement("div", {
+    className: "tab" + (pane === "comm" ? " on" : ""),
+    onClick: () => setPane("comm")
+  }, "해설 (", d.commentaries.length, ")")), pane === "record" && /*#__PURE__*/React.createElement(React.Fragment, null, d.problemBlock && /*#__PURE__*/React.createElement("div", {
+    className: "card",
+    style: {
+      background: 'var(--sf2)',
+      marginBottom: 11
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "title"
+  }, "문제"), /*#__PURE__*/React.createElement("div", {
+    className: "pre"
+  }, d.problemBlock)), /*#__PURE__*/React.createElement("div", {
+    className: "pre"
+  }, d.problemText)), pane === "rubric" && (d.rubricText ? /*#__PURE__*/React.createElement("div", {
+    className: "pre"
+  }, d.rubricText) : /*#__PURE__*/React.createElement("div", {
+    className: "empty"
+  }, "이 회차는 채점기준표가 공개되지 않았습니다.")), pane === "comm" && (d.commentaries || []).map((c, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    style: {
+      marginBottom: 16
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      marginBottom: 7
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "tag gold"
+  }, c.author), /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, c.title, " · ", c.pageCount, "쪽")), /*#__PURE__*/React.createElement("div", {
+    className: "pre"
+  }, c.text), c.truncated && /*#__PURE__*/React.createElement("div", {
+    className: "muted",
+    style: {
+      marginTop: 7
+    }
+  }, "분량이 많아 앞부분만 실었습니다."))))), /*#__PURE__*/React.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "card"
+  }, tasks.length > 1 && /*#__PURE__*/React.createElement("div", {
+    className: "tabs"
+  }, tasks.map((t, i) => /*#__PURE__*/React.createElement("div", {
+    key: t.no,
+    className: "tab" + (i === tab ? " on" : ""),
+    onClick: () => setTab(i)
+  }, t.title, t.points ? ` (${t.points}점)` : "", (answers[`t${t.no}`] || "").trim() && " ✓"))), /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      justifyContent: 'space-between',
+      marginBottom: 8
+    }
+  }, /*#__PURE__*/React.createElement("strong", null, cur.title, cur.points ? ` · ${cur.points}점` : ""), /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, (answers[key] || "").trim().length, "자")), /*#__PURE__*/React.createElement("textarea", {
+    value: answers[key] || "",
+    placeholder: "여기에 서면을 작성하세요.",
+    onChange: e => setAnswer(key, e.target.value)
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      marginTop: 9
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn pri",
+    onClick: submit,
+    disabled: !written
+  }, "제출 · 기록 (", written, "/", tasks.length, ")"), GRADER_URL && /*#__PURE__*/React.createElement("button", {
+    className: "btn",
+    onClick: runGrade,
+    disabled: !(answers[key] || "").trim() || grade?.running
+  }, grade?.running ? "채점 중…" : "AI 채점"), /*#__PURE__*/React.createElement("button", {
+    className: "btn",
+    onClick: async () => {
+      setAnswer(key, "");
+      await Store.clearDraft(`${exam.id}::${key}`);
+    }
+  }, "이 서면 비우기"))), grade && (grade.text || grade.error || grade.running) && /*#__PURE__*/React.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      justifyContent: 'space-between',
+      marginBottom: 8
+    }
+  }, /*#__PURE__*/React.createElement("strong", null, "AI 채점 — ", cur.title), grade.score !== null && grade.score !== undefined && /*#__PURE__*/React.createElement("span", {
+    className: "tag gold"
+  }, grade.score, " / ", cur.points || 100, "점")), grade.error && /*#__PURE__*/React.createElement("div", {
+    className: "pre",
+    style: {
+      color: 'var(--no)',
+      marginBottom: 8
+    }
+  }, grade.error), /*#__PURE__*/React.createElement("div", {
+    className: "pre",
+    style: {
+      fontSize: '13.8px'
+    }
+  }, grade.text, grade.running && " ▌"), !grade.running && grade.score !== null && grade.score !== undefined && /*#__PURE__*/React.createElement("div", {
+    className: "muted",
+    style: {
+      marginTop: 8
+    }
+  }, "점수와 피드백이 이 기기의 기록에 저장되었습니다.")))));
 }
 
 /* ── 앱 ─────────────────────────────────────────────── */
-function App(){
+function App() {
   // Store.getUser()는 로그인 전에도 null을 준다. "아직 안 읽음"과 구분하려면
   // 준비 플래그가 따로 있어야 한다 — 없으면 로그인 안내가 못 뜨고 계속 로딩이다.
-  const [ready,setReady] = useState(false);
-  const [uid,setUid] = useState(null);
-  const [subject,setSubject] = useState(
-    ()=>localStorage.getItem('record_subject') || SUBJECTS[0]);
-  const [exam,setExam] = useState(null);
-  const [theme,setTheme] = useState(
-    ()=>document.documentElement.getAttribute('data-theme'));
-
-  useEffect(()=>{
-    Store.init({}).then(()=>{ setUid(Store.getUser()); setReady(true); })
-      .catch(()=>setReady(true));
-  },[]);
-  useEffect(()=>{ localStorage.setItem('record_subject', subject); },[subject]);
-
-  const toggleTheme = ()=>{
-    const t = theme==='dark' ? 'light' : 'dark';
+  const [ready, setReady] = useState(false);
+  const [uid, setUid] = useState(null);
+  const [subject, setSubject] = useState(() => localStorage.getItem('record_subject') || SUBJECTS[0]);
+  const [exam, setExam] = useState(null);
+  const [theme, setTheme] = useState(() => document.documentElement.getAttribute('data-theme'));
+  useEffect(() => {
+    Store.init({}).then(() => {
+      setUid(Store.getUser());
+      setReady(true);
+    }).catch(() => setReady(true));
+  }, []);
+  useEffect(() => {
+    localStorage.setItem('record_subject', subject);
+  }, [subject]);
+  const toggleTheme = () => {
+    const t = theme === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', t);
-    localStorage.setItem('cp_theme', t); setTheme(t);
+    localStorage.setItem('cp_theme', t);
+    setTheme(t);
   };
-
-  if(!ready) return <div className="empty">불러오는 중…</div>;
-  if(!uid) return (
-    <div className="wrap">
-      <div className="card" style={{marginTop:60,textAlign:'center'}}>
-        <div className="title">허브에서 로그인해 주세요</div>
-        <div className="muted" style={{marginBottom:12}}>
-          네 앱이 같은 사용자 ID를 씁니다.</div>
-        <a className="btn pri" href="/">허브로 이동</a>
-      </div>
-    </div>
-  );
-
-  return (
-    <div>
-      <div className="hd">
-        <div>
-          <h1>기록형 연습</h1>
-          <div className="sub">{subject} · 변호사시험 · 법전협 모의고사</div>
-        </div>
-        <div className="row">
-          <select className="btn" value={subject}
-            onChange={e=>{ setSubject(e.target.value); setExam(null); }}>
-            {SUBJECTS.map(s=><option key={s} value={s}>{s}</option>)}
-          </select>
-          <button className="btn ghost" onClick={toggleTheme}>{theme==='dark'?'☀':'🌙'}</button>
-          <a className="btn ghost" href="/" title="다른 앱 고르기">◀ 앱</a>
-        </div>
-      </div>
-      <div className={"wrap"+(exam?" wide":"")}>
-        {exam
-          ? <Solve subject={subject} exam={exam} onBack={()=>setExam(null)} />
-          : <List subject={subject} onOpen={setExam} />}
-      </div>
-    </div>
-  );
+  if (!ready) return /*#__PURE__*/React.createElement("div", {
+    className: "empty"
+  }, "불러오는 중…");
+  if (!uid) return /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "card",
+    style: {
+      marginTop: 60,
+      textAlign: 'center'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "title"
+  }, "허브에서 로그인해 주세요"), /*#__PURE__*/React.createElement("div", {
+    className: "muted",
+    style: {
+      marginBottom: 12
+    }
+  }, "네 앱이 같은 사용자 ID를 씁니다."), /*#__PURE__*/React.createElement("a", {
+    className: "btn pri",
+    href: "/"
+  }, "허브로 이동")));
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "hd"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "기록형 연습"), /*#__PURE__*/React.createElement("div", {
+    className: "sub"
+  }, subject, " · 변호사시험 · 법전협 모의고사")), /*#__PURE__*/React.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/React.createElement("select", {
+    className: "btn",
+    value: subject,
+    onChange: e => {
+      setSubject(e.target.value);
+      setExam(null);
+    }
+  }, SUBJECTS.map(s => /*#__PURE__*/React.createElement("option", {
+    key: s,
+    value: s
+  }, s))), /*#__PURE__*/React.createElement("button", {
+    className: "btn ghost",
+    onClick: toggleTheme
+  }, theme === 'dark' ? '☀' : '🌙'), /*#__PURE__*/React.createElement("a", {
+    className: "btn ghost",
+    href: "/",
+    title: "다른 앱 고르기"
+  }, "◀ 앱"))), /*#__PURE__*/React.createElement("div", {
+    className: "wrap" + (exam ? " wide" : "")
+  }, exam ? /*#__PURE__*/React.createElement(Solve, {
+    subject: subject,
+    exam: exam,
+    onBack: () => setExam(null)
+  }) : /*#__PURE__*/React.createElement(List, {
+    subject: subject,
+    onOpen: setExam
+  })));
 }
-
-ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+ReactDOM.createRoot(document.getElementById('root')).render(/*#__PURE__*/React.createElement(App, null));
 </script>
 </body>
 </html>
