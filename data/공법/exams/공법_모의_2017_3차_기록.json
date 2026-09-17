@@ -9,20 +9,23 @@
   {
    "no": 1,
    "title": "소장",
-   "points": 32
+   "points": 32,
+   "pointsSource": "지시문 가.소장(32점) 나.헌법소원심판청구서(50점) / 기준표 \"❷문 (18점)\" 준비서면"
   },
   {
    "no": 2,
    "title": "헌법소원심판청구서",
-   "points": 50
+   "points": 50,
+   "pointsSource": "지시문 가.소장(32점) 나.헌법소원심판청구서(50점) / 기준표 \"❷문 (18점)\" 준비서면"
   },
   {
    "no": 3,
    "title": "준비서면",
-   "points": null
+   "points": 18,
+   "pointsSource": "지시문 가.소장(32점) 나.헌법소원심판청구서(50점) / 기준표 \"❷문 (18점)\" 준비서면"
   }
  ],
- "taskSource": "points",
+ "taskSource": "fill_task_points",
  "issueIds": [],
  "issueSource": {}
 }

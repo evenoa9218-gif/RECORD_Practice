@@ -9,20 +9,23 @@
   {
    "no": 1,
    "title": "소장",
-   "points": null
+   "points": 40,
+   "pointsSource": "지시문 (40점)"
   },
   {
    "no": 2,
    "title": "준비서면",
-   "points": null
+   "points": 10,
+   "pointsSource": "지시문 (10점)"
   },
   {
    "no": 3,
    "title": "헌법소원심판청구서",
-   "points": null
+   "points": 50,
+   "pointsSource": "지시문 (50점)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [],
  "issueSource": {}
 }

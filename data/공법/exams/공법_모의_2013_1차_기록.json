@@ -9,10 +9,17 @@
   {
    "no": 1,
    "title": "소장",
-   "points": null
+   "points": 40,
+   "pointsSource": "지시문 (40점)"
+  },
+  {
+   "no": 2,
+   "title": "의견서",
+   "points": 60,
+   "pointsSource": "지시문 (60점)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "PUB-0015",
   "PUB-0335",

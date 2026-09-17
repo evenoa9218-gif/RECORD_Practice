@@ -9,15 +9,17 @@
   {
    "no": 1,
    "title": "헌법소원심판청구서",
-   "points": null
+   "points": 80,
+   "pointsSource": "지시문 (80점)"
   },
   {
    "no": 2,
    "title": "준비서면",
-   "points": null
+   "points": 20,
+   "pointsSource": "지시문 (20점)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "PUB-0030",
   "PUB-0407",

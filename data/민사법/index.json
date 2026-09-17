@@ -11,11 +11,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 11245,
    "hasCommentary": true,
@@ -47,11 +47,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 15632,
    "hasCommentary": true,
@@ -87,11 +87,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 18340,
    "hasCommentary": true,
@@ -139,16 +139,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
-    },
-    {
-     "no": 2,
-     "title": "답변서",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 17621,
    "hasCommentary": true,
@@ -191,11 +186,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 16612,
    "hasCommentary": true,
@@ -236,11 +231,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 13666,
    "hasCommentary": true,
@@ -283,11 +278,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 13299,
    "hasCommentary": true,
@@ -332,11 +327,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 9346,
    "hasCommentary": true,
@@ -361,9 +356,20 @@
    "kind": "변시",
    "year": "3",
    "round": "",
-   "tasks": [],
-   "totalPoints": null,
-   "taskSource": "none",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 155
+    },
+    {
+     "no": 2,
+     "title": "답변서",
+     "points": 20
+    }
+   ],
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 10144,
    "hasCommentary": true,
@@ -399,11 +405,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 9787,
    "hasCommentary": true,
@@ -435,11 +441,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 15979,
    "hasCommentary": true,
@@ -478,11 +484,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 15312,
    "hasCommentary": true,
@@ -521,11 +527,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 14105,
    "hasCommentary": true,
@@ -556,11 +562,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 15133,
    "hasCommentary": true,
@@ -588,11 +594,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 15325,
    "hasCommentary": true,
@@ -640,11 +646,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12269,
    "hasCommentary": false,
@@ -667,18 +673,13 @@
    "round": "2",
    "tasks": [
     {
-     "no": 1,
-     "title": "소장",
-     "points": null
-    },
-    {
      "no": 2,
      "title": "답변서",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12603,
    "hasCommentary": false,
@@ -706,11 +707,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 6140,
    "hasCommentary": false,
@@ -731,11 +732,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11608,
    "hasCommentary": false,
@@ -762,11 +763,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 13217,
    "hasCommentary": false,
@@ -786,11 +787,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10784,
    "hasCommentary": false,
@@ -814,11 +815,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11588,
    "hasCommentary": false,
@@ -842,11 +843,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12639,
    "hasCommentary": false,
@@ -873,11 +874,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 6139,
    "hasCommentary": false,
@@ -898,11 +899,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11775,
    "hasCommentary": false,
@@ -925,11 +926,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10927,
    "hasCommentary": false,
@@ -955,11 +956,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9488,
    "hasCommentary": false,
@@ -986,11 +987,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9617,
    "hasCommentary": false,
@@ -1019,11 +1020,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10896,
    "hasCommentary": false,
@@ -1048,11 +1049,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12355,
    "hasCommentary": false,
@@ -1077,11 +1078,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12982,
    "hasCommentary": false,
@@ -1110,11 +1111,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10891,
    "hasCommentary": false,
@@ -1137,11 +1138,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9115,
    "hasCommentary": false,
@@ -1166,11 +1167,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 16869,
    "hasCommentary": false,
@@ -1194,11 +1195,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 17433,
    "hasCommentary": false,
@@ -1223,11 +1224,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11008,
    "hasCommentary": false,
@@ -1255,11 +1256,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10172,
    "hasCommentary": false,
@@ -1282,11 +1283,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12930,
    "hasCommentary": false,
@@ -1316,11 +1317,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9758,
    "hasCommentary": false,
@@ -1349,11 +1350,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9241,
    "hasCommentary": false,
@@ -1376,11 +1377,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12773,
    "hasCommentary": false,
@@ -1408,11 +1409,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12696,
    "hasCommentary": false,
@@ -1442,11 +1443,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 14068,
    "hasCommentary": false,
@@ -1470,11 +1471,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 15176,
    "hasCommentary": false,
@@ -1501,11 +1502,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 16292,
    "hasCommentary": false,
@@ -1536,11 +1537,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 13777,
    "hasCommentary": false,
@@ -1569,11 +1570,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 15429,
    "hasCommentary": false,
@@ -1604,11 +1605,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 14443,
    "hasCommentary": false,
@@ -1641,11 +1642,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 14766,
    "hasCommentary": false,
@@ -1674,11 +1675,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 17741,
    "hasCommentary": false,
@@ -1703,11 +1704,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 22743,
    "hasCommentary": false,
@@ -1741,11 +1742,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 15138,
    "hasCommentary": false,
@@ -1778,11 +1779,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 20749,
    "hasCommentary": false,
@@ -1811,11 +1812,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9762,
    "hasCommentary": false,
@@ -1844,11 +1845,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 175
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 175,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 14290,
    "hasCommentary": false,

@@ -9,10 +9,11 @@
   {
    "no": 1,
    "title": "변론요지서",
-   "points": null
+   "points": 100,
+   "pointsSource": "만점에서 뺀 나머지"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "CRI-0012",
   "CRI-0204",

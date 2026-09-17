@@ -9,15 +9,23 @@
   {
    "no": 1,
    "title": "행정소장",
-   "points": 50
+   "points": 35,
+   "pointsSource": "지시문 Ⅰ.행정소장(35점) 및 행정심판청구서(15점) Ⅱ.헌법소원심판청구서(50점)"
+  },
+  {
+   "no": 3,
+   "title": "행정심판청구서",
+   "points": 15,
+   "pointsSource": "지시문 Ⅰ.행정소장(35점) 및 행정심판청구서(15점) Ⅱ.헌법소원심판청구서(50점)"
   },
   {
    "no": 2,
    "title": "헌법소원심판청구서",
-   "points": 50
+   "points": 50,
+   "pointsSource": "지시문 Ⅰ.행정소장(35점) 및 행정심판청구서(15점) Ⅱ.헌법소원심판청구서(50점)"
   }
  ],
- "taskSource": "points",
+ "taskSource": "fill_task_points",
  "commentaries": [
   {
    "author": "김유향",

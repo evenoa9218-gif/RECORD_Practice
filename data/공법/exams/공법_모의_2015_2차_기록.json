@@ -9,10 +9,17 @@
   {
    "no": 1,
    "title": "소장",
-   "points": null
+   "points": 30,
+   "pointsSource": "지시문 (30점)"
+  },
+  {
+   "no": 2,
+   "title": "위헌법률심판제청신청서",
+   "points": 70,
+   "pointsSource": "지시문 (70점)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "PUB-0015",
   "PUB-0005",

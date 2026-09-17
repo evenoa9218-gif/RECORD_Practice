@@ -8,11 +8,18 @@
  "tasks": [
   {
    "no": 1,
-   "title": "변론요지서",
-   "points": null
+   "title": "변론요지서(김인천)",
+   "points": 65,
+   "pointsSource": "기준표: I. 피고인 김인천(65점)"
+  },
+  {
+   "no": 2,
+   "title": "변론요지서(이수원)",
+   "points": 35,
+   "pointsSource": "기준표: II. 피고인 이수원(35점)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "CRI-0146",
   "CRI-0233",

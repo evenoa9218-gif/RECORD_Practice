@@ -9,15 +9,23 @@
   {
    "no": 1,
    "title": "소장",
-   "points": null
+   "points": 55,
+   "pointsSource": "지시문 1.소장(배점 55점) 2.새 출국명령처분 반박 5줄(배점 10점) 3.답변서(배점 35점)"
+  },
+  {
+   "no": 3,
+   "title": "새 처분 반박",
+   "points": 10,
+   "pointsSource": "지시문 1.소장(배점 55점) 2.새 출국명령처분 반박 5줄(배점 10점) 3.답변서(배점 35점)"
   },
   {
    "no": 2,
    "title": "답변서",
-   "points": null
+   "points": 35,
+   "pointsSource": "지시문 1.소장(배점 55점) 2.새 출국명령처분 반박 5줄(배점 10점) 3.답변서(배점 35점)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "PUB-0021",
   "PUB-0028",

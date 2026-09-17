@@ -9,10 +9,11 @@
   {
    "no": 1,
    "title": "답변서",
-   "points": null
+   "points": 100,
+   "pointsSource": "만점에서 뺀 나머지"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "PUB-0001",
   "PUB-0036",

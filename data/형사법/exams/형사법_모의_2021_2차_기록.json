@@ -8,16 +8,18 @@
  "tasks": [
   {
    "no": 1,
-   "title": "검토의견서",
-   "points": null
+   "title": "검토의견서(김갑동)",
+   "points": null,
+   "pointsSource": "배점 미확정 — 기준표 서면 머리에 배점 없음. 항목 합 57+38=95 (60/40 로 보이나 확정 불가)"
   },
   {
    "no": 2,
-   "title": "변론요지서",
-   "points": null
+   "title": "변론요지서(이을남)",
+   "points": null,
+   "pointsSource": "배점 미확정 — 기준표 서면 머리에 배점 없음. 항목 합 57+38=95 (60/40 로 보이나 확정 불가)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "CRI-0032",
   "CRI-0005",

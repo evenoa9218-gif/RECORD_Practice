@@ -9,15 +9,17 @@
   {
    "no": 1,
    "title": "변론요지서",
-   "points": null
+   "points": 55,
+   "pointsSource": "기준표: [ 변론요지서 (55점) ]"
   },
   {
-   "no": 2,
-   "title": "검토의견서",
-   "points": null
+   "no": 3,
+   "title": "검토보고서",
+   "points": 45,
+   "pointsSource": "기준표: [ 검토보고서 (45점) ]"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "CRI-0149",
   "CRI-0343",

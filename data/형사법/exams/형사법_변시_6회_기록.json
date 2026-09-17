@@ -8,11 +8,18 @@
  "tasks": [
   {
    "no": 1,
-   "title": "검토의견서",
-   "points": null
+   "title": "검토의견서(김갑동)",
+   "points": null,
+   "pointsSource": "배점 미확정 — 지시문 김갑동·이을남 각 검토의견서. 해설 배점이 책 편집용으로 나뉘고 OCR 깨짐(10/40, 40/8)"
+  },
+  {
+   "no": 2,
+   "title": "검토의견서(이을남)",
+   "points": null,
+   "pointsSource": "배점 미확정 — 지시문 김갑동·이을남 각 검토의견서. 해설 배점이 책 편집용으로 나뉘고 OCR 깨짐(10/40, 40/8)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "commentaries": [
   {
    "author": "노수환",

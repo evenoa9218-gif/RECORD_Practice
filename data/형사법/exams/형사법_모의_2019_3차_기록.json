@@ -8,16 +8,18 @@
  "tasks": [
   {
    "no": 1,
-   "title": "검토의견서",
-   "points": null
+   "title": "검토의견서(김갑동)",
+   "points": 55,
+   "pointsSource": "기준표: Ⅰ. 피고인 김갑동에 대한 검토의견서 (55점)"
   },
   {
    "no": 2,
-   "title": "변론요지서",
-   "points": null
+   "title": "변론요지서(이을남)",
+   "points": 45,
+   "pointsSource": "기준표: Ⅱ. 피고인 이을남에 대한 변론요지서 (45점)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "CRI-0285",
   "CRI-0094",

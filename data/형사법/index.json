@@ -10,12 +10,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
+     "title": "변론요지서(김토건)",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "변론요지서(이달수)",
      "points": null
     }
    ],
    "totalPoints": null,
-   "taskSource": "document",
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 18968,
    "hasCommentary": true,
@@ -37,17 +42,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 40
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김을남)",
+     "points": 60
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 32859,
    "hasCommentary": true,
@@ -86,17 +91,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑동)",
+     "points": 48
     },
     {
      "no": 2,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(이을녀)",
+     "points": 52
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 31193,
    "hasCommentary": true,
@@ -136,17 +141,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑동)",
+     "points": 50
     },
     {
      "no": 2,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(이을남)",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 25131,
    "hasCommentary": true,
@@ -183,17 +188,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 50
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 28954,
    "hasCommentary": true,
@@ -231,17 +236,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 60
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 40
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 28344,
    "hasCommentary": true,
@@ -280,17 +285,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
+     "title": "검토의견서(김갑동)",
      "points": null
     },
     {
      "no": 2,
-     "title": "변론요지서",
+     "title": "변론요지서(이을남)",
      "points": null
     }
    ],
    "totalPoints": null,
-   "taskSource": "document",
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 25861,
    "hasCommentary": false,
@@ -306,12 +311,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑인)",
+     "points": 55
+    },
+    {
+     "no": 2,
+     "title": "변론요지서(이을해)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 25195,
    "hasCommentary": true,
@@ -335,22 +345,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 60
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
-    },
-    {
-     "no": 3,
-     "title": "공소장",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 40
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 25520,
    "hasCommentary": true,
@@ -382,17 +387,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑동)",
+     "points": 50
     },
     {
      "no": 2,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(이을남)",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 21315,
    "hasCommentary": true,
@@ -428,17 +433,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 55
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 26925,
    "hasCommentary": true,
@@ -467,12 +472,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
+     "title": "검토의견서(김갑동)",
+     "points": null
+    },
+    {
+     "no": 2,
+     "title": "검토의견서(이을남)",
      "points": null
     }
    ],
    "totalPoints": null,
-   "taskSource": "document",
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 27160,
    "hasCommentary": true,
@@ -500,17 +510,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 50
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 25907,
    "hasCommentary": true,
@@ -541,12 +551,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 40
+    },
+    {
+     "no": 2,
+     "title": "보석허가청구서(이을남)",
+     "points": 60
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 26313,
    "hasCommentary": true,
@@ -573,17 +588,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 55
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 26600,
    "hasCommentary": true,
@@ -623,12 +638,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(백옥희)",
+     "points": 45
+    },
+    {
+     "no": 2,
+     "title": "변론요지서(신미남)",
+     "points": 55
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 23203,
    "hasCommentary": false,
@@ -648,12 +668,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김인천)",
+     "points": 65
+    },
+    {
+     "no": 2,
+     "title": "변론요지서(이수원)",
+     "points": 35
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 19864,
    "hasCommentary": false,
@@ -674,11 +699,11 @@
     {
      "no": 1,
      "title": "변론요지서",
-     "points": null
+     "points": 100
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 28537,
    "hasCommentary": false,
@@ -697,12 +722,12 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(염상구)",
+     "points": 100
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 18314,
    "hasCommentary": false,
@@ -722,12 +747,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑동)",
+     "points": 55
+    },
+    {
+     "no": 2,
+     "title": "변론요지서(이을서)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 19705,
    "hasCommentary": false,
@@ -749,9 +779,15 @@
    "kind": "모의",
    "year": "2014",
    "round": "3",
-   "tasks": [],
-   "totalPoints": null,
-   "taskSource": "none",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "보석허가청구서",
+     "points": 100
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 21591,
    "hasCommentary": false,
@@ -774,11 +810,11 @@
     {
      "no": 1,
      "title": "변론요지서",
-     "points": null
+     "points": 100
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 20329,
    "hasCommentary": false,
@@ -799,12 +835,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(마갑동)",
+     "points": 65
+    },
+    {
+     "no": 2,
+     "title": "변론요지서(양을서)",
+     "points": 35
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 28014,
    "hasCommentary": false,
@@ -828,11 +869,11 @@
     {
      "no": 1,
      "title": "변론요지서",
-     "points": null
+     "points": 100
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 22934,
    "hasCommentary": false,
@@ -852,12 +893,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑동)",
+     "points": 55
+    },
+    {
+     "no": 2,
+     "title": "변론요지서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 26519,
    "hasCommentary": false,
@@ -880,9 +926,15 @@
    "kind": "모의",
    "year": "2016",
    "round": "2",
-   "tasks": [],
-   "totalPoints": null,
-   "taskSource": "none",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "보석허가청구서(김갑동)",
+     "points": 100
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 22842,
    "hasCommentary": false,
@@ -900,12 +952,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑동)",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "변론요지서(이을남)",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 26577,
    "hasCommentary": false,
@@ -925,13 +982,18 @@
    "round": "1",
    "tasks": [
     {
-     "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "no": 2,
+     "title": "검토보고서(김갑동)",
+     "points": 35
+    },
+    {
+     "no": 3,
+     "title": "검토보고서(이을남)",
+     "points": 65
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 30527,
    "hasCommentary": false,
@@ -952,12 +1014,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 75
+    },
+    {
+     "no": 2,
+     "title": "검토의견서(이을녀)",
+     "points": 25
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 20199,
    "hasCommentary": false,
@@ -980,17 +1047,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 55
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 28431,
    "hasCommentary": false,
@@ -1015,12 +1082,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 55
+    },
+    {
+     "no": 2,
+     "title": "검토의견서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 29616,
    "hasCommentary": false,
@@ -1045,17 +1117,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑동)",
+     "points": 55
     },
     {
      "no": 2,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 27765,
    "hasCommentary": false,
@@ -1081,16 +1153,16 @@
     {
      "no": 1,
      "title": "변론요지서",
-     "points": null
+     "points": 55
     },
     {
-     "no": 2,
-     "title": "검토의견서",
-     "points": null
+     "no": 3,
+     "title": "검토보고서",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 28968,
    "hasCommentary": false,
@@ -1119,17 +1191,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑동)",
+     "points": 45
     },
     {
      "no": 2,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(이을남)",
+     "points": 55
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 26158,
    "hasCommentary": false,
@@ -1161,17 +1233,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 55
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 30540,
    "hasCommentary": false,
@@ -1196,17 +1268,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 55
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 26497,
    "hasCommentary": false,
@@ -1239,11 +1311,11 @@
     {
      "no": 1,
      "title": "변론요지서",
-     "points": null
+     "points": 100
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 28236,
    "hasCommentary": false,
@@ -1271,17 +1343,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
+     "title": "검토의견서(김갑동)",
      "points": null
     },
     {
      "no": 2,
-     "title": "변론요지서",
+     "title": "변론요지서(이을남)",
      "points": null
     }
    ],
    "totalPoints": null,
-   "taskSource": "document",
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 32536,
    "hasCommentary": false,
@@ -1307,12 +1379,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 40
+    },
+    {
+     "no": 2,
+     "title": "검토의견서(이을남)",
+     "points": 60
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 33189,
    "hasCommentary": false,
@@ -1345,17 +1422,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 55
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을녀)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 28240,
    "hasCommentary": false,
@@ -1382,17 +1459,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
+     "title": "검토의견서(김갑동)",
      "points": null
     },
     {
      "no": 2,
-     "title": "변론요지서",
+     "title": "변론요지서(이을남)",
      "points": null
     }
    ],
    "totalPoints": null,
-   "taskSource": "document",
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 32488,
    "hasCommentary": false,
@@ -1427,17 +1504,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 50
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 24878,
    "hasCommentary": false,
@@ -1465,17 +1542,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(김갑동)",
+     "points": 60
     },
     {
      "no": 2,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(이을남)",
+     "points": 40
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 35600,
    "hasCommentary": false,
@@ -1507,17 +1584,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 45
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 55
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 27404,
    "hasCommentary": false,
@@ -1545,12 +1622,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 55
+    },
+    {
+     "no": 2,
+     "title": "검토의견서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 34245,
    "hasCommentary": false,
@@ -1572,12 +1654,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 60
+    },
+    {
+     "no": 2,
+     "title": "검토의견서(이을남)",
+     "points": 40
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 30830,
    "hasCommentary": false,
@@ -1607,12 +1694,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "검토의견서(이을남)",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 31752,
    "hasCommentary": false,
@@ -1638,17 +1730,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 40
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 60
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 32654,
    "hasCommentary": false,
@@ -1676,12 +1768,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 60
+    },
+    {
+     "no": 2,
+     "title": "검토의견서(이을남)",
+     "points": 40
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 26391,
    "hasCommentary": false,
@@ -1709,17 +1806,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 40
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 60
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 30029,
    "hasCommentary": false,
@@ -1747,17 +1844,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토보고서",
-     "points": null
+     "title": "검토보고서(김갑동)",
+     "points": 50
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 27641,
    "hasCommentary": false,
@@ -1783,17 +1880,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토보고서",
-     "points": null
+     "title": "검토보고서(김갑동)",
+     "points": 55
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 28500,
    "hasCommentary": false,
@@ -1820,17 +1917,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토보고서",
-     "points": null
+     "title": "검토보고서(김갑동)",
+     "points": 60
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 40
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 37997,
    "hasCommentary": false,
@@ -1861,17 +1958,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토보고서",
-     "points": null
+     "title": "검토보고서(김갑동)",
+     "points": 60
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을녀)",
+     "points": 40
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 31564,
    "hasCommentary": false,
@@ -1896,17 +1993,17 @@
    "tasks": [
     {
      "no": 1,
-     "title": "검토의견서",
-     "points": null
+     "title": "검토의견서(김갑동)",
+     "points": 55
     },
     {
      "no": 2,
-     "title": "변론요지서",
-     "points": null
+     "title": "변론요지서(이을남)",
+     "points": 45
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 38604,
    "hasCommentary": false,

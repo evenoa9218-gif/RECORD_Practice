@@ -9,15 +9,17 @@
   {
    "no": 1,
    "title": "소장",
-   "points": null
+   "points": 50,
+   "pointsSource": "지시문 (50점)"
   },
   {
    "no": 2,
    "title": "헌법소원심판청구서",
-   "points": 50
+   "points": 50,
+   "pointsSource": "지시문 (50점)"
   }
  ],
- "taskSource": "points",
+ "taskSource": "fill_task_points",
  "issueIds": [],
  "issueSource": {}
 }

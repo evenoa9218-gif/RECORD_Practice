@@ -9,15 +9,23 @@
   {
    "no": 1,
    "title": "소장",
-   "points": 50
+   "points": 50,
+   "pointsSource": "지시문 (50점)"
   },
   {
    "no": 2,
    "title": "헌법소원심판청구서",
-   "points": 35
+   "points": 35,
+   "pointsSource": "지시문 (35점)"
+  },
+  {
+   "no": 3,
+   "title": "가처분신청서",
+   "points": 15,
+   "pointsSource": "지시문 (15점)"
   }
  ],
- "taskSource": "points",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "PUB-0044",
   "PUB-0407",

@@ -9,15 +9,17 @@
   {
    "no": 1,
    "title": "소장",
-   "points": null
+   "points": 70,
+   "pointsSource": "지시문 1.소장(배점 70점) 2.준비서면(배점 30점, 그중 사정판결 위헌성 20점)"
   },
   {
    "no": 2,
    "title": "준비서면",
-   "points": null
+   "points": 30,
+   "pointsSource": "지시문 1.소장(배점 70점) 2.준비서면(배점 30점, 그중 사정판결 위헌성 20점)"
   }
  ],
- "taskSource": "document",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "PUB-0044",
   "PUB-0392",

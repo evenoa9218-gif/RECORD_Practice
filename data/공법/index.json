@@ -11,11 +11,11 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 100
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 14654,
    "hasCommentary": true,
@@ -214,13 +214,18 @@
      "points": 50
     },
     {
+     "no": 3,
+     "title": "가처분신청서",
+     "points": 15
+    },
+    {
      "no": 2,
      "title": "헌법소원심판청구서",
      "points": 35
     }
    ],
-   "totalPoints": 85,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 14747,
    "hasCommentary": true,
@@ -264,10 +269,15 @@
      "no": 1,
      "title": "행정소장",
      "points": 50
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": 50,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 17852,
    "hasCommentary": true,
@@ -342,16 +352,16 @@
     {
      "no": 1,
      "title": "헌법소원심판청구서",
-     "points": null
+     "points": 80
     },
     {
      "no": 2,
      "title": "소장",
-     "points": null
+     "points": 20
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 18197,
    "hasCommentary": true,
@@ -401,11 +411,11 @@
     {
      "no": 2,
      "title": "소장",
-     "points": null
+     "points": 20
     }
    ],
-   "totalPoints": 80,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 10533,
    "hasCommentary": true,
@@ -488,16 +498,16 @@
     {
      "no": 1,
      "title": "헌법소원심판청구서",
-     "points": null
+     "points": 50
     },
     {
      "no": 2,
      "title": "소장",
-     "points": null
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 11122,
    "hasCommentary": true,
@@ -544,10 +554,15 @@
      "no": 1,
      "title": "행정소장",
      "points": 50
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": 50,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 15544,
    "hasCommentary": true,
@@ -592,10 +607,15 @@
      "no": 1,
      "title": "소장",
      "points": 50
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": 50,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 14727,
    "hasCommentary": true,
@@ -629,7 +649,12 @@
     {
      "no": 1,
      "title": "행정소장",
-     "points": 50
+     "points": 35
+    },
+    {
+     "no": 3,
+     "title": "행정심판청구서",
+     "points": 15
     },
     {
      "no": 2,
@@ -638,7 +663,7 @@
     }
    ],
    "totalPoints": 100,
-   "taskSource": "points",
+   "taskSource": "fill_task_points",
    "hasRubric": false,
    "chars": 12506,
    "hasCommentary": true,
@@ -727,11 +752,16 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 40
+    },
+    {
+     "no": 2,
+     "title": "의견서",
+     "points": 60
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 22452,
    "hasCommentary": false,
@@ -758,11 +788,11 @@
     {
      "no": 1,
      "title": "답변서",
-     "points": null
+     "points": 100
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 16846,
    "hasCommentary": false,
@@ -783,16 +813,21 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 55
+    },
+    {
+     "no": 3,
+     "title": "새 처분 반박",
+     "points": 10
     },
     {
      "no": 2,
      "title": "답변서",
-     "points": null
+     "points": 35
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 15703,
    "hasCommentary": false,
@@ -813,16 +848,16 @@
     {
      "no": 1,
      "title": "헌법소원심판청구서",
-     "points": null
+     "points": 80
     },
     {
      "no": 2,
      "title": "준비서면",
-     "points": null
+     "points": 20
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 22926,
    "hasCommentary": false,
@@ -850,18 +885,28 @@
    "round": "2",
    "tasks": [
     {
+     "no": 3,
+     "title": "위헌법률심판제청신청서",
+     "points": 30
+    },
+    {
      "no": 1,
      "title": "헌법소원심판청구서",
      "points": 30
     },
     {
      "no": 2,
-     "title": "준비서면",
-     "points": null
+     "title": "준비서면(원고 김보석)",
+     "points": 20
+    },
+    {
+     "no": 4,
+     "title": "준비서면(피고 경기도지사)",
+     "points": 20
     }
    ],
-   "totalPoints": 30,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 31821,
    "hasCommentary": false,
@@ -893,9 +938,15 @@
    "kind": "모의",
    "year": "2014",
    "round": "3",
-   "tasks": [],
-   "totalPoints": null,
-   "taskSource": "none",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 100
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12525,
    "hasCommentary": false,
@@ -908,9 +959,20 @@
    "kind": "모의",
    "year": "2015",
    "round": "1",
-   "tasks": [],
-   "totalPoints": null,
-   "taskSource": "none",
+   "tasks": [
+    {
+     "no": 1,
+     "title": "소장",
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "검토보고서",
+     "points": 50
+    }
+   ],
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11767,
    "hasCommentary": false,
@@ -938,11 +1000,16 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 30
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 70
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 16905,
    "hasCommentary": false,
@@ -969,16 +1036,16 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 70
     },
     {
      "no": 2,
      "title": "준비서면",
-     "points": null
+     "points": 30
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11536,
    "hasCommentary": false,
@@ -1035,16 +1102,16 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 50
     },
     {
      "no": 2,
      "title": "헌법소원심판청구서",
-     "points": null
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12432,
    "hasCommentary": false,
@@ -1075,16 +1142,16 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 50
     },
     {
      "no": 2,
      "title": "헌법소원심판청구서",
-     "points": null
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 15085,
    "hasCommentary": false,
@@ -1112,21 +1179,21 @@
     {
      "no": 1,
      "title": "헌법소원심판청구서",
-     "points": null
+     "points": 50
     },
     {
      "no": 2,
      "title": "검토보고서",
-     "points": null
+     "points": 20
     },
     {
      "no": 3,
      "title": "소장",
-     "points": null
+     "points": 30
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 16654,
    "hasCommentary": false,
@@ -1145,7 +1212,7 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 50
     },
     {
      "no": 2,
@@ -1153,8 +1220,8 @@
      "points": 50
     }
    ],
-   "totalPoints": 50,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 13601,
    "hasCommentary": false,
@@ -1181,11 +1248,11 @@
     {
      "no": 3,
      "title": "준비서면",
-     "points": null
+     "points": 18
     }
    ],
-   "totalPoints": 82,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 19986,
    "hasCommentary": false,
@@ -1202,11 +1269,16 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 22223,
    "hasCommentary": false,
@@ -1225,21 +1297,21 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 40
     },
     {
      "no": 2,
      "title": "준비서면",
-     "points": null
+     "points": 10
     },
     {
      "no": 3,
      "title": "헌법소원심판청구서",
-     "points": null
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 23295,
    "hasCommentary": false,
@@ -1256,7 +1328,7 @@
     {
      "no": 1,
      "title": "헌법소원심판청구서",
-     "points": null
+     "points": 40
     },
     {
      "no": 2,
@@ -1269,8 +1341,8 @@
      "points": 50
     }
    ],
-   "totalPoints": 60,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 20726,
    "hasCommentary": false,
@@ -1313,10 +1385,15 @@
      "no": 2,
      "title": "소장",
      "points": 50
+    },
+    {
+     "no": 3,
+     "title": "위헌법률심판제청신청서",
+     "points": 15
     }
    ],
-   "totalPoints": 85,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 16150,
    "hasCommentary": false,
@@ -1396,11 +1473,16 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 20830,
    "hasCommentary": false,
@@ -1461,10 +1543,15 @@
      "no": 1,
      "title": "소장",
      "points": 50
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": 50,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12609,
    "hasCommentary": false,
@@ -1519,10 +1606,20 @@
      "no": 1,
      "title": "소장",
      "points": 35
+    },
+    {
+     "no": 2,
+     "title": "집행정지신청서",
+     "points": 15
+    },
+    {
+     "no": 3,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": 35,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10184,
    "hasCommentary": false,
@@ -1550,16 +1647,16 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 50
     },
     {
      "no": 2,
      "title": "헌법소원심판청구서",
-     "points": null
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11864,
    "hasCommentary": false,
@@ -1596,13 +1693,18 @@
      "points": 35
     },
     {
+     "no": 3,
+     "title": "집행정지신청서",
+     "points": 15
+    },
+    {
      "no": 2,
      "title": "검토보고서",
      "points": 50
     }
    ],
-   "totalPoints": 85,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 13023,
    "hasCommentary": false,
@@ -1624,10 +1726,15 @@
      "no": 1,
      "title": "소장",
      "points": 50
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": 50,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 18045,
    "hasCommentary": false,
@@ -1663,10 +1770,15 @@
      "no": 2,
      "title": "헌법소원심판청구서",
      "points": 35
+    },
+    {
+     "no": 3,
+     "title": "가처분신청서",
+     "points": 15
     }
    ],
-   "totalPoints": 85,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 18008,
    "hasCommentary": false,
@@ -1739,13 +1851,18 @@
      "points": 50
     },
     {
+     "no": 3,
+     "title": "가처분신청서",
+     "points": 17
+    },
+    {
      "no": 2,
      "title": "헌법소원심판청구서",
      "points": 33
     }
    ],
-   "totalPoints": 83,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 24587,
    "hasCommentary": false,
@@ -1771,11 +1888,16 @@
     {
      "no": 1,
      "title": "소장",
-     "points": null
+     "points": 50
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": null,
-   "taskSource": "document",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 14408,
    "hasCommentary": false,
@@ -1917,10 +2039,15 @@
      "no": 1,
      "title": "소장",
      "points": 50
+    },
+    {
+     "no": 2,
+     "title": "위헌법률심판제청신청서",
+     "points": 50
     }
    ],
-   "totalPoints": 50,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 19494,
    "hasCommentary": false,
@@ -1982,13 +2109,18 @@
      "points": 35
     },
     {
+     "no": 3,
+     "title": "집행정지신청서",
+     "points": 15
+    },
+    {
      "no": 2,
      "title": "헌법소원심판청구서",
      "points": 50
     }
    ],
-   "totalPoints": 85,
-   "taskSource": "points",
+   "totalPoints": 100,
+   "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 19443,
    "hasCommentary": false,

@@ -9,20 +9,23 @@
   {
    "no": 1,
    "title": "헌법소원심판청구서",
-   "points": null
+   "points": 40,
+   "pointsSource": "지시문·기준표 제1문 헌법소원심판청구서(40점) 제2문 검토보고서(10점) 제3문 소장(50점)"
   },
   {
    "no": 2,
    "title": "검토보고서",
-   "points": 10
+   "points": 10,
+   "pointsSource": "지시문·기준표 제1문 헌법소원심판청구서(40점) 제2문 검토보고서(10점) 제3문 소장(50점)"
   },
   {
    "no": 3,
    "title": "소장",
-   "points": 50
+   "points": 50,
+   "pointsSource": "지시문·기준표 제1문 헌법소원심판청구서(40점) 제2문 검토보고서(10점) 제3문 소장(50점)"
   }
  ],
- "taskSource": "points",
+ "taskSource": "fill_task_points",
  "issueIds": [
   "PUB-0113",
   "PUB-0098",
