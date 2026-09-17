@@ -142,6 +142,10 @@ const {
   useEffect
 } = React;
 const SUBJECTS = ["공법", "민사법", "형사법"];
+// 다른 앱(암기장 기출 연결 등)에서 특정 회차로 바로 여는 링크 — ?exam=민사법_변시_13회_기록
+// 사례형 사이트와 같은 규칙이다. 과목은 id 앞머리에서 읽는다.
+const INCOMING_EXAM = new URLSearchParams(location.search).get("exam");
+const INCOMING_SUBJECT = INCOMING_EXAM && SUBJECTS.includes(INCOMING_EXAM.split("_")[0]) ? INCOMING_EXAM.split("_")[0] : null;
 
 // AI 채점 Worker — 사례형과 같은 워커를 쓴다(시험 ID 꼬리 _기록 으로 갈린다).
 // 비워 두면 채점 버튼만 숨고 나머지는 그대로 돌아간다.
@@ -507,9 +511,9 @@ function Solve({
       subject,
       mode: "record",
       examId: exam.id,
-      label: exam.label,
+      label: exam.label || d && d.label || exam.id,
       round: 1,
-      issueIds: exam.issueIds || [],
+      issueIds: exam.issueIds || d && d.issueIds || [],
       text: parts.join("\n\n"),
       seconds: elapsed
     });
@@ -613,9 +617,9 @@ function Solve({
           subject,
           mode: "record",
           examId: exam.id,
-          label: `${exam.label} ${cur.title}`,
+          label: `${exam.label || d && d.label || exam.id} ${cur.title}`,
           round: 1,
-          issueIds: exam.issueIds || [],
+          issueIds: exam.issueIds || d && d.issueIds || [],
           score,
           maxScore: cur.points || 100,
           text,
@@ -797,8 +801,16 @@ function App() {
   // 준비 플래그가 따로 있어야 한다 — 없으면 로그인 안내가 못 뜨고 계속 로딩이다.
   const [ready, setReady] = useState(false);
   const [uid, setUid] = useState(null);
-  const [subject, setSubject] = useState(() => localStorage.getItem('record_subject') || SUBJECTS[0]);
-  const [exam, setExam] = useState(null);
+  const [subject, setSubject] = useState(() => INCOMING_SUBJECT || localStorage.getItem('record_subject') || SUBJECTS[0]);
+  // 목록에서 고르면 index.json 항목이 오지만, 링크로 들어오면 id 만 안다 — Solve 는 id 로 파일을 받으므로 충분하다
+  const [exam, setExam] = useState(() => INCOMING_SUBJECT ? {
+    id: INCOMING_EXAM
+  } : null);
+  const back = () => {
+    setExam(null);
+    // 뒤로 간 뒤 새로고침하면 다시 그 회차가 열리지 않게 주소의 ?exam= 을 지운다
+    if (location.search) history.replaceState(null, '', location.pathname + location.hash);
+  };
   const [theme, setTheme] = useState(() => document.documentElement.getAttribute('data-theme'));
   useEffect(() => {
     Store.init({}).then(() => {
@@ -865,7 +877,7 @@ function App() {
   }, exam ? /*#__PURE__*/React.createElement(Solve, {
     subject: subject,
     exam: exam,
-    onBack: () => setExam(null)
+    onBack: back
   }) : /*#__PURE__*/React.createElement(List, {
     subject: subject,
     onOpen: setExam
