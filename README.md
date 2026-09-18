@@ -47,6 +47,20 @@ python -X utf8 build_record_data.py
 
 `data/{과목}/index.json` + `exams/*.json`을 다시 만든다.
 
+> **⚠ 다시 만들면 손으로 바로잡은 것이 날아간다.** 이 빌더는 지금 커밋된 데이터를
+> 재현하지 못한다 — 해설·쟁점 필드가 사라지고, 서면 목록·배점도 예전의 헐거운
+> 추정으로 되돌아간다. 부득이 다시 만들었다면 **아래 세 가지를 순서대로 돌려야**
+> 원래 상태가 된다.
+>
+> ```bash
+> python -X utf8 merge_casebook.py        # 해설 결합 (extract→split→verify 뒤)
+> python -X utf8 tag_issues.py            # 쟁점 태깅
+> node fill_task_points.js --write        # 서면 목록·배점 확정 (민사 소장 175 등)
+> node mark_answer_span.js --write        # 해설에서 모범답안이 시작하는 지점 표시
+> ```
+>
+> 평소에는 빌더를 돌리지 말고 이 후처리 스크립트만 쓴다.
+
 ### 작성할 서면을 어떻게 찾는가
 
 과제 표기가 과목마다 근본적으로 다르다.
@@ -132,7 +146,20 @@ python -X utf8 extract_casebooks.py   # PDF → 쪽별 txt (2,632쪽, 20분쯤)
 python -X utf8 split_casebooks.py     # 회차별 블록으로 묶기
 python -X utf8 verify_match.py        # 내용 교차검증
 python -X utf8 merge_casebook.py      # 검증 통과분만 data/에 결합 + OCR 정제
+node mark_answer_span.js --write     # 해설 안에서 모범답안이 시작하는 지점 표시
 ```
+
+### 해설 앞부분은 문제 재수록이다
+
+해설서는 회차마다 문제와 사건기록을 앞에 다시 싣는다 — 정연석 민사는 앞 3만 자,
+노수환 형사는 앞 4만 자(두 번 실리기도 한다). AI 채점은 근거 글자 수에 상한이 있어
+앞에서부터 자르면 **정작 채점 기준인 모범답안이 통째로 잘려 나간다.**
+2026-09-17 민사 13회 실채점에서 모델이 해설과 정반대로 감점해서야 드러났다.
+
+`mark_answer_span.js`가 회차마다 그 경계를 재어 `commentaries[].answerAt`에 적고,
+워커는 그 지점부터만 근거로 쓴다. 스캔 OCR이라 "모범답안" 같은 표제는 회차마다
+다르게 깨져 정규식으로는 절반도 못 잡는다 — 그래서 표제가 아니라 **문제 전문과
+겹치는 구간**을 세어 찾는다. 경계는 일부러 조금 앞에 잡는다(답안을 자르는 쪽이 더 나쁘다).
 
 `work/`는 중간 산출물이라 커밋하지 않는다. 원본 PDF도 저작권 자료라 저장소에 없다.
 
