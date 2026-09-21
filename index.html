@@ -66,6 +66,7 @@ select.btn{padding:7px 10px}
 .tag.on{background:var(--gold);color:#fff;border-color:var(--gold);font-weight:600}
 .tag.gold{color:var(--gold);border-color:var(--gold);font-weight:600}
 .tag.ok{color:var(--ok);border-color:var(--ok)}
+.tag.warn{color:var(--gold);border-color:var(--gold)}
 .tag.click{cursor:pointer}
 /* ── 채점 결과 보기 — 「빨간 펜으로 첨삭한 종이」 ──────────────
    전에는 마크다운을 평문으로 뿌려서 표의 |, 제목의 ##, 강조의 ** 가
@@ -438,6 +439,18 @@ function Solve({
   }];
   const cur = tasks[Math.min(tab, tasks.length - 1)];
   const key = `t${cur.no}`;
+
+  // 채점 근거가 부실한 회차를 **채점 전에** 알린다. 예전에는 다 돌린 뒤 결과 첫 줄에서야
+  // "근거 없이 평가했다"는 걸 알 수 있었다. 판정은 Worker(buildRecordPrompt)와 같은 기준이다.
+  const basisNote = React.useMemo(() => {
+    if (!d) return null;
+    const why = [];
+    if (!(d.rubricText || "").trim() && !(d.commentaries || []).length) why.push("이 회차는 채점기준표도 해설도 없습니다");
+    if (!(d.problemText || "").trim()) why.push("사건 기록 전문이 없습니다");
+    if (!(cur.points > 0) && tasks.length > 1) why.push("서면별 배점이 공개되지 않아 100점 만점으로 환산해 채점합니다");
+    if (!why.length) return null;
+    return why.join(" · ");
+  }, [d, cur, tasks.length]);
   useEffect(() => {
     let live = true;
     getJSON(`data/${encodeURIComponent(subject)}/exams/${exam.id}.json`).then(async j => {
@@ -760,13 +773,20 @@ function Solve({
     className: "btn",
     onClick: runGrade,
     disabled: !(answers[key] || "").trim() || grade?.running
-  }, grade?.running ? "채점 중…" : "AI 채점"), /*#__PURE__*/React.createElement("button", {
+  }, grade?.running ? "채점 중…" : "AI 채점"), GRADER_URL && basisNote && /*#__PURE__*/React.createElement("span", {
+    className: "tag warn"
+  }, "채점 근거 부족"), /*#__PURE__*/React.createElement("button", {
     className: "btn",
     onClick: async () => {
       setAnswer(key, "");
       await Store.clearDraft(`${exam.id}::${key}`);
     }
-  }, "이 서면 비우기"))), grade && (grade.text || grade.error || grade.running) && /*#__PURE__*/React.createElement("div", {
+  }, "이 서면 비우기"))), GRADER_URL && basisNote && /*#__PURE__*/React.createElement("div", {
+    className: "muted",
+    style: {
+      margin: '6px 2px 0'
+    }
+  }, basisNote), grade && (grade.text || grade.error || grade.running) && /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, /*#__PURE__*/React.createElement("div", {
     className: "row",
