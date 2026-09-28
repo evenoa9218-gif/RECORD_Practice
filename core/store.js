@@ -111,7 +111,7 @@
      *   examId?:string, label?:string, round?:number,
      *   issueIds?:string[], text?:string, seconds?:number,
      *   correct?:boolean, score?:number, maxScore?:number,
-     *   feedback?:object
+     *   feedback?:object, taskNo?:number
      * }} result
      */
     async record(result) {
@@ -132,6 +132,9 @@
         score: result.score ?? null,
         maxScore: result.maxScore ?? null,
         feedback: result.feedback || null,
+        // 기록형은 한 회차에 서면이 여럿이고 채점도 서면 단위다.
+        // 이 값이 없으면 지난 첨삭을 어느 탭에 붙일지 label 로 추측해야 한다.
+        taskNo: result.taskNo ?? null,
       };
       const s = await tx(ST_RECORDS, 'readwrite');
       await reqP(s.add(rec));

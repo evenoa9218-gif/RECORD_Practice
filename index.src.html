@@ -275,6 +275,12 @@ function renderGrade(md) {
 const GRADER_URL = "https://case-grader.bar-exam.workers.dev";
 
 const mmss = s => `${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`;
+// 지난 첨삭을 고를 때 쓴다. 올해 것은 월·일만, 지난해 것은 연도까지.
+const ymd = ms => {
+  const d = new Date(ms), now = new Date();
+  const md = `${d.getMonth()+1}.${d.getDate()}`;
+  return d.getFullYear()===now.getFullYear() ? md : `${String(d.getFullYear()).slice(2)}.${md}`;
+};
 
 async function getJSON(url){
   const r = await fetch(url);
@@ -290,6 +296,8 @@ function List({subject, onOpen}){
   const [kind,setKind] = useState("전체");
   const [issue,setIssue] = useState("");    // 쟁점 필터(빈 값이면 전체)
   const [done,setDone] = useState({});
+  const [fb,setFb] = useState({});          // 회차 id → 저장된 첨삭 수
+  const [onlyFb,setOnlyFb] = useState(false);
 
   useEffect(()=>{
     let live = true;
@@ -302,6 +310,13 @@ function List({subject, onOpen}){
       .then(d=>{ if(live) setReg(d); })
       .catch(()=>{ if(live) setReg({issues:[]}); });
     Store.getProgress(subject,1).then(p=>{ if(live) setDone(p||{}); });
+    // 첨삭은 기기에만 남는다. 목록에서 보이지 않으면 받아 놓고도 다시 찾지 못한다.
+    Store.getRecords({subject, mode:'record'}).then(rs=>{
+      if(!live) return;
+      const m = {};
+      for(const r of rs) if(r.feedback && r.examId) m[r.examId] = (m[r.examId]||0)+1;
+      setFb(m);
+    }).catch(()=>{});
     return ()=>{ live = false; };
   },[subject]);
 
@@ -311,6 +326,7 @@ function List({subject, onOpen}){
   const label = Object.fromEntries((reg?.issues||[]).map(i=>[i.id, i.label]));
   const exams = idx.exams.filter(e=>
     (kind==="전체" || e.kind===kind) &&
+    (!onlyFb || fb[e.id]>0) &&
     (!issue || (e.issueIds||[]).includes(issue)));
   const doneCount = idx.exams.filter(e=>done[e.id]?.done).length;
   const tagged = idx.exams.filter(e=>(e.issueIds||[]).length).length;
@@ -322,6 +338,8 @@ function List({subject, onOpen}){
           <div className="row">
             {["전체","변시","모의"].map(k=>
               <span key={k} className={"tag click"+(kind===k?" on":"")} onClick={()=>setKind(k)}>{k}</span>)}
+            <span className={"tag click"+(onlyFb?" on":"")}
+              onClick={()=>setOnlyFb(v=>!v)}>첨삭 받은 것</span>
           </div>
           <span className="muted">{idx.exams.length}회차 · 푼 것 {doneCount}</span>
         </div>
@@ -344,6 +362,7 @@ function List({subject, onOpen}){
             <strong>{e.label}</strong>
             <div className="row">
               {done[e.id]?.done && <span className="tag ok">푼 것</span>}
+              {fb[e.id]>0 && <span className="tag gold">첨삭 {fb[e.id]}</span>}
               {e.hasRubric
                 ? <span className="tag gold">채점기준표</span>
                 : <span className="tag">채점기준표 없음</span>}
@@ -383,6 +402,10 @@ function Solve({subject, exam, onBack}){
   const [pane,setPane] = useState("record"); // record | rubric
   const [saved,setSaved] = useState(false);
   const [grades,setGrades] = useState({});   // 서면 키별 채점 상태
+  // 받은 첨삭은 Store.record 로 기기에 남는데, 예전에는 그걸 다시 꺼내 보는 곳이
+  // 없어서 회차를 나가는 순간 사라졌다. 들어올 때 다시 읽어 온다.
+  const [past,setPast] = useState([]);       // 이 회차에 저장된 지난 첨삭(최신순)
+  const [pastPick,setPastPick] = useState({});  // 서면 키 → 보고 있는 지난 첨삭의 at
 
   // 과제를 못 뽑은 회차도 답안칸 하나로는 쓸 수 있어야 한다.
   const tasks = (d?.tasks?.length ? d.tasks : [{no:1,title:"답안",points:null}]);
@@ -416,6 +439,8 @@ function Solve({subject, exam, onBack}){
           if(v) drafts[`t${t.no}`] = v;
         }
         if(live) setAnswers(drafts);
+        const rs = await Store.getRecords({examId:exam.id, mode:'record'}).catch(()=>[]);
+        if(live) setPast(rs.filter(r=>r.feedback));
       })
       .catch(e=>{ if(live) setErr(`문제를 불러오지 못했습니다: ${e.message}`); });
     return ()=>{ live = false; };
@@ -505,13 +530,15 @@ function Solve({subject, exam, onBack}){
       const bodyText = acc.replace(/\[\[SCORE:[^\]]*\]\]/g, "").trim();
       put({running:false, text:bodyText, score, error:errMsg});
       if(score !== null){
-        await Store.record({
+        const rec = await Store.record({
           subject, mode:"record", examId:exam.id,
           label:`${exam.label||(d&&d.label)||exam.id} ${cur.title}`,
           round:1, issueIds:exam.issueIds||(d&&d.issueIds)||[], score,
-          maxScore: cur.points || 100,
+          maxScore: cur.points || 100, taskNo: cur.no,
           text, feedback:bodyText, seconds:elapsed,
         });
+        // 탭을 옮겼다 돌아와도 방금 받은 첨삭이 그대로 있어야 한다
+        setPast(p=>[rec, ...p]);
       }
     }catch(e){
       put({running:false, error:`채점 요청 실패: ${e.message}`});
@@ -524,6 +551,22 @@ function Solve({subject, exam, onBack}){
 
   const written = tasks.filter(t=>(answers[`t${t.no}`]||"").trim()).length;
   const grade = grades[key];
+
+  // 지난 첨삭은 이 서면 몫만 고른다. taskNo 가 없는 옛 기록은 label 꼬리로 맞춘다.
+  const taskOf = r => r.taskNo != null
+    ? r.taskNo
+    : (tasks.find(t=>String(r.label||"").endsWith(t.title))||{}).no;
+  const pastHere = past.filter(r=>taskOf(r)===cur.no);
+  const picked = pastHere.find(r=>r.at===pastPick[key]) || pastHere[0] || null;
+  const isLive = !!(grade && (grade.text || grade.error || grade.running));
+  const shown = isLive
+    ? {text:grade.text, score:grade.score, error:grade.error, running:grade.running, at:null}
+    : (picked ? {text:picked.feedback, score:picked.score, error:null, running:false, at:picked.at} : null);
+
+  // 아직 첨삭을 안 받은 서면 — 제출만 하고 나가면 첨삭을 한 번도 못 보던 것을 막는다
+  const gradedNos = new Set(past.map(taskOf).filter(n=>n!=null));
+  for(const [k,g] of Object.entries(grades)) if(g && g.score!=null) gradedNos.add(Number(k.slice(1)));
+  const ungraded = tasks.filter(t=>(answers[`t${t.no}`]||"").trim() && !gradedNos.has(t.no));
 
   return (
     <div>
@@ -606,19 +649,53 @@ function Solve({subject, exam, onBack}){
           {GRADER_URL && basisNote &&
             <div className="muted" style={{margin:'6px 2px 0'}}>{basisNote}</div>}
 
-          {grade && (grade.text || grade.error || grade.running) &&
+          {/* 제출은 기록만 남긴다 — 첨삭은 따로 눌러야 나온다. 안 알려 주면 그냥 나간다. */}
+          {GRADER_URL && saved && ungraded.length>0 &&
+            <div className="card" style={{borderColor:'var(--gold)'}}>
+              <strong>제출은 됐다 — 첨삭은 아직이다</strong>
+              <div className="muted" style={{margin:'6px 0 9px'}}>
+                첨삭은 서면마다 따로 받는다. 남은 서면: {ungraded.map(t=>t.title).join(' · ')}
+              </div>
+              {ungraded.some(t=>t.no===cur.no)
+                ? <button className="btn pri" onClick={runGrade} disabled={grade?.running}>
+                    {grade?.running ? "첨삭 받는 중…" : `${cur.title} 첨삭 받기`}</button>
+                : <button className="btn" onClick={()=>setTab(tasks.findIndex(t=>t.no===ungraded[0].no))}>
+                    {ungraded[0].title}(으)로 이동</button>}
+            </div>}
+
+          {shown &&
             <div className="card">
               <div className="row" style={{justifyContent:'space-between',marginBottom:8}}>
-                <strong>AI 채점 — {cur.title}</strong>
-                {grade.score !== null && grade.score !== undefined &&
-                  <span className="tag gold">{grade.score} / {cur.points || 100}점</span>}
+                <strong>{shown.at ? "지난 첨삭" : "AI 첨삭"} — {cur.title}</strong>
+                <div className="row">
+                  {shown.at && <span className="muted">{ymd(shown.at)}</span>}
+                  {shown.score !== null && shown.score !== undefined &&
+                    <span className="tag gold">{shown.score} / {cur.points || 100}점</span>}
+                </div>
               </div>
-              {grade.error &&
-                <div className="pre" style={{color:'var(--no)',marginBottom:8}}>{grade.error}</div>}
-              <div className="gv" dangerouslySetInnerHTML={{__html: renderGrade(grade.text) + (grade.running ? '<span class="gv-p">▌</span>' : '')}} />
-              {!grade.running && grade.score !== null && grade.score !== undefined &&
+              {/* 같은 서면을 여러 번 받았으면 회차를 골라 본다 */}
+              {!isLive && pastHere.length>1 &&
+                <div className="row" style={{marginBottom:8}}>
+                  <select className="btn" value={String(picked.at)}
+                    onChange={e=>setPastPick(p=>({...p,[key]:Number(e.target.value)}))}>
+                    {pastHere.map((r,i)=>
+                      <option key={r.at} value={String(r.at)}>
+                        {ymd(r.at)}{r.score!=null?` · ${r.score}점`:""}{i===0?" (최근)":""}
+                      </option>)}
+                  </select>
+                  <span className="muted">첨삭 {pastHere.length}번 받음</span>
+                </div>}
+              {shown.error &&
+                <div className="pre" style={{color:'var(--no)',marginBottom:8}}>{shown.error}</div>}
+              <div className="gv" dangerouslySetInnerHTML={{__html: renderGrade(shown.text) + (shown.running ? '<span class="gv-p">▌</span>' : '')}} />
+              {isLive && !shown.running && shown.score !== null && shown.score !== undefined &&
                 <div className="muted" style={{marginTop:8}}>
-                  점수와 피드백이 이 기기의 기록에 저장되었습니다.</div>}
+                  점수와 첨삭이 이 기기의 기록에 저장되었습니다 — 다음에 들어와도 그대로 보입니다.</div>}
+              {shown.at && !isLive &&
+                <div className="row" style={{marginTop:9}}>
+                  <button className="btn" onClick={runGrade} disabled={grade?.running}>
+                    {grade?.running ? "첨삭 받는 중…" : "다시 첨삭 받기"}</button>
+                </div>}
             </div>}
         </div>
       </div>
