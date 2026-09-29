@@ -851,12 +851,12 @@ function Solve({
     style: {
       borderColor: 'var(--gold)'
     }
-  }, /*#__PURE__*/React.createElement("strong", null, "제출은 됐다 — 첨삭은 아직이다"), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("strong", null, "제출되었습니다 — 첨삭은 아직 받지 않으셨습니다"), /*#__PURE__*/React.createElement("div", {
     className: "muted",
     style: {
       margin: '6px 0 9px'
     }
-  }, "첨삭은 서면마다 따로 받는다. 남은 서면: ", ungraded.map(t => t.title).join(' · ')), ungraded.some(t => t.no === cur.no) ? /*#__PURE__*/React.createElement("button", {
+  }, "첨삭은 서면마다 따로 받습니다. 남은 서면: ", ungraded.map(t => t.title).join(' · ')), ungraded.some(t => t.no === cur.no) ? /*#__PURE__*/React.createElement("button", {
     className: "btn pri",
     onClick: runGrade,
     disabled: grade?.running
@@ -894,7 +894,7 @@ function Solve({
     value: String(r.at)
   }, ymd(r.at), r.score != null ? ` · ${r.score}점` : "", i === 0 ? " (최근)" : ""))), /*#__PURE__*/React.createElement("span", {
     className: "muted"
-  }, "첨삭 ", pastHere.length, "번 받음")), shown.error && /*#__PURE__*/React.createElement("div", {
+  }, "첨삭 ", pastHere.length, "번 받았습니다")), shown.error && /*#__PURE__*/React.createElement("div", {
     className: "pre",
     style: {
       color: 'var(--no)',

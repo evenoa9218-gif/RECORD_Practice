@@ -649,12 +649,14 @@ function Solve({subject, exam, onBack}){
           {GRADER_URL && basisNote &&
             <div className="muted" style={{margin:'6px 2px 0'}}>{basisNote}</div>}
 
-          {/* 제출은 기록만 남긴다 — 첨삭은 따로 눌러야 나온다. 안 알려 주면 그냥 나간다. */}
+          {/* 제출은 기록만 남긴다 — 첨삭은 따로 눌러야 나온다. 안 알려 주면 그냥 나간다.
+              화면 문구는 이용자에게 하는 말이므로 존대로 쓴다. 채점 결과 본문의
+              음슴체는 채점기가 쓰는 글이라 여기와 섞이지 않는다. */}
           {GRADER_URL && saved && ungraded.length>0 &&
             <div className="card" style={{borderColor:'var(--gold)'}}>
-              <strong>제출은 됐다 — 첨삭은 아직이다</strong>
+              <strong>제출되었습니다 — 첨삭은 아직 받지 않으셨습니다</strong>
               <div className="muted" style={{margin:'6px 0 9px'}}>
-                첨삭은 서면마다 따로 받는다. 남은 서면: {ungraded.map(t=>t.title).join(' · ')}
+                첨삭은 서면마다 따로 받습니다. 남은 서면: {ungraded.map(t=>t.title).join(' · ')}
               </div>
               {ungraded.some(t=>t.no===cur.no)
                 ? <button className="btn pri" onClick={runGrade} disabled={grade?.running}>
@@ -683,7 +685,7 @@ function Solve({subject, exam, onBack}){
                         {ymd(r.at)}{r.score!=null?` · ${r.score}점`:""}{i===0?" (최근)":""}
                       </option>)}
                   </select>
-                  <span className="muted">첨삭 {pastHere.length}번 받음</span>
+                  <span className="muted">첨삭 {pastHere.length}번 받았습니다</span>
                 </div>}
               {shown.error &&
                 <div className="pre" style={{color:'var(--no)',marginBottom:8}}>{shown.error}</div>}
