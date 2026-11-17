@@ -50,6 +50,14 @@ body{margin:0;background:var(--bg);color:var(--tx);
   align-items:center;justify-content:space-between;gap:12px;position:sticky;top:0;z-index:30}
 .hd h1{margin:0;font-size:16.5px;font-weight:700;letter-spacing:-.02em}
 .hd .sub{font-size:11.5px;opacity:.72;margin-top:2px}
+/* 폰(≤700px): 머리를 한 줄로. 전에는 긴 부제목이 제목 칸을 넓혀 ◀앱 단추가 혼자 아랫줄로 떨어졌다.
+   제목 칸은 남는 폭만 쓰고 넘치는 부제목은 말줄임, 단추 줄은 꺾이지 않게 한다. */
+@media(max-width:700px){
+  .hd{padding:10px 14px;gap:8px}
+  .hd > div:first-child{flex:1 1 0;min-width:0}
+  .hd h1,.hd .sub{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .hd > .row{flex-wrap:nowrap;flex-shrink:0}
+}
 .btn{background:var(--sf);color:var(--tx);border:1px solid var(--bd);border-radius:8px;
   padding:8px 13px;font-size:13px;cursor:pointer;font-family:inherit}
 .btn:hover{border-color:var(--gold)}
@@ -58,6 +66,10 @@ body{margin:0;background:var(--bg);color:var(--tx);
 .btn:disabled{opacity:.42;cursor:default}
 .btn.ghost{background:transparent;color:#cfe3f5;border-color:rgba(255,255,255,.22)}
 select.btn{padding:7px 10px}
+/* ◀ 앱 처럼 링크로 된 단추 — 밑줄 없이 다른 단추와 같은 모양·높이로 */
+a.btn{text-decoration:none;display:inline-flex;align-items:center}
+/* 한글은 낱말 단위로 줄을 바꾼다(「쟁 / 점만」 처럼 낱말 가운데서 꺾이지 않게). 긴 영문·주소는 넘치지 않게 끊는다. */
+.card,.title,.muted{word-break:keep-all;overflow-wrap:break-word}
 .card{background:var(--sf);border:1px solid var(--bd);border-radius:12px;
   padding:15px;margin-bottom:11px;box-shadow:var(--shadow)}
 .card.click{cursor:pointer}
