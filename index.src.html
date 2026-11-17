@@ -18,7 +18,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
 <script src="core/store.js?v=2"></script>
-<script src="core/richdoc.js?v=1"></script>
+<script src="core/richdoc.js?v=2"></script>
 <script>
 // 테마는 네 앱이 같은 키를 쓴다. 없으면 라이트.
 (function(){
@@ -605,9 +605,9 @@ function Solve({subject, exam, onBack}){
               {d.problemBlock &&
                 <div className="card" style={{background:'var(--sf2)',marginBottom:11}}>
                   <div className="title">문제</div>
-                  <RichDoc docId={exam.id+":pblock"} className="pre" text={d.problemBlock} kind="plain"/>
+                  <RichDoc docId={exam.id+":pblock"} className="pre" text={d.problemBlock} kind="problem"/>
                 </div>}
-              <RichDoc docId={exam.id+":record"} className="pre" text={d.problemText} kind="plain"/>
+              <RichDoc docId={exam.id+":record"} className="pre" text={d.problemText} kind="record"/>
             </>}
             {pane==="rubric" && (d.rubricText
               ? <RichDoc docId={exam.id+":rubric"} text={d.rubricText} kind="rubric"/>
