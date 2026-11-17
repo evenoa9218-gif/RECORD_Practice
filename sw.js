@@ -14,7 +14,7 @@
  */
 'use strict';
 
-const VERSION = 'rp-v4';   // v2: 본문 꾸밈·형광펜(core/richdoc.js)
+const VERSION = 'rp-v5';   // v2: 본문 꾸밈·형광펜(core/richdoc.js)
 const SHELL = `record-shell-${VERSION}`;
 const DATA = `record-data-${VERSION}`;
 const KEEP = new Set([SHELL, DATA]);
@@ -24,7 +24,7 @@ self.addEventListener('install', (e) => {
   e.waitUntil((async () => {
     const c = await caches.open(SHELL);
     // 개별 실패가 설치 전체를 막지 않게 하나씩 넣는다.
-    await Promise.all([BASE, BASE + 'index.html', BASE + 'core/store.js?v=2', BASE + 'core/richdoc.js?v=4'].map(
+    await Promise.all([BASE, BASE + 'index.html', BASE + 'core/store.js?v=2', BASE + 'core/richdoc.js?v=5'].map(
       (u) => c.add(new Request(u, { cache: 'reload' })).catch(() => {}),
     ));
     self.skipWaiting();
