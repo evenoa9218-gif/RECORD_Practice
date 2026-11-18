@@ -9,11 +9,10 @@
   {
    "no": 1,
    "title": "소장",
-   "points": 175,
-   "pointsSource": "민사 기록형 만점(서면 하나)"
+   "points": null
   }
  ],
- "taskSource": "fill_task_points",
+ "taskSource": "document",
  "issueIds": [
   "CIV-0162",
   "CIV-0016",

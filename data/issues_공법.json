@@ -1,7 +1,7 @@
 {
  "subject": "공법",
  "prefix": "PUB",
- "count": 116,
+ "count": 120,
  "issues": [
   {
    "id": "PUB-0002",
@@ -21,7 +21,7 @@
     "헌법"
    ],
    "aliases": [],
-   "examCount": 32
+   "examCount": 33
   },
   {
    "id": "PUB-0028",
@@ -31,7 +31,19 @@
     "행정법"
    ],
    "aliases": [],
-   "examCount": 24
+   "examCount": 25
+  },
+  {
+   "id": "PUB-0103",
+   "label": "공권력의행사",
+   "path": [
+    "공법",
+    "공법일반"
+   ],
+   "aliases": [
+    "공권력의 행사"
+   ],
+   "examCount": 22
   },
   {
    "id": "PUB-0300",
@@ -44,16 +56,14 @@
    "examCount": 21
   },
   {
-   "id": "PUB-0103",
-   "label": "공권력의행사",
+   "id": "PUB-0013",
+   "label": "청구기간",
    "path": [
     "공법",
-    "공법일반"
+    "헌법"
    ],
-   "aliases": [
-    "공권력의 행사"
-   ],
-   "examCount": 21
+   "aliases": [],
+   "examCount": 20
   },
   {
    "id": "PUB-0005",
@@ -65,16 +75,6 @@
    "aliases": [
     "포괄위임입법금지원칙"
    ],
-   "examCount": 19
-  },
-  {
-   "id": "PUB-0013",
-   "label": "청구기간",
-   "path": [
-    "공법",
-    "헌법"
-   ],
-   "aliases": [],
    "examCount": 19
   },
   {
@@ -111,7 +111,7 @@
     "소의 이익",
     "협의의 소익"
    ],
-   "examCount": 17
+   "examCount": 18
   },
   {
    "id": "PUB-0011",
@@ -155,7 +155,7 @@
    "aliases": [
     "기본권침해의 직접성"
    ],
-   "examCount": 15
+   "examCount": 16
   },
   {
    "id": "PUB-0392",
@@ -167,7 +167,7 @@
    "aliases": [
     "항고소송의 대상"
    ],
-   "examCount": 14
+   "examCount": 15
   },
   {
    "id": "PUB-0069",
@@ -194,6 +194,16 @@
    "examCount": 13
   },
   {
+   "id": "PUB-0025",
+   "label": "보충성",
+   "path": [
+    "공법",
+    "헌법"
+   ],
+   "aliases": [],
+   "examCount": 12
+  },
+  {
    "id": "PUB-0020",
    "label": "재량권의일탈·남용",
    "path": [
@@ -212,16 +222,6 @@
    "path": [
     "공법",
     "행정법"
-   ],
-   "aliases": [],
-   "examCount": 11
-  },
-  {
-   "id": "PUB-0025",
-   "label": "보충성",
-   "path": [
-    "공법",
-    "헌법"
    ],
    "aliases": [],
    "examCount": 11
@@ -453,6 +453,16 @@
    "examCount": 4
   },
   {
+   "id": "PUB-0016",
+   "label": "처분성",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
    "id": "PUB-0198",
    "label": "법적관련성",
    "path": [
@@ -505,21 +515,23 @@
    "examCount": 4
   },
   {
+   "id": "PUB-0317",
+   "label": "제소기간기산점",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [
+    "제소기간 기산점"
+   ],
+   "examCount": 3
+  },
+  {
    "id": "PUB-0066",
    "label": "재판청구권",
    "path": [
     "공법",
     "공법일반"
-   ],
-   "aliases": [],
-   "examCount": 3
-  },
-  {
-   "id": "PUB-0016",
-   "label": "처분성",
-   "path": [
-    "공법",
-    "행정법"
    ],
    "aliases": [],
    "examCount": 3
@@ -623,18 +635,6 @@
    ],
    "aliases": [],
    "examCount": 3
-  },
-  {
-   "id": "PUB-0317",
-   "label": "제소기간기산점",
-   "path": [
-    "공법",
-    "행정법"
-   ],
-   "aliases": [
-    "제소기간 기산점"
-   ],
-   "examCount": 2
   },
   {
    "id": "PUB-0305",
@@ -797,6 +797,16 @@
    "aliases": [
     "실질적 관련성"
    ],
+   "examCount": 2
+  },
+  {
+   "id": "PUB-0335",
+   "label": "증표제시",
+   "path": [
+    "공법",
+    "공법일반"
+   ],
+   "aliases": [],
    "examCount": 2
   },
   {
@@ -1036,16 +1046,6 @@
    "examCount": 1
   },
   {
-   "id": "PUB-0335",
-   "label": "증표제시",
-   "path": [
-    "공법",
-    "공법일반"
-   ],
-   "aliases": [],
-   "examCount": 1
-  },
-  {
    "id": "PUB-0034",
    "label": "영장주의",
    "path": [
@@ -1252,6 +1252,46 @@
   {
    "id": "PUB-0401",
    "label": "행정절차법적용",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "PUB-0050",
+   "label": "무효확인소송",
+   "path": [
+    "공법",
+    "공법일반"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "PUB-0389",
+   "label": "하자승계",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "PUB-0073",
+   "label": "행정조사",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [],
+   "examCount": 1
+  },
+  {
+   "id": "PUB-0017",
+   "label": "기속력",
    "path": [
     "공법",
     "행정법"
