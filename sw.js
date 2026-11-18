@@ -14,7 +14,7 @@
  */
 'use strict';
 
-const VERSION = 'rp-v6';   // v2: 본문 꾸밈·형광펜(core/richdoc.js)
+const VERSION = 'rp-v7';   // v2: 본문 꾸밈·형광펜(core/richdoc.js)
 const SHELL = `record-shell-${VERSION}`;
 const DATA = `record-data-${VERSION}`;
 const KEEP = new Set([SHELL, DATA]);
