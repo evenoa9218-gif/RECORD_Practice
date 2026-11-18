@@ -287,7 +287,6 @@
    "chars": 13299,
    "hasCommentary": true,
    "commentaryAuthors": [
-    "정연석",
     "정연석"
    ],
    "issueIds": [
@@ -653,8 +652,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12269,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0297",
     "CIV-0440",
@@ -682,8 +683,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12603,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0064",
     "CIV-0185",
@@ -714,8 +717,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 6140,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0016",
     "CIV-0053",
@@ -739,8 +744,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11608,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0297",
@@ -770,8 +777,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 13217,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0050",
     "CIV-0156"
@@ -794,8 +803,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10784,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0310",
@@ -822,8 +833,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11588,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0005",
     "CIV-0297",
@@ -850,8 +863,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12639,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0053",
     "CIV-0297",
@@ -881,8 +896,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 6139,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0404",
@@ -906,8 +923,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11775,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0016",
     "CIV-0310",
@@ -933,8 +952,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10927,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0004",
@@ -963,8 +984,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9488,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0016",
@@ -994,8 +1017,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9617,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0185",
@@ -1027,8 +1052,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10896,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0364",
@@ -1056,8 +1083,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12355,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0020",
@@ -1085,8 +1114,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12982,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0016",
     "CIV-0064",
@@ -1118,8 +1149,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10891,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0016",
@@ -1145,8 +1178,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9115,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0062",
     "CIV-0001",
@@ -1174,8 +1209,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 16869,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0032",
     "CIV-0050",
@@ -1202,8 +1239,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 17433,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0069",
     "CIV-0122",
@@ -1231,8 +1270,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 11008,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0297",
@@ -1263,8 +1304,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 10172,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0053",
@@ -1290,8 +1333,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12930,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0440",
     "CIV-0016",
@@ -1324,8 +1369,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9758,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0064",
     "CIV-0069",
@@ -1357,8 +1404,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9241,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0062",
@@ -1384,8 +1433,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12773,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0053",
     "CIV-0162",
@@ -1416,8 +1467,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 12696,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0030",
     "CIV-0053",
@@ -1450,8 +1503,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 14068,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0310",
     "CIV-0001",
@@ -1478,8 +1533,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 15176,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0016",
     "CIV-0053",
@@ -1509,8 +1566,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 16292,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0440",
     "CIV-0063",
@@ -1544,8 +1603,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 13777,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0001",
@@ -1577,8 +1638,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 15429,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0006",
     "CIV-0016",
@@ -1612,8 +1675,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 14443,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0053",
     "CIV-0062",
@@ -1649,8 +1714,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 14766,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0062",
@@ -1682,8 +1749,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 17741,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0016",
     "CIV-0162",
@@ -1711,8 +1780,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 22743,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0039",
     "CIV-0069",
@@ -1749,8 +1820,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 15138,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0004",
     "CIV-0053",
@@ -1786,8 +1859,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 20749,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0162",
     "CIV-0440",
@@ -1819,8 +1894,10 @@
    "taskSource": "fill_task_points",
    "hasRubric": true,
    "chars": 9762,
-   "hasCommentary": false,
-   "commentaryAuthors": [],
+   "hasCommentary": true,
+   "commentaryAuthors": [
+    "정연석"
+   ],
    "issueIds": [
     "CIV-0053",
     "CIV-0162",
