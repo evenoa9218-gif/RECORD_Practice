@@ -319,10 +319,17 @@ function List({subject, onOpen}){
   const [done,setDone] = useState({});
   const [fb,setFb] = useState({});          // 회차 id → 저장된 첨삭 수
   const [onlyFb,setOnlyFb] = useState(false);
+  // 참고자료 — 회차에 붙일 수 없는 해설·정리(사이트에 기록이 없는 해의 핵심정리, 서면별 기재사항 정리).
+  // 과목 폴더의 refs.json 에 있고, 없으면 칸 자체가 안 보인다.
+  const [refs,setRefs] = useState([]);
+  const [ref,setRef] = useState(null);
 
   useEffect(()=>{
     let live = true;
-    setIdx(null); setErr(null); setIssue("");
+    setIdx(null); setErr(null); setIssue(""); setRefs([]); setRef(null);
+    getJSON(`data/${encodeURIComponent(subject)}/refs.json`)
+      .then(d=>{ if(live) setRefs(d.refs||[]); })
+      .catch(()=>{});
     getJSON(`data/${encodeURIComponent(subject)}/index.json`)
       .then(d=>{ if(live) setIdx(d); })
       .catch(e=>{ if(live) setErr(`목록을 불러오지 못했습니다: ${e.message}`); });
@@ -344,7 +351,24 @@ function List({subject, onOpen}){
   if(err) return <div className="card" style={{borderColor:'var(--no)'}}>{err}</div>;
   if(!idx) return <div className="card">불러오는 중…</div>;
 
-  const label = Object.fromEntries((reg?.issues||[]).map(i=>[i.id, i.label]));
+  if(ref) return (
+    <div>
+      <div className="card">
+        <div className="row" style={{justifyContent:'space-between'}}>
+          <strong>{ref.title}</strong>
+          <button className="btn" onClick={()=>{ setRef(null); window.scrollTo(0,0); }}>← 목록으로</button>
+        </div>
+        <div className="muted" style={{marginTop:6}}>
+          {ref.author} 「{ref.book}」{ref.note ? " · "+ref.note : ""}
+        </div>
+      </div>
+      <div className="card">
+        <RichDoc docId={"ref:"+ref.id} className="pre" text={ref.text} kind="answer"/>
+      </div>
+    </div>
+  );
+
+  const label =Object.fromEntries((reg?.issues||[]).map(i=>[i.id, i.label]));
   const exams = idx.exams.filter(e=>
     (kind==="전체" || e.kind===kind) &&
     (!onlyFb || fb[e.id]>0) &&
@@ -376,6 +400,19 @@ function List({subject, onOpen}){
               쟁점 있는 회차 {tagged}개 (해설·채점기준표 기준)</span>
           </div>}
       </div>
+
+      {refs.length>0 &&
+        <div className="card">
+          <div className="row" style={{justifyContent:'space-between'}}>
+            <strong>참고자료</strong>
+            <span className="muted">회차에 붙지 않는 해설·정리 {refs.length}건</span>
+          </div>
+          <div className="row" style={{marginTop:8}}>
+            {refs.map(r=>
+              <span key={r.id} className="tag click" onClick={()=>{ setRef(r); window.scrollTo(0,0); }}>
+                {r.title}</span>)}
+          </div>
+        </div>}
 
       {exams.map(e=>
         <div key={e.id} className="card click" onClick={()=>onOpen(e)}>

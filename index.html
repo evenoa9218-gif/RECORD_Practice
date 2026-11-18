@@ -325,11 +325,20 @@ function List({
   const [done, setDone] = useState({});
   const [fb, setFb] = useState({}); // 회차 id → 저장된 첨삭 수
   const [onlyFb, setOnlyFb] = useState(false);
+  // 참고자료 — 회차에 붙일 수 없는 해설·정리(사이트에 기록이 없는 해의 핵심정리, 서면별 기재사항 정리).
+  // 과목 폴더의 refs.json 에 있고, 없으면 칸 자체가 안 보인다.
+  const [refs, setRefs] = useState([]);
+  const [ref, setRef] = useState(null);
   useEffect(() => {
     let live = true;
     setIdx(null);
     setErr(null);
     setIssue("");
+    setRefs([]);
+    setRef(null);
+    getJSON(`data/${encodeURIComponent(subject)}/refs.json`).then(d => {
+      if (live) setRefs(d.refs || []);
+    }).catch(() => {});
     getJSON(`data/${encodeURIComponent(subject)}/index.json`).then(d => {
       if (live) setIdx(d);
     }).catch(e => {
@@ -369,6 +378,32 @@ function List({
   if (!idx) return /*#__PURE__*/React.createElement("div", {
     className: "card"
   }, "불러오는 중…");
+  if (ref) return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      justifyContent: 'space-between'
+    }
+  }, /*#__PURE__*/React.createElement("strong", null, ref.title), /*#__PURE__*/React.createElement("button", {
+    className: "btn",
+    onClick: () => {
+      setRef(null);
+      window.scrollTo(0, 0);
+    }
+  }, "← 목록으로")), /*#__PURE__*/React.createElement("div", {
+    className: "muted",
+    style: {
+      marginTop: 6
+    }
+  }, ref.author, " 「", ref.book, "」", ref.note ? " · " + ref.note : "")), /*#__PURE__*/React.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/React.createElement(RichDoc, {
+    docId: "ref:" + ref.id,
+    className: "pre",
+    text: ref.text,
+    kind: "answer"
+  })));
   const label = Object.fromEntries((reg?.issues || []).map(i => [i.id, i.label]));
   const exams = idx.exams.filter(e => (kind === "전체" || e.kind === kind) && (!onlyFb || fb[e.id] > 0) && (!issue || (e.issueIds || []).includes(issue)));
   const doneCount = idx.exams.filter(e => done[e.id]?.done).length;
@@ -410,7 +445,28 @@ function List({
     onClick: () => setIssue("")
   }, "필터 해제"), /*#__PURE__*/React.createElement("span", {
     className: "muted"
-  }, "쟁점 있는 회차 ", tagged, "개 (해설·채점기준표 기준)"))), exams.map(e => /*#__PURE__*/React.createElement("div", {
+  }, "쟁점 있는 회차 ", tagged, "개 (해설·채점기준표 기준)"))), refs.length > 0 && /*#__PURE__*/React.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      justifyContent: 'space-between'
+    }
+  }, /*#__PURE__*/React.createElement("strong", null, "참고자료"), /*#__PURE__*/React.createElement("span", {
+    className: "muted"
+  }, "회차에 붙지 않는 해설·정리 ", refs.length, "건")), /*#__PURE__*/React.createElement("div", {
+    className: "row",
+    style: {
+      marginTop: 8
+    }
+  }, refs.map(r => /*#__PURE__*/React.createElement("span", {
+    key: r.id,
+    className: "tag click",
+    onClick: () => {
+      setRef(r);
+      window.scrollTo(0, 0);
+    }
+  }, r.title)))), exams.map(e => /*#__PURE__*/React.createElement("div", {
     key: e.id,
     className: "card click",
     onClick: () => onOpen(e)
