@@ -32,32 +32,20 @@
   }
  ],
  "issueIds": [
-  "CRI-0004",
-  "CRI-0472",
   "CRI-0512",
-  "CRI-0160",
   "CRI-0068",
-  "CRI-0186",
+  "CRI-0004",
   "CRI-0019",
   "CRI-0532"
  ],
  "issueSource": {
-  "CRI-0004": [
-   "commentary"
-  ],
-  "CRI-0472": [
-   "commentary"
-  ],
   "CRI-0512": [
-   "commentary"
-  ],
-  "CRI-0160": [
    "commentary"
   ],
   "CRI-0068": [
    "commentary"
   ],
-  "CRI-0186": [
+  "CRI-0004": [
    "commentary"
   ],
   "CRI-0019": [

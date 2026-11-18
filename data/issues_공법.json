@@ -1,7 +1,7 @@
 {
  "subject": "공법",
  "prefix": "PUB",
- "count": 117,
+ "count": 116,
  "issues": [
   {
    "id": "PUB-0002",
@@ -11,7 +11,7 @@
     "헌법"
    ],
    "aliases": [],
-   "examCount": 33
+   "examCount": 34
   },
   {
    "id": "PUB-0407",
@@ -21,7 +21,7 @@
     "헌법"
    ],
    "aliases": [],
-   "examCount": 31
+   "examCount": 32
   },
   {
    "id": "PUB-0028",
@@ -65,7 +65,17 @@
    "aliases": [
     "포괄위임입법금지원칙"
    ],
-   "examCount": 20
+   "examCount": 19
+  },
+  {
+   "id": "PUB-0013",
+   "label": "청구기간",
+   "path": [
+    "공법",
+    "헌법"
+   ],
+   "aliases": [],
+   "examCount": 19
   },
   {
    "id": "PUB-0023",
@@ -90,14 +100,30 @@
    "examCount": 18
   },
   {
-   "id": "PUB-0013",
-   "label": "청구기간",
+   "id": "PUB-0003",
+   "label": "협의의소익",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [
+    "권리보호이익",
+    "소의 이익",
+    "협의의 소익"
+   ],
+   "examCount": 17
+  },
+  {
+   "id": "PUB-0011",
+   "label": "직업의자유",
    "path": [
     "공법",
     "헌법"
    ],
-   "aliases": [],
-   "examCount": 18
+   "aliases": [
+    "직업의 자유"
+   ],
+   "examCount": 16
   },
   {
    "id": "PUB-0018",
@@ -118,32 +144,6 @@
    ],
    "aliases": [],
    "examCount": 16
-  },
-  {
-   "id": "PUB-0003",
-   "label": "협의의소익",
-   "path": [
-    "공법",
-    "행정법"
-   ],
-   "aliases": [
-    "권리보호이익",
-    "소의 이익",
-    "협의의 소익"
-   ],
-   "examCount": 16
-  },
-  {
-   "id": "PUB-0011",
-   "label": "직업의자유",
-   "path": [
-    "공법",
-    "헌법"
-   ],
-   "aliases": [
-    "직업의 자유"
-   ],
-   "examCount": 15
   },
   {
    "id": "PUB-0012",
@@ -179,7 +179,7 @@
    "aliases": [
     "직업수행의 자유"
    ],
-   "examCount": 12
+   "examCount": 13
   },
   {
    "id": "PUB-0075",
@@ -191,7 +191,30 @@
    "aliases": [
     "기본권침해의 현재성"
    ],
+   "examCount": 13
+  },
+  {
+   "id": "PUB-0020",
+   "label": "재량권의일탈·남용",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [
+    "재량권 일탈·남용",
+    "재량권 일탈남용"
+   ],
    "examCount": 12
+  },
+  {
+   "id": "PUB-0004",
+   "label": "원고적격",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [],
+   "examCount": 11
   },
   {
    "id": "PUB-0025",
@@ -213,16 +236,6 @@
    "aliases": [
     "일반적 행동자유권"
    ],
-   "examCount": 10
-  },
-  {
-   "id": "PUB-0004",
-   "label": "원고적격",
-   "path": [
-    "공법",
-    "행정법"
-   ],
-   "aliases": [],
    "examCount": 10
   },
   {
@@ -324,19 +337,6 @@
    "examCount": 8
   },
   {
-   "id": "PUB-0020",
-   "label": "재량권의일탈·남용",
-   "path": [
-    "공법",
-    "행정법"
-   ],
-   "aliases": [
-    "재량권 일탈·남용",
-    "재량권 일탈남용"
-   ],
-   "examCount": 8
-  },
-  {
    "id": "PUB-0021",
    "label": "집행정지",
    "path": [
@@ -345,28 +345,6 @@
    ],
    "aliases": [],
    "examCount": 7
-  },
-  {
-   "id": "PUB-0266",
-   "label": "위임입법의한계",
-   "path": [
-    "공법",
-    "공법일반"
-   ],
-   "aliases": [
-    "위임입법의 한계"
-   ],
-   "examCount": 6
-  },
-  {
-   "id": "PUB-0067",
-   "label": "정보공개",
-   "path": [
-    "공법",
-    "행정법"
-   ],
-   "aliases": [],
-   "examCount": 6
   },
   {
    "id": "PUB-0044",
@@ -387,6 +365,18 @@
    ],
    "aliases": [],
    "examCount": 6
+  },
+  {
+   "id": "PUB-0266",
+   "label": "위임입법의한계",
+   "path": [
+    "공법",
+    "공법일반"
+   ],
+   "aliases": [
+    "위임입법의 한계"
+   ],
+   "examCount": 5
   },
   {
    "id": "PUB-0010",
@@ -441,26 +431,14 @@
    "examCount": 5
   },
   {
-   "id": "PUB-0035",
-   "label": "외국인의기본권주체성",
-   "path": [
-    "공법",
-    "헌법"
-   ],
-   "aliases": [
-    "외국인의 기본권주체성"
-   ],
-   "examCount": 5
-  },
-  {
-   "id": "PUB-0312",
-   "label": "정보공개거부처분",
+   "id": "PUB-0067",
+   "label": "정보공개",
    "path": [
     "공법",
     "행정법"
    ],
    "aliases": [],
-   "examCount": 4
+   "examCount": 5
   },
   {
    "id": "PUB-0226",
@@ -495,20 +473,30 @@
    "examCount": 4
   },
   {
-   "id": "PUB-0252",
-   "label": "양심의자유",
+   "id": "PUB-0035",
+   "label": "외국인의기본권주체성",
    "path": [
     "공법",
-    "공법일반"
+    "헌법"
    ],
    "aliases": [
-    "양심의 자유"
+    "외국인의 기본권주체성"
    ],
    "examCount": 4
   },
   {
    "id": "PUB-0251",
    "label": "알권리",
+   "path": [
+    "공법",
+    "공법일반"
+   ],
+   "aliases": [],
+   "examCount": 4
+  },
+  {
+   "id": "PUB-0113",
+   "label": "과징금",
    "path": [
     "공법",
     "공법일반"
@@ -561,6 +549,18 @@
    "examCount": 3
   },
   {
+   "id": "PUB-0252",
+   "label": "양심의자유",
+   "path": [
+    "공법",
+    "공법일반"
+   ],
+   "aliases": [
+    "양심의 자유"
+   ],
+   "examCount": 3
+  },
+  {
    "id": "PUB-0061",
    "label": "신청권",
    "path": [
@@ -590,16 +590,6 @@
    "aliases": [
     "재산권 침해"
    ],
-   "examCount": 3
-  },
-  {
-   "id": "PUB-0113",
-   "label": "과징금",
-   "path": [
-    "공법",
-    "공법일반"
-   ],
-   "aliases": [],
    "examCount": 3
   },
   {
@@ -656,16 +646,6 @@
    "aliases": [
     "재판을 받을 권리"
    ],
-   "examCount": 2
-  },
-  {
-   "id": "PUB-0168",
-   "label": "당사자소송",
-   "path": [
-    "공법",
-    "행정법"
-   ],
-   "aliases": [],
    "examCount": 2
   },
   {
@@ -754,6 +734,18 @@
    "examCount": 2
   },
   {
+   "id": "PUB-0022",
+   "label": "처분사유의추가·변경",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [
+    "처분사유의 추가·변경"
+   ],
+   "examCount": 2
+  },
+  {
    "id": "PUB-0029",
    "label": "청구인능력",
    "path": [
@@ -773,6 +765,16 @@
    "aliases": [
     "집회의 자유"
    ],
+   "examCount": 2
+  },
+  {
+   "id": "PUB-0312",
+   "label": "정보공개거부처분",
+   "path": [
+    "공법",
+    "행정법"
+   ],
+   "aliases": [],
    "examCount": 2
   },
   {
@@ -894,21 +896,11 @@
    "examCount": 1
   },
   {
-   "id": "PUB-0050",
-   "label": "무효확인소송",
+   "id": "PUB-0168",
+   "label": "당사자소송",
    "path": [
     "공법",
-    "공법일반"
-   ],
-   "aliases": [],
-   "examCount": 1
-  },
-  {
-   "id": "PUB-0273",
-   "label": "의무이행심판",
-   "path": [
-    "공법",
-    "공법일반"
+    "행정법"
    ],
    "aliases": [],
    "examCount": 1

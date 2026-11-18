@@ -17,25 +17,39 @@
  "issueIds": [
   "CIV-0005",
   "CIV-0297",
-  "CIV-0016",
   "CIV-0015",
+  "CIV-0016",
   "CIV-0053",
+  "CIV-0365",
+  "CIV-0024",
   "CIV-0125"
  ],
  "issueSource": {
   "CIV-0005": [
+   "commentary",
    "rubric"
   ],
   "CIV-0297": [
-   "rubric"
-  ],
-  "CIV-0016": [
+   "commentary",
    "rubric"
   ],
   "CIV-0015": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0016": [
+   "commentary",
    "rubric"
   ],
   "CIV-0053": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0365": [
+   "commentary"
+  ],
+  "CIV-0024": [
+   "commentary",
    "rubric"
   ],
   "CIV-0125": [

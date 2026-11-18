@@ -40,11 +40,11 @@
  "issueIds": [
   "PUB-0030",
   "PUB-0013",
-  "PUB-0067",
   "PUB-0001",
+  "PUB-0067",
   "PUB-0002",
-  "PUB-0300",
   "PUB-0009",
+  "PUB-0300",
   "PUB-0387",
   "PUB-0407",
   "PUB-0222",
@@ -64,19 +64,19 @@
   "PUB-0013": [
    "commentary"
   ],
-  "PUB-0067": [
+  "PUB-0001": [
    "commentary"
   ],
-  "PUB-0001": [
+  "PUB-0067": [
    "commentary"
   ],
   "PUB-0002": [
    "commentary"
   ],
-  "PUB-0300": [
+  "PUB-0009": [
    "commentary"
   ],
-  "PUB-0009": [
+  "PUB-0300": [
    "commentary"
   ],
   "PUB-0387": [

@@ -32,40 +32,27 @@
   }
  ],
  "issueIds": [
-  "CRI-0504",
-  "CRI-0204",
   "CRI-0063",
   "CRI-0213",
-  "CRI-0014",
   "CRI-0059",
   "CRI-0209",
-  "CRI-0079",
+  "CRI-0204",
   "CRI-0033",
   "CRI-0004",
-  "CRI-0472",
+  "CRI-0014",
   "CRI-0149",
   "CRI-0305",
   "CRI-0544",
   "CRI-0080",
   "CRI-0224",
-  "CRI-0343",
   "CRI-0038",
   "CRI-0082"
  ],
  "issueSource": {
-  "CRI-0504": [
-   "commentary"
-  ],
-  "CRI-0204": [
-   "commentary"
-  ],
   "CRI-0063": [
    "commentary"
   ],
   "CRI-0213": [
-   "commentary"
-  ],
-  "CRI-0014": [
    "commentary"
   ],
   "CRI-0059": [
@@ -74,7 +61,7 @@
   "CRI-0209": [
    "commentary"
   ],
-  "CRI-0079": [
+  "CRI-0204": [
    "commentary"
   ],
   "CRI-0033": [
@@ -83,7 +70,7 @@
   "CRI-0004": [
    "commentary"
   ],
-  "CRI-0472": [
+  "CRI-0014": [
    "commentary"
   ],
   "CRI-0149": [
@@ -99,9 +86,6 @@
    "commentary"
   ],
   "CRI-0224": [
-   "commentary"
-  ],
-  "CRI-0343": [
    "commentary"
   ],
   "CRI-0038": [

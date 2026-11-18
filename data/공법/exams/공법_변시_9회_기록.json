@@ -38,17 +38,17 @@
   "PUB-0009",
   "PUB-0003",
   "PUB-0028",
+  "PUB-0012",
   "PUB-0075",
   "PUB-0002",
   "PUB-0025",
-  "PUB-0012",
   "PUB-0019",
+  "PUB-0013",
   "PUB-0023",
   "PUB-0370",
   "PUB-0392",
   "PUB-0103",
   "PUB-0198",
-  "PUB-0013",
   "PUB-0142",
   "PUB-0396",
   "PUB-0251"
@@ -78,6 +78,9 @@
   "PUB-0028": [
    "commentary"
   ],
+  "PUB-0012": [
+   "commentary"
+  ],
   "PUB-0075": [
    "commentary"
   ],
@@ -87,10 +90,10 @@
   "PUB-0025": [
    "commentary"
   ],
-  "PUB-0012": [
+  "PUB-0019": [
    "commentary"
   ],
-  "PUB-0019": [
+  "PUB-0013": [
    "commentary"
   ],
   "PUB-0023": [
@@ -106,9 +109,6 @@
    "commentary"
   ],
   "PUB-0198": [
-   "commentary"
-  ],
-  "PUB-0013": [
    "commentary"
   ],
   "PUB-0142": [

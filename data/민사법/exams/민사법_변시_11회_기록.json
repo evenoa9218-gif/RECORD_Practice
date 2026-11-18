@@ -26,40 +26,31 @@
   }
  ],
  "issueIds": [
-  "CIV-0053",
   "CIV-0004",
+  "CIV-0031",
+  "CIV-0053",
+  "CIV-0006",
   "CIV-0016",
   "CIV-0064",
-  "CIV-0031",
-  "CIV-0006",
-  "CIV-0069",
   "CIV-0001",
   "CIV-0018",
-  "CIV-0440",
-  "CIV-0009",
   "CIV-0071",
-  "CIV-0039",
-  "CIV-0229",
   "CIV-0062",
-  "CIV-0122",
-  "CIV-0038",
-  "CIV-0310",
-  "CIV-0252",
-  "CIV-0024",
-  "CIV-0404",
-  "CIV-0063",
   "CIV-0094",
-  "CIV-0371",
-  "CIV-0052",
-  "CIV-0121",
-  "CIV-0028",
-  "CIV-0162"
+  "CIV-0252",
+  "CIV-0229"
  ],
  "issueSource": {
+  "CIV-0004": [
+   "commentary"
+  ],
+  "CIV-0031": [
+   "commentary"
+  ],
   "CIV-0053": [
    "commentary"
   ],
-  "CIV-0004": [
+  "CIV-0006": [
    "commentary"
   ],
   "CIV-0016": [
@@ -68,76 +59,25 @@
   "CIV-0064": [
    "commentary"
   ],
-  "CIV-0031": [
-   "commentary"
-  ],
-  "CIV-0006": [
-   "commentary"
-  ],
-  "CIV-0069": [
-   "commentary"
-  ],
   "CIV-0001": [
    "commentary"
   ],
   "CIV-0018": [
    "commentary"
   ],
-  "CIV-0440": [
-   "commentary"
-  ],
-  "CIV-0009": [
-   "commentary"
-  ],
   "CIV-0071": [
-   "commentary"
-  ],
-  "CIV-0039": [
-   "commentary"
-  ],
-  "CIV-0229": [
    "commentary"
   ],
   "CIV-0062": [
    "commentary"
   ],
-  "CIV-0122": [
-   "commentary"
-  ],
-  "CIV-0038": [
-   "commentary"
-  ],
-  "CIV-0310": [
+  "CIV-0094": [
    "commentary"
   ],
   "CIV-0252": [
    "commentary"
   ],
-  "CIV-0024": [
-   "commentary"
-  ],
-  "CIV-0404": [
-   "commentary"
-  ],
-  "CIV-0063": [
-   "commentary"
-  ],
-  "CIV-0094": [
-   "commentary"
-  ],
-  "CIV-0371": [
-   "commentary"
-  ],
-  "CIV-0052": [
-   "commentary"
-  ],
-  "CIV-0121": [
-   "commentary"
-  ],
-  "CIV-0028": [
-   "commentary"
-  ],
-  "CIV-0162": [
+  "CIV-0229": [
    "commentary"
   ]
  }

@@ -33,14 +33,10 @@
  ],
  "issueIds": [
   "CRI-0082",
-  "CRI-0409",
-  "CRI-0472",
-  "CRI-0017",
   "CRI-0004",
-  "CRI-0363",
+  "CRI-0409",
   "CRI-0512",
   "CRI-0544",
-  "CRI-0186",
   "CRI-0009",
   "CRI-0406",
   "CRI-0068",
@@ -50,6 +46,7 @@
   "CRI-0088",
   "CRI-0325",
   "CRI-0445",
+  "CRI-0017",
   "CRI-0454",
   "CRI-0063",
   "CRI-0124"
@@ -58,28 +55,16 @@
   "CRI-0082": [
    "commentary"
   ],
-  "CRI-0409": [
-   "commentary"
-  ],
-  "CRI-0472": [
-   "commentary"
-  ],
-  "CRI-0017": [
-   "commentary"
-  ],
   "CRI-0004": [
    "commentary"
   ],
-  "CRI-0363": [
+  "CRI-0409": [
    "commentary"
   ],
   "CRI-0512": [
    "commentary"
   ],
   "CRI-0544": [
-   "commentary"
-  ],
-  "CRI-0186": [
    "commentary"
   ],
   "CRI-0009": [
@@ -107,6 +92,9 @@
    "commentary"
   ],
   "CRI-0445": [
+   "commentary"
+  ],
+  "CRI-0017": [
    "commentary"
   ],
   "CRI-0454": [

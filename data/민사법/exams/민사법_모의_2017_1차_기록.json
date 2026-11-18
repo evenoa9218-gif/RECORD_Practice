@@ -16,49 +16,80 @@
  "taskSource": "fill_task_points",
  "issueIds": [
   "CIV-0162",
-  "CIV-0185",
   "CIV-0440",
-  "CIV-0063",
-  "CIV-0016",
+  "CIV-0185",
   "CIV-0117",
-  "CIV-0002",
-  "CIV-0121",
-  "CIV-0013",
+  "CIV-0016",
   "CIV-0053",
-  "CIV-0006"
+  "CIV-0208",
+  "CIV-0063",
+  "CIV-0013",
+  "CIV-0006",
+  "CIV-0099",
+  "CIV-0365",
+  "CIV-0055",
+  "CIV-0064",
+  "CIV-0002",
+  "CIV-0121"
  ],
  "issueSource": {
   "CIV-0162": [
-   "rubric"
-  ],
-  "CIV-0185": [
+   "commentary",
    "rubric"
   ],
   "CIV-0440": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0185": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0117": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0016": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0053": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0208": [
+   "commentary",
    "rubric"
   ],
   "CIV-0063": [
    "rubric"
   ],
-  "CIV-0016": [
+  "CIV-0013": [
+   "commentary",
    "rubric"
   ],
-  "CIV-0117": [
+  "CIV-0006": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0099": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0365": [
+   "commentary"
+  ],
+  "CIV-0055": [
+   "commentary"
+  ],
+  "CIV-0064": [
+   "commentary",
    "rubric"
   ],
   "CIV-0002": [
    "rubric"
   ],
   "CIV-0121": [
-   "rubric"
-  ],
-  "CIV-0013": [
-   "rubric"
-  ],
-  "CIV-0053": [
-   "rubric"
-  ],
-  "CIV-0006": [
    "rubric"
   ]
  },

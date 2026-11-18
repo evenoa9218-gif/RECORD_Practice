@@ -39,25 +39,26 @@
   "PUB-0006",
   "PUB-0028",
   "PUB-0003",
-  "PUB-0300",
   "PUB-0005",
-  "PUB-0387",
+  "PUB-0300",
   "PUB-0012",
-  "PUB-0370",
   "PUB-0013",
+  "PUB-0387",
+  "PUB-0370",
   "PUB-0002",
   "PUB-0160",
-  "PUB-0023",
   "PUB-0035",
+  "PUB-0023",
   "PUB-0025",
   "PUB-0009",
   "PUB-0019",
+  "PUB-0029",
+  "PUB-0198",
   "PUB-0061",
   "PUB-0414",
   "PUB-0069",
   "PUB-0392",
-  "PUB-0029",
-  "PUB-0198"
+  "PUB-0075"
  ],
  "issueSource": {
   "PUB-0407": [
@@ -81,22 +82,22 @@
   "PUB-0003": [
    "commentary"
   ],
-  "PUB-0300": [
-   "commentary"
-  ],
   "PUB-0005": [
    "commentary"
   ],
-  "PUB-0387": [
+  "PUB-0300": [
    "commentary"
   ],
   "PUB-0012": [
    "commentary"
   ],
-  "PUB-0370": [
+  "PUB-0013": [
    "commentary"
   ],
-  "PUB-0013": [
+  "PUB-0387": [
+   "commentary"
+  ],
+  "PUB-0370": [
    "commentary"
   ],
   "PUB-0002": [
@@ -105,10 +106,10 @@
   "PUB-0160": [
    "commentary"
   ],
-  "PUB-0023": [
+  "PUB-0035": [
    "commentary"
   ],
-  "PUB-0035": [
+  "PUB-0023": [
    "commentary"
   ],
   "PUB-0025": [
@@ -118,6 +119,12 @@
    "commentary"
   ],
   "PUB-0019": [
+   "commentary"
+  ],
+  "PUB-0029": [
+   "commentary"
+  ],
+  "PUB-0198": [
    "commentary"
   ],
   "PUB-0061": [
@@ -132,10 +139,7 @@
   "PUB-0392": [
    "commentary"
   ],
-  "PUB-0029": [
-   "commentary"
-  ],
-  "PUB-0198": [
+  "PUB-0075": [
    "commentary"
   ]
  }

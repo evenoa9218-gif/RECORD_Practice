@@ -15,54 +15,62 @@
  ],
  "taskSource": "fill_task_points",
  "issueIds": [
-  "CIV-0030",
   "CIV-0053",
   "CIV-0009",
+  "CIV-0030",
   "CIV-0005",
-  "CIV-0016",
   "CIV-0024",
+  "CIV-0006",
+  "CIV-0016",
   "CIV-0064",
-  "CIV-0062",
   "CIV-0099",
+  "CIV-0062",
   "CIV-0107",
-  "CIV-0038",
-  "CIV-0006"
+  "CIV-0038"
  ],
  "issueSource": {
-  "CIV-0030": [
-   "rubric"
-  ],
   "CIV-0053": [
+   "commentary",
    "rubric"
   ],
   "CIV-0009": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0030": [
    "rubric"
   ],
   "CIV-0005": [
-   "rubric"
-  ],
-  "CIV-0016": [
+   "commentary",
    "rubric"
   ],
   "CIV-0024": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0006": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0016": [
+   "commentary",
    "rubric"
   ],
   "CIV-0064": [
-   "rubric"
-  ],
-  "CIV-0062": [
+   "commentary",
    "rubric"
   ],
   "CIV-0099": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0062": [
    "rubric"
   ],
   "CIV-0107": [
    "rubric"
   ],
   "CIV-0038": [
-   "rubric"
-  ],
-  "CIV-0006": [
    "rubric"
   ]
  },

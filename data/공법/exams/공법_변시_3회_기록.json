@@ -33,14 +33,14 @@
  ],
  "issueIds": [
   "PUB-0252",
-  "PUB-0300",
   "PUB-0001",
-  "PUB-0275",
+  "PUB-0002",
+  "PUB-0300",
   "PUB-0407",
   "PUB-0284",
-  "PUB-0002",
-  "PUB-0160",
+  "PUB-0275",
   "PUB-0009",
+  "PUB-0160",
   "PUB-0419",
   "PUB-0423"
  ],
@@ -48,13 +48,13 @@
   "PUB-0252": [
    "commentary"
   ],
-  "PUB-0300": [
-   "commentary"
-  ],
   "PUB-0001": [
    "commentary"
   ],
-  "PUB-0275": [
+  "PUB-0002": [
+   "commentary"
+  ],
+  "PUB-0300": [
    "commentary"
   ],
   "PUB-0407": [
@@ -63,13 +63,13 @@
   "PUB-0284": [
    "commentary"
   ],
-  "PUB-0002": [
-   "commentary"
-  ],
-  "PUB-0160": [
+  "PUB-0275": [
    "commentary"
   ],
   "PUB-0009": [
+   "commentary"
+  ],
+  "PUB-0160": [
    "commentary"
   ],
   "PUB-0419": [

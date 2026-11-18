@@ -28,21 +28,22 @@
  "issueIds": [
   "CIV-0053",
   "CIV-0016",
-  "CIV-0062",
   "CIV-0310",
   "CIV-0172",
   "CIV-0252",
-  "CIV-0111",
   "CIV-0185",
   "CIV-0229",
   "CIV-0009",
-  "CIV-0018",
   "CIV-0401",
+  "CIV-0018",
+  "CIV-0111",
   "CIV-0032",
-  "CIV-0136",
   "CIV-0187",
+  "CIV-0062",
+  "CIV-0059",
+  "CIV-0136",
   "CIV-0236",
-  "CIV-0052",
+  "CIV-0055",
   "CIV-0013",
   "CIV-0308"
  ],
@@ -51,9 +52,6 @@
    "commentary"
   ],
   "CIV-0016": [
-   "commentary"
-  ],
-  "CIV-0062": [
    "commentary"
   ],
   "CIV-0310": [
@@ -65,9 +63,6 @@
   "CIV-0252": [
    "commentary"
   ],
-  "CIV-0111": [
-   "commentary"
-  ],
   "CIV-0185": [
    "commentary"
   ],
@@ -77,25 +72,34 @@
   "CIV-0009": [
    "commentary"
   ],
+  "CIV-0401": [
+   "commentary"
+  ],
   "CIV-0018": [
    "commentary"
   ],
-  "CIV-0401": [
+  "CIV-0111": [
    "commentary"
   ],
   "CIV-0032": [
    "commentary"
   ],
-  "CIV-0136": [
+  "CIV-0187": [
    "commentary"
   ],
-  "CIV-0187": [
+  "CIV-0062": [
+   "commentary"
+  ],
+  "CIV-0059": [
+   "commentary"
+  ],
+  "CIV-0136": [
    "commentary"
   ],
   "CIV-0236": [
    "commentary"
   ],
-  "CIV-0052": [
+  "CIV-0055": [
    "commentary"
   ],
   "CIV-0013": [

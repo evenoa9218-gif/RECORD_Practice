@@ -20,25 +20,35 @@
   "CIV-0016",
   "CIV-0064",
   "CIV-0004",
+  "CIV-0018",
   "CIV-0002",
   "CIV-0121",
-  "CIV-0018",
+  "CIV-0040",
+  "CIV-0229",
   "CIV-0310"
  ],
  "issueSource": {
   "CIV-0053": [
+   "commentary",
    "rubric"
   ],
   "CIV-0297": [
+   "commentary",
    "rubric"
   ],
   "CIV-0016": [
+   "commentary",
    "rubric"
   ],
   "CIV-0064": [
    "rubric"
   ],
   "CIV-0004": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0018": [
+   "commentary",
    "rubric"
   ],
   "CIV-0002": [
@@ -47,7 +57,11 @@
   "CIV-0121": [
    "rubric"
   ],
-  "CIV-0018": [
+  "CIV-0040": [
+   "commentary"
+  ],
+  "CIV-0229": [
+   "commentary",
    "rubric"
   ],
   "CIV-0310": [

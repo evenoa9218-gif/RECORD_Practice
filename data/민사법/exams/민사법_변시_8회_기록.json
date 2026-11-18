@@ -27,25 +27,21 @@
  ],
  "issueIds": [
   "CIV-0162",
-  "CIV-0064",
-  "CIV-0062",
   "CIV-0016",
+  "CIV-0064",
   "CIV-0208",
   "CIV-0001",
-  "CIV-0310",
-  "CIV-0052"
+  "CIV-0062",
+  "CIV-0310"
  ],
  "issueSource": {
   "CIV-0162": [
    "commentary"
   ],
-  "CIV-0064": [
-   "commentary"
-  ],
-  "CIV-0062": [
-   "commentary"
-  ],
   "CIV-0016": [
+   "commentary"
+  ],
+  "CIV-0064": [
    "commentary"
   ],
   "CIV-0208": [
@@ -54,10 +50,10 @@
   "CIV-0001": [
    "commentary"
   ],
-  "CIV-0310": [
+  "CIV-0062": [
    "commentary"
   ],
-  "CIV-0052": [
+  "CIV-0310": [
    "commentary"
   ]
  }

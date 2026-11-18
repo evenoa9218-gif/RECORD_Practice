@@ -15,30 +15,35 @@
  ],
  "taskSource": "fill_task_points",
  "issueIds": [
+  "CIV-0185",
   "CIV-0032",
   "CIV-0050",
   "CIV-0156",
-  "CIV-0145",
   "CIV-0016",
-  "CIV-0185"
+  "CIV-0145"
  ],
  "issueSource": {
+  "CIV-0185": [
+   "commentary",
+   "rubric"
+  ],
   "CIV-0032": [
+   "commentary",
    "rubric"
   ],
   "CIV-0050": [
+   "commentary",
    "rubric"
   ],
   "CIV-0156": [
-   "rubric"
-  ],
-  "CIV-0145": [
+   "commentary",
    "rubric"
   ],
   "CIV-0016": [
+   "commentary",
    "rubric"
   ],
-  "CIV-0185": [
+  "CIV-0145": [
    "rubric"
   ]
  },

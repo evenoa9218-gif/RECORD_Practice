@@ -17,46 +17,69 @@
  "issueIds": [
   "CIV-0064",
   "CIV-0069",
-  "CIV-0310",
-  "CIV-0440",
   "CIV-0016",
+  "CIV-0440",
   "CIV-0001",
+  "CIV-0310",
   "CIV-0122",
   "CIV-0053",
   "CIV-0036",
   "CIV-0297",
+  "CIV-0068",
+  "CIV-0028",
+  "CIV-0441",
   "CIV-0408"
  ],
  "issueSource": {
   "CIV-0064": [
+   "commentary",
    "rubric"
   ],
   "CIV-0069": [
-   "rubric"
-  ],
-  "CIV-0310": [
-   "rubric"
-  ],
-  "CIV-0440": [
+   "commentary",
    "rubric"
   ],
   "CIV-0016": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0440": [
+   "commentary",
    "rubric"
   ],
   "CIV-0001": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0310": [
+   "commentary",
    "rubric"
   ],
   "CIV-0122": [
+   "commentary",
    "rubric"
   ],
   "CIV-0053": [
+   "commentary",
    "rubric"
   ],
   "CIV-0036": [
+   "commentary",
    "rubric"
   ],
   "CIV-0297": [
+   "commentary",
    "rubric"
+  ],
+  "CIV-0068": [
+   "commentary",
+   "rubric"
+  ],
+  "CIV-0028": [
+   "commentary"
+  ],
+  "CIV-0441": [
+   "commentary"
   ],
   "CIV-0408": [
    "rubric"

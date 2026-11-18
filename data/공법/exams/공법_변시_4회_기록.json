@@ -36,12 +36,13 @@
   "PUB-0407",
   "PUB-0039",
   "PUB-0018",
-  "PUB-0002",
   "PUB-0041",
+  "PUB-0002",
   "PUB-0013",
-  "PUB-0028",
   "PUB-0419",
   "PUB-0266",
+  "PUB-0028",
+  "PUB-0020",
   "PUB-0370",
   "PUB-0242",
   "PUB-0300",
@@ -50,9 +51,8 @@
   "PUB-0399",
   "PUB-0392",
   "PUB-0103",
-  "PUB-0009",
-  "PUB-0252",
-  "PUB-0264"
+  "PUB-0264",
+  "PUB-0004"
  ],
  "issueSource": {
   "PUB-0349": [
@@ -73,22 +73,25 @@
   "PUB-0018": [
    "commentary"
   ],
-  "PUB-0002": [
-   "commentary"
-  ],
   "PUB-0041": [
    "commentary"
   ],
-  "PUB-0013": [
+  "PUB-0002": [
    "commentary"
   ],
-  "PUB-0028": [
+  "PUB-0013": [
    "commentary"
   ],
   "PUB-0419": [
    "commentary"
   ],
   "PUB-0266": [
+   "commentary"
+  ],
+  "PUB-0028": [
+   "commentary"
+  ],
+  "PUB-0020": [
    "commentary"
   ],
   "PUB-0370": [
@@ -115,13 +118,10 @@
   "PUB-0103": [
    "commentary"
   ],
-  "PUB-0009": [
-   "commentary"
-  ],
-  "PUB-0252": [
-   "commentary"
-  ],
   "PUB-0264": [
+   "commentary"
+  ],
+  "PUB-0004": [
    "commentary"
   ]
  }
